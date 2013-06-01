@@ -1,0 +1,158 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>A New Yorker Interactive</title>
+<meta charset="UTF-8"/>
+
+<style>
+
+
+
+
+  .l_123, .l_1, .l_2, .l_3         { background-color: #FF3535; stroke: #FF3535;}
+  .l_456, .l_4, .l_5, .l_6         { background-color: #019733; stroke: #019733;}
+  .l_7                             { background-color: #CC02C8; stroke: #CC02C8;}
+  .l_ace, .l_A, .l_C, .l_E         { background-color: #0F6797; stroke: #0F6797;}
+  .l_bdfm, .l_B, .l_D, .l_F, .l_M  { background-color: #FF9800; stroke: #FF9800;}
+  .l_nqr, .l_N, .l_Q, .l_R         { background-color: #ffe400; stroke: #ffe400;}
+  .l_SIR                           { background-color: #164480; stroke: #164480;}
+  .l_jz, .l_J, .l_Z                { background-color: #986701; stroke: #986701;}
+  .l_L, .l_l                       { background-color: #999999; stroke: #999999;}
+  .l_G, .l_g                       { background-color: #9BCF00; stroke: #9BCF00;}
+
+  .line
+  {
+    width: 30px;
+    height:30px;
+    border-radius:75px;
+    font-size:18px;
+    color:white;
+    line-height:30px;
+    text-align:center;
+    font-family: "neutra-2-display-1", sans-serif;
+    font-weight: 800;
+    float:left;
+    margin-right: 3px;
+    margin-left: auto;
+    margin-bottom:10px;
+    border: none;
+    padding:0px;
+    opacity: .35;
+
+       -moz-transition: all 0.15s;
+         -o-transition: all 0.15s;
+    -webkit-transition: all 0.15s;
+            transition: all 0.15s;
+  }
+
+  .lines p {
+    font-family: "neutra-2-display-1";
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 13px;
+    color: #444;
+    letter-spacing: 2px;
+  }
+
+  #map { left: 06px; margin-top: 0px; position: absolute; z-index: -10; }
+
+</style>
+</head>
+<body>
+ 
+
+  <div id="container">
+    <div class="top">
+      <div id="map">
+      </di>
+    </div>
+  </div>
+
+  <script type="text/javascript" src="jquery-latest.js"></script>
+  <script src="d3.v3.min.js"></script>
+  <script src="topojson.v0.min.js"></script>
+  <script src="tabletop.js"></script>
+
+  <script src="subway.js"></script>
+  <script>
+
+    var stops;
+    var container_dimensions = {width: 900, height: 400},
+                     margins = {top: 20, right: 20, bottom: 30, left: 118},
+                     chart_dimensions = { width: container_dimensions.width - margins.left - margins.right-20,
+                                          height: container_dimensions.height - margins.top - margins.bottom };
+
+    var stop_scale = d3.scale.linear()
+                            .range([0,chart_dimensions.width])
+                            .domain([1, 49]);
+
+    //hardcoded in domain but should be changed to max of incomes from stops.income2010
+    var income_scale = d3.scale.linear()
+                          .range([chart_dimensions.height, 0])
+                          .domain([0,230000]);
+    var stop_axis = d3.svg.axis()
+                          .scale(stop_scale);
+    var income_axis = d3.svg.axis()
+                        .scale(income_scale)
+                        .orient("left")
+                        .tickValues([0, 50000, 100000, 150000, 200000])
+                        .tickSize(-chart_dimensions.width, 0)
+                        .tickPadding(20)
+                        .tickFormat(function(d) { return "$" + addCommas(d); });
+
+    var ordinal_scale = d3.scale.ordinal()
+                          .domain(["Manhattan", "Brooklyn", "Queens", "Bronx"])
+                          .rangeBands([0, chart_dimensions.width])
+
+    var ordinal_axis = d3.svg.axis()
+                         .scale(ordinal_scale);
+    var filtered_data = [];
+    var boroughs
+    var id
+
+    draw_map();
+
+
+    function draw_map(){
+
+      var w = 400;
+      var h = 400;
+
+      var svg = d3.select("#map")
+                  .append("svg")
+                  .attr("width", w)
+                  .attr("height", h);
+
+      var projection = d3.geo.mercator()
+                             .center([-73.95, 40.678659])
+                             .translate([w/2, h/2])
+                             // // to shrink/grow the map, 1000 = 100%
+                             .scale([14000]);
+
+      var path = d3.geo.path().projection(projection);
+
+      var g1 = svg.append("g")
+                 .attr("class", "map_lines");
+
+        g1.selectAll("map_lin")
+          .data(topojson.object(subway_lines[0], subway_lines[0].objects.subways).geometries)
+          .enter()
+          .append("path")
+          .attr("d", path)
+          .attr("class", function(d){  console.log(d);return "map_lin l_" + d.properties.route_id; })
+          .style("fill", "white")
+          .style("fill-opacity", 0)
+          .style("opacity", .5)
+          .style("stroke-width", 3)
+          .style("stroke-linecap", "round");
+
+    }
+
+
+  </script>
+
+
+  </body>
+</html>

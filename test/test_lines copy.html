@@ -1,0 +1,199 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>A New Yorker Interactive</title>
+<meta charset="UTF-8"/>
+
+<style>
+	.septa_route {stroke: gray; stroke-width:2px; fill-opacity:.2; opacity: .6}
+
+	.r_R8         { background-color: brown; stroke: brown;}
+	.r_R7         { background-color: #FF3535; stroke: #FF3535;}
+	.r_MFL         { background-color: blue; stroke: blue;}
+
+	#tooltip
+	  {
+	    position: absolute;
+	    width: 200px;
+	    height: auto;
+	    padding: 10px;
+	    background-color: white;
+	    -webkit-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.4);
+	    -moz-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.4);
+	    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.4);
+	    pointer-events: none;
+	    opacity: 1;
+	  }
+
+	  #tooltip.hidden
+	  {
+	    display: none;
+	    -moz-transition: all 0.15s;
+	    -o-transition: all 0.15s;
+	    -webkit-transition: all 0.15s;
+	    transition: all 0.15s;
+	  }
+
+
+  .l_123, .l_1, .l_2, .l_3         { background-color: #FF3535; stroke: #FF3535;}
+  .l_456, .l_4, .l_5, .l_6         { background-color: #019733; stroke: #019733;}
+  .l_7                             { background-color: #CC02C8; stroke: #CC02C8;}
+  .l_ace, .l_A, .l_C, .l_E         { background-color: #0F6797; stroke: #0F6797;}
+  .l_bdfm, .l_B, .l_D, .l_F, .l_M  { background-color: #FF9800; stroke: #FF9800;}
+  .l_nqr, .l_N, .l_Q, .l_R         { background-color: #ffe400; stroke: #ffe400;}
+  .l_SIR                           { background-color: #164480; stroke: #164480;}
+  .l_jz, .l_J, .l_Z                { background-color: #986701; stroke: #986701;}
+  .l_L, .l_l                       { background-color: #999999; stroke: #999999;}
+  .l_G, .l_g                       { background-color: #9BCF00; stroke: #9BCF00;}
+
+  .line
+  {
+    width: 30px;
+    height:30px;
+    border-radius:75px;
+    font-size:18px;
+    color:white;
+    line-height:30px;
+    text-align:center;
+    font-family: "neutra-2-display-1", sans-serif;
+    font-weight: 800;
+    float:left;
+    margin-right: 3px;
+    margin-left: auto;
+    margin-bottom:10px;
+    border: none;
+    padding:0px;
+    opacity: .35;
+
+       -moz-transition: all 0.15s;
+         -o-transition: all 0.15s;
+    -webkit-transition: all 0.15s;
+            transition: all 0.15s;
+  }
+
+  .lines p {
+    font-family: "neutra-2-display-1";
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 13px;
+    color: #444;
+    letter-spacing: 2px;
+  }
+
+  #map { left: 06px; margin-top: 0px; position: absolute; z-index: -10; }
+
+</style>
+</head>
+<body>
+ 
+
+  <div id="container">
+    <div class="top">
+      <div id="map">
+      </di>
+    </div>
+  </div>
+  <div id="tooltip" class="">Tooly</div>
+
+
+  <script type="text/javascript" src="jquery-latest.js"></script>
+  <script src="d3.v3.min.js"></script>
+  <script src="topojson.v0.min.js"></script>
+  <script src="tabletop.js"></script>
+
+  <script src="subway.js"></script>
+  <script src="septa2y.js"></script>
+
+  <script>
+	var pointme = [{
+		"type": "FeatureCollection",
+			"features": [
+				{
+					"type": "Feature",
+					"properties": {
+							"lon": "-75.165219",
+							"lat": "39.95261",
+							"route": "R6",
+							"station_name": "MFL BSL R1-R8 T-15th St Station",
+							"address": "15th St and Market St Philadelphia, PA",
+							"cartodb_id": 303,
+							"created_at": "2013-04-22T00:13:25.521Z",
+							"updated_at": "2013-04-22T00:27:33.373Z",
+							"cartodb_georef_status": true
+					},
+					"geometry": {
+						"type": "Point",
+						"coordinates": [-75.165219, 39.95261]
+						}
+				},
+				]
+			}];
+
+
+      var w = 800;
+      var h = 800;
+
+      var svg = d3.select("#map")
+                  .append("svg")
+                  .attr("width", w)
+                  .attr("height", h);
+
+      var projection = d3.geo.mercator()
+                             .center([-75.165219, 39.95261])
+                             .translate([w/2, h/2])
+                             // // to shrink/grow the map, 1000 = 100%
+                             .scale([42000]);
+
+      var path = d3.geo.path().projection(projection);
+
+      var g1 = svg.append("g")
+                 .attr("class", "map_lines");
+
+        g1.selectAll("map_lin")
+          .data(topojson.object(subway_lines[0], subway_lines[0].objects.subways).geometries)
+          .enter()
+          .append("path")
+          .attr("d", path)
+          .attr("class", function(d){ return "map_lin l_" + d.properties.route_id; })
+          .style("fill", "white")
+          .style("fill-opacity", 0)
+          .style("opacity", .5)
+          .style("stroke-width", 3)
+          .style("stroke-linecap", "round");
+
+		  var g2 = svg.append("g")
+	                 .attr("class", "map_lines2");
+	
+		  console.log(septap[0].features[0]);
+	
+
+	
+
+	     g2.selectAll("path")
+			.data(septap[0].features)
+			.enter()
+            .append("path")
+			  .attr("d", path)
+			  .attr("class", function(d){ console.log(d.properties); return "septa_route r_" + d.properties.route; })	      
+	          .style("fill", "black")
+	;
+			
+			     g2.selectAll("path")
+		          .on("mouseover", function(d) {
+			            console.log('hover');
+		                d3.select(this)
+		                  .transition()
+		                  .attr("r", 8);
+		                d3.select("#tooltip")
+		                  .style("left", (d3.event.pageX) + 20 + "px")
+		                  .style("top", (d3.event.pageY) - 30 + "px")
+		                  .text(d.properties.station_name);
+		          });
+
+  </script>
+
+
+  </body>
+</html>
