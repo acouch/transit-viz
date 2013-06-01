@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Inequality along Philadelphia transit lines</title>
+<meta charset="UTF-8"/>
+
+<style>
+	.septa_route {stroke: gray; stroke-width:0px; fill-opacity:.5; opacity: 1}
+
+	#tooltip
+	  {
+	    position: absolute;
+	    width: 200px;
+	    height: auto;
+	    padding: 10px;
+	    background-color: white;
+	    -webkit-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.4);
+	    -moz-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.4);
+	    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.4);
+	    pointer-events: none;
+	    opacity: 1;
+	  }
+
+	  #tooltip.hidden
+	  {
+	    display: none;
+	    -moz-transition: all 0.15s;
+	    -o-transition: all 0.15s;
+	    -webkit-transition: all 0.15s;
+	    transition: all 0.15s;
+	  }
+  #loading { position: absolute; left: 400px; top: 200px;}
+
+  #map { left: 06px; margin-top: 0px; position: absolute; z-index: -10; }
+
+</style>
+</head>
+<body>
+  <div id="container">
+    <div class="top">
+      <div id="map">
+        <div id="loading">loading..</div>
+      </div>
+    </div>
+  </div>
+  <div id="tooltip" style="display:none"></div>
+
+  <script src="assets/js/d3.v3.min.js"></script>
+  <script src="assets/js/jquery-latest.js"></script>
+
+  <script>
+  $(document).ready(function() {
+
+    var censusKey = 'f5bd9c51b563f034639bab7be5bb546c1b456cdc';
+		var w = 800;
+		var h = 800;
+
+		var svg = d3.select("#map")
+                .append("svg")
+                .attr("width", w)
+                .attr("height", h);
+
+	  var projection = d3.geo.mercator()
+                       .center([-75.165219, 39.95261])
+                       .translate([w/2, h/2])
+                       .scale([42000]);
+
+	  var path = d3.geo.path().projection(projection);
+
+		var g = svg.append("g");
+		d3.json("http://demo.getdkan.com/api/action/datastore/search.json?resource_id[stops]=8ebe73a0-5bee-4726-8a6d-d1ecb135fc2e&resource_id[routes]=f727b1f2-3d0a-4153-97d0-adfd64ffa234&limit=500&join[stops]=stop_desc&join[routes]=route_short_name", function(error, stops_data) {
+      $('#loading').hide();
+			g.selectAll("circles.points")
+	      .data(stops_data.records)
+			  .enter()
+				.append("circle")
+				.attr("r",5)
+				.attr("transform", function(d) {return "translate(" + projection([d.stop_lon,d.stop_lat]) + ")";})
+	      .style("fill", function(d) { return d.route_color; });
+
+      g.selectAll("circle")
+        .on("mouseover", function(d) {
+          d3.select(this)
+            .transition()
+            .delay(250)
+            .attr("r", 8);
+
+            var pageX = d3.event.pageX;
+            var pageY = d3.event.pageY;
+            var fccUrl = "http://data.fcc.gov/api/block/find?format=jsonp&latitude=" + d.stop_lat + "&longitude=" + d.stop_lon + "&callback=?";
+            $.getJSON(fccUrl, null, function (results) {
+              var FIPS = results.Block.FIPS;
+              console.log(FIPS);
+              var stateFip = FIPS.substring(0,2);
+              var countyFip = FIPS.substring(2,5);
+              var tractFip = FIPS.substring(5,11);
+              var censusUrl = 'http://api.census.gov/data/2011/acs5?key=' + censusKey + '&get=B19013_001E,NAME&for=block+group:1&in=state:' + stateFip + '+county:' + countyFip + '+tract:' + tractFip;
+              $.getJSON(censusUrl, function(data) {
+                d3.select("#tooltip")
+                  .style("left", (pageX) + 20 + "px")
+                  .style("top", (pageY) - 30 + "px")
+                  .style("display", "block")
+                  .transition()
+                  .text(d.route_long_name + ': ' + d.stop_name + '$' + commaSeparateNumber(data[1][0]));
+              });
+            });
+
+		  });
+
+      g.selectAll("circle")
+        .on("mouseout", function(d) {
+			  		d3.select(this)
+				    	.transition()
+				    	.attr("r", 5);
+        });
+		});
+
+
+		// ht: http://stackoverflow.com/a/12947816
+		function commaSeparateNumber(val){
+		    while (/(\d+)(\d{3})/.test(val.toString())){
+		      val = val.toString().replace(/(\d+)(\d{3})/, '$1'+','+'$2');
+		    }
+		    return val;
+		 }
+	});
+
+  </script>
+
+  </body>
+</html>
