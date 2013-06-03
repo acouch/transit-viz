@@ -7,8 +7,7 @@
 <style>
 	.septa_route {stroke: gray; stroke-width:0px; fill-opacity:.5; opacity: 1}
 
-	#tooltip
-	  {
+	#tooltip {
 	    position: absolute;
 	    width: 200px;
 	    height: auto;
@@ -21,17 +20,32 @@
 	    opacity: 1;
 	  }
 
-	  #tooltip.hidden
-	  {
-	    display: none;
-	    -moz-transition: all 0.15s;
-	    -o-transition: all 0.15s;
-	    -webkit-transition: all 0.15s;
-	    transition: all 0.15s;
-	  }
-  #loading { position: absolute; left: 200px; top: 200px;}
-
-  #map { left: 06px; margin-top: 0px; position: absolute; z-index: -10; }
+  #stops li {
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    float: left;
+    list-style: none;
+  }
+  #stops li a {
+    color: #FFF;
+  }
+  #stops {
+    display: block;
+    height: 35px;
+  }
+  #loading { position: absolute; left: 250px; top: 200px;}
+  #graph svg {
+    border: 1px solid #999;
+  }
+  #graph {
+    float: left;
+    margin: 0 0 0 50px;
+  }
+  #map {
+    float: left;
+    clear: both;
+  }
   #map svg { border: 1px solid #999; }
 
 </style>
@@ -39,9 +53,14 @@
 <body>
   <div id="container">
     <div class="top">
+      <div id="stops"><h2>Routes</h2><ul></ul></div>
       <div id="map">
+        <h2>Map</h2>
         <div id="loading">loading..</div>
       </div>
+      <div id="graph">
+         <h2>Graph</h2>
+       </div>
     </div>
   </div>
   <div id="tooltip" style="display:none"></div>
@@ -53,8 +72,8 @@
   $(document).ready(function() {
 
     var censusKey = 'f5bd9c51b563f034639bab7be5bb546c1b456cdc';
-		var w = 470;
-		var h = 470;
+		var w = 600;
+		var h = 600;
 
 		var svg = d3.select("#map")
                 .append("svg")
@@ -64,12 +83,12 @@
 	  var projection = d3.geo.mercator()
                        .center([-75.205219, 40.00061])
                        .translate([w/2, h/2])
-                       .scale([32000]);
+                       .scale([71000]);
 
 	  var path = d3.geo.path().projection(projection);
 
 		var g = svg.append("g");
-		d3.json("http://demo.getdkan.com/api/action/datastore/search.json?resource_id[stops]=8ebe73a0-5bee-4726-8a6d-d1ecb135fc2e&resource_id[routes]=f727b1f2-3d0a-4153-97d0-adfd64ffa234&limit=500&join[stops]=stop_desc&join[routes]=route_short_name", function(error, stops_data) {
+    d3.json("http://demo.getdkan.com/api/action/datastore/search.json?resource_id[stops]=8ebe73a0-5bee-4726-8a6d-d1ecb135fc2e&resource_id[routes]=f727b1f2-3d0a-4153-97d0-adfd64ffa234&limit=500&join[stops]=stop_desc&join[routes]=route_short_name", function(error, stops_data) {
       $('#loading').hide();
 			g.selectAll("circles.points")
 	      .data(stops_data.records)
@@ -88,10 +107,16 @@
 
             var pageX = d3.event.pageX;
             var pageY = d3.event.pageY;
+            d3.select("#tooltip")
+              .style("left", (pageX) + 20 + "px")
+              .style("top", (pageY) - 30 + "px")
+              .style("display", "block")
+              .transition()
+              .text(d.route_long_name + ': ' + d.stop_name + 'loading...');
+
             var fccUrl = "http://data.fcc.gov/api/block/find?format=jsonp&latitude=" + d.stop_lat + "&longitude=" + d.stop_lon + "&callback=?";
             $.getJSON(fccUrl, null, function (results) {
               var FIPS = results.Block.FIPS;
-              console.log(FIPS);
               var stateFip = FIPS.substring(0,2);
               var countyFip = FIPS.substring(2,5);
               var tractFip = FIPS.substring(5,11);
@@ -105,7 +130,6 @@
                   .text(d.route_long_name + ': ' + d.stop_name + '$' + commaSeparateNumber(data[1][0]));
               });
             });
-
 		  });
 
       g.selectAll("circle")
@@ -115,8 +139,46 @@
 				    	.attr("r", 5);
             $('#tooltip').hide();
         });
-		});
+      var stops = {};
+      // Lines
+      $.each(stops_data.records, function(key, value){
+        stops[value.route_short_name] = value.route_color;
+      });
+      $.each(stops, function(id, color) {
+        $('#stops ul').append('<li style="background-color: #' + color + '"><a href="#">' + id + '</a></li>');
+      });
 
+      // Graph.
+      var container_dimensions = {width: 500, height: 400},
+                     margins = {top: 20, right: 20, bottom: 30, left: 118},
+                     chart_dimensions = { width: container_dimensions.width - margins.left - margins.right-20,
+                                          height: container_dimensions.height - margins.top - margins.bottom };
+      var chart = d3.select("#graph")
+        .append("svg")
+        .attr("width", container_dimensions.width)
+        .attr("height", container_dimensions.height)
+        .append("g")
+        .attr("transform", "translate(" + margins.left + "," + margins.top + ")")
+        .attr("id","chart");
+
+      var income_scale = d3.scale.linear()
+        .range([chart_dimensions.height, 0])
+        .domain([0,230000]);
+
+      var income_axis = d3.svg.axis()
+        .scale(income_scale)
+        .orient("left")
+        .tickValues([0, 50000, 100000, 150000, 200000])
+        .tickSize(-chart_dimensions.width, 0)
+        .tickPadding(20)
+        .tickFormat(function(d) { return "$" + d; });
+
+      //append the y axis
+      chart.append("g")
+           .attr("class", "y axis")
+           .call(income_axis);
+
+		});
 
 		// ht: http://stackoverflow.com/a/12947816
 		function commaSeparateNumber(val){
@@ -125,6 +187,9 @@
 		    }
 		    return val;
 		 }
+
+
+
 	});
 
   </script>
