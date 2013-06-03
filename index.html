@@ -20,14 +20,14 @@
 	    opacity: 1;
 	  }
 
-  #stops li {
+  #routes li {
     padding: 5px;
     margin: 5px;
     border-radius: 5px;
     float: left;
     list-style: none;
   }
-  #stops li a {
+  #routes li a {
     color: #FFF;
   }
   #stops {
@@ -53,7 +53,7 @@
 <body>
   <div id="container">
     <div class="top">
-      <div id="stops"><h2>Routes</h2><ul></ul></div>
+      <div id="routes"><h2>Routes</h2><ul></ul></div>
       <div id="map">
         <h2>Map</h2>
         <div id="loading">loading..</div>
@@ -95,6 +95,7 @@
 			  .enter()
 				.append("circle")
 				.attr("r",5)
+        .attr("class", function(d) { return "route_" + d.route_id;})
 				.attr("transform", function(d) {return "translate(" + projection([d.stop_lon,d.stop_lat]) + ")";})
 	      .style("fill", function(d) { return d.route_color; });
 
@@ -139,16 +140,64 @@
 				    	.attr("r", 5);
             $('#tooltip').hide();
         });
-      var stops = {};
+      var routes = {};
       // Lines
       $.each(stops_data.records, function(key, value){
-        stops[value.route_short_name] = value.route_color;
+        routes[value.route_id] = {name: value.route_short_name, color: value.route_color};
       });
-      $.each(stops, function(id, color) {
-        $('#stops ul').append('<li style="background-color: #' + color + '"><a href="#">' + id + '</a></li>');
+      $.each(routes, function(id, items) {
+        $('#routes ul').append('<li style="background-color: #' + items.color + '"><a href="#' + id  + '">' + items.name + '</a></li>');
       });
 
+
+      // Action.
+      d3.selectAll("#routes ul li a")
+        .on("click", moveItMoveIt);
+
+      function moveItMoveIt() {
+        id = $(this).attr('href').substr(1);
+        console.log(id);
+        g.selectAll("circle")
+          .transition()
+          .attr("r", 2);
+        g.selectAll("circle.route_" + id)
+          .transition()
+          .attr("r", 5);
+
+        var graphData = {};
+        // TODO: make more efficient.
+        var x = 1;
+        g2 = d3.select("#chart")
+          .append("g")
+        $.each(stops_data.records, function(key, de) {
+          if (de.route_id == id) {
+            console.log(de);
+            var fccUrl = "http://data.fcc.gov/api/block/find?format=jsonp&latitude=" + de.stop_lat + "&longitude=" + de.stop_lon + "&callback=?";
+            $.getJSON(fccUrl, null, function (results) {
+              var FIPS = results.Block.FIPS;
+              var stateFip = FIPS.substring(0,2);
+              var countyFip = FIPS.substring(2,5);
+              var tractFip = FIPS.substring(5,11);
+              var censusUrl = 'http://api.census.gov/data/2011/acs5?key=' + censusKey + '&get=B19013_001E,NAME&for=block+group:1&in=state:' + stateFip + '+county:' + countyFip + '+tract:' + tractFip;
+              $.getJSON(censusUrl, function(data) {
+                graphData = {name: de.stop_name, data: data[1][0], color: de.route_color};
+                console.log(graphData);
+                chart.append("circle")
+                  .datum(graphData)
+                  .transition()
+                  .attr("r", 4)
+                  .style("fill", function(d) {return '#' + d.color; })
+                  .attr("cx", function(d) {return stop_scale(x)})
+                  .attr("cy", function(d) {return income_scale(d.data)});
+                x++;
+              });
+            });
+          }
+        });
+      }
+
       // Graph.
+      // TODO: http://bost.ocks.org/mike/chart/
       var container_dimensions = {width: 500, height: 400},
                      margins = {top: 20, right: 20, bottom: 30, left: 118},
                      chart_dimensions = { width: container_dimensions.width - margins.left - margins.right-20,
@@ -160,6 +209,10 @@
         .append("g")
         .attr("transform", "translate(" + margins.left + "," + margins.top + ")")
         .attr("id","chart");
+
+      var stop_scale = d3.scale.linear()
+        .range([0,chart_dimensions.width])
+        .domain([1, 10]);
 
       var income_scale = d3.scale.linear()
         .range([chart_dimensions.height, 0])
@@ -177,6 +230,13 @@
       chart.append("g")
            .attr("class", "y axis")
            .call(income_axis);
+      d3.select(".y.axis")
+        .append("text")
+        .attr("text-anchor","middle")
+        .text("median household income")
+        .attr("transform", "rotate (270, 0, 0)")
+        .attr("x", -180)
+        .attr("y", -110);
 
 		});
 
