@@ -152,10 +152,9 @@
 
       // Action.
       d3.selectAll("#routes ul li a")
-        .on("click", moveItMoveIt);
+        .on("click", function (d) {console.log(d)});
 
-      function moveItMoveIt() {
-        id = $(this).attr('href').substr(1);
+      function moveItMoveIt(id) {
         console.log(id);
         g.selectAll("circle")
           .transition()
