@@ -1,0 +1,38 @@
+SELECT stop_id, stop_name FROM feeds_datastore_dkan_file_4 WHERE stop_id IN (
+  SELECT DISTINCT stop_id FROM feeds_datastore_dkan_file_7 WHERE trip_id IN (
+    SELECT trip_id FROM feeds_datastore_dkan_file_5 WHERE route_id = <route_id>));
+
+
+
+SELECT DISTINCT stops.stop_id, stops.stop_name 
+FROM feeds_datastore_dkan_file_4 stops 
+JOIN feeds_datastore_dkan_file_7 stop_times on stops.stop_id = stop_times.stop_id 
+JOIN feeds_datastore_dkan_file_5 trips ON trips.trip_id = stop_times.trip_id 
+JOIN feeds_datastore_dkan_file_3 routes ON routes.route_id = 'AIR' 
+WHERE trips.route_id = 'AIR';
+
+
+http://stackoverflow.com/questions/4613465/using-python-to-write-mysql-query-to-csv-need-to-show-field-names
+
+SELECT DISTINCT stops.stop_id, stops.stop_name, trips.route_id FROM feeds_datastore_dkan_file_4 stops  JOIN feeds_datastore_dkan_file_7 stop_times on stops.stop_id = stop_times.stop_id  JOIN feeds_datastore_dkan_file_5 trips ON trips.trip_id = stop_times.trip_id  WHERE trips.route_id = 'TRE';
+
+stop_name, route_id, route_long_name, stop_lat, stop_lon, route_color 
+
+SELECT DISTINCT stops.stop_id, stops.stop_name, trips.route_id FROM  stops  JOIN  stop_times on stops.stop_id = stop_times.stop_id  JOIN trips ON trips.trip_id = stop_times.trip_id  WHERE trips.route_id = 'TRE';
+
+
+
+
+
+
+
+SELECT DISTINCT stops.stop_id, stops.stop_name 
+FROM stops 
+JOIN stop_times on stops.stop_id = stop_times.stop_id 
+JOIN trips ON trips.trip_id = stop_times.trip_id 
+JOIN routes ON routes.route_id = 'AIR' 
+WHERE trips.route_id = 'AIR';
+
+
+
+

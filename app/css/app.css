@@ -1,0 +1,45 @@
+/* app css stylesheet */
+.septa_route {stroke: gray; stroke-width:0px; fill-opacity:.5; opacity: 1}
+
+#tooltip {
+    position: absolute;
+    width: 200px;
+    height: auto;
+    padding: 10px;
+    background-color: white;
+    -webkit-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.4);
+    pointer-events: none;
+    opacity: 1;
+  }
+
+#routes li {
+  padding: 5px;
+  margin: 5px;
+  border-radius: 5px;
+  float: left;
+  list-style: none;
+}
+#routes li a {
+  color: #FFF;
+}
+#stops {
+  display: block;
+  height: 35px;
+}
+#loading { position: absolute; left: 250px; top: 200px;}
+#graph svg {
+  border: 1px solid #999;
+}
+#graph {
+  float: left;
+  margin: 0 0 0 50px;
+}
+#map {
+  float: left;
+  clear: both;
+}
+#map svg { border: 1px solid #999; }
+
+

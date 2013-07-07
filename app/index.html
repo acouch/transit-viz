@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en" ng-app="inequalityTransitMap">
+<head>
+  <meta charset="utf-8">
+  <title>My AngularJS App</title>
+  <link rel="stylesheet" href="css/app.css"/>
+
+  <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
+</head>
+<body>
+  <div id="menu">
+    <div ng-controller="CitiesCtrl">
+     <form ng-submit="dataSelect()">
+        Select a city:
+        <select ng-model="currentCity" ng-options="i.name for i in cities">
+          <option value="">Choose City</option>
+        </select>
+        Select a data point:
+        <select ng-model="currentDataPoint" ng-options="c.name for c in censusPoints"></select>
+        <input class="btn" type="submit" value="select">
+      </form>
+    </div>
+  </div>
+  <section class="body">
+      <div id="routes"><h2>Routes</h2><ul></ul></div>
+      <div id="map">
+        <h2>Map</h2>
+        <div id="loading">loading..</div>
+      </div>
+      <div id="graph">
+         <h2>Graph</h2>
+       </div>
+    </div>
+  <div id="tooltip" style="display:none"></div>
+ </section>
+
+
+
+  <!-- In production use:
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
+  -->
+  <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+  <script src="lib/angular/angular.js"></script>
+  <script src="lib/d3/d3.v3.min.js"></script>
+  <script src="js/util.js"></script>
+  <script src="js/d3.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/services.js"></script>
+  <script src="js/controllers.js"></script>
+  <script src="js/filters.js"></script>
+  <script src="js/directives.js"></script>
+</body>
+</html>
