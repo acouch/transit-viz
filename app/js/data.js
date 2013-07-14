@@ -1,6 +1,6 @@
   var cities = [
-    {name:'Philadelphia', value:'phl', url: 'http://demo.getdkan.com/api/action/datastore/search.json?resource_id[stops]=8ebe73a0-5bee-4726-8a6d-d1ecb135fc2e&resource_id[routes]=f727b1f2-3d0a-4153-97d0-adfd64ffa234&limit=500&join[stops]=stop_desc&join[routes]=route_short_name'},
-    {name:'Los Angelas', value:'la'},]
+    {name:'Philadelphia', value:'phl', path: 'data/septa_gtfs/routes_stops.csv', lat: '-75.205219', lon: '40.00061', scale: '71000' },
+    {name:'Madison', value:'mds', path: 'data/madison_gtfs/routes_stops.csv', lat: '-89.4011', lon: '43.0731', scale: '110000'},]
 
   var censusPoints = [
     {value:'B01003_001E', name: 'Total Population'},
