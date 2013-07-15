@@ -25,7 +25,7 @@ function createMap(stops_data, $scope) {
     .attr("class", function(d) { return "route_" + d.route_id;})
     .attr("cx",function(d) { latLon = new L.LatLng(d.stop_lat, d.stop_lon); return $scope.map.latLngToLayerPoint(latLon).x})
     .attr("cy",function(d) { latLon = new L.LatLng(d.stop_lat, d.stop_lon); return $scope.map.latLngToLayerPoint(latLon).y})
-    .style("fill", function(d) { return d.route_color; });
+    .attr("style", function(d) { return "fill: #" + d.route_color; });
 
   $scope.map.on("viewreset", update);
   function update() {
