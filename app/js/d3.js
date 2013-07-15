@@ -1,36 +1,39 @@
 function buildViz($scope) {
   d3.csv($scope.currentCity.path, function(error, stops_data) {
-    destroyMap();
     createMap(stops_data, $scope);
+    centerMap($scope);
     createGraph(stops_data, $scope);
   });
 }
 
+function centerMap($scope) {
+  $scope.map.panTo(new L.LatLng($scope.currentCity.lat, $scope.currentCity.lon)); 
+  // TODO: Fit to bounds.
+}
+
 function createMap(stops_data, $scope) {
   var censusKey = 'f5bd9c51b563f034639bab7be5bb546c1b456cdc';
-  var w = 600;
-  var h = 600;
 
-  var svg = d3.select("#map .content")
-              .append("svg")
-              .attr("width", w)
-              .attr("height", h);
+  var svg = d3.select("#map").select("svg"),
+  g = svg.append("g");
 
-  var projection = d3.geo.mercator()
-                     .center([$scope.currentCity.lat, $scope.currentCity.lon])
-                     .translate([w/2, h/2])
-                     .scale([$scope.currentCity.scale]);
-
-  var path = d3.geo.path().projection(projection);
-  var g = svg.append("g");
-  g.selectAll("circles.points")
+  var feature = g.selectAll("circles.points")
     .data(stops_data)
     .enter()
     .append("circle")
     .attr("r",5)
     .attr("class", function(d) { return "route_" + d.route_id;})
-    .attr("transform", function(d) {return "translate(" + projection([d.stop_lon,d.stop_lat]) + ")";})
+    .attr("cx",function(d) { latLon = new L.LatLng(d.stop_lat, d.stop_lon); return $scope.map.latLngToLayerPoint(latLon).x})
+    .attr("cy",function(d) { latLon = new L.LatLng(d.stop_lat, d.stop_lon); return $scope.map.latLngToLayerPoint(latLon).y})
     .style("fill", function(d) { return d.route_color; });
+
+  $scope.map.on("viewreset", update);
+  function update() {
+    feature.attr("cx",function(d) { latLon = new L.LatLng(d.stop_lat, d.stop_lon); return $scope.map.latLngToLayerPoint(latLon).x})
+    feature.attr("cy",function(d) { latLon = new L.LatLng(d.stop_lat, d.stop_lon); return $scope.map.latLngToLayerPoint(latLon).y})
+  }
+
+  update();
 
   g.selectAll("circle")
   .on("mouseover", function(d) {
@@ -78,6 +81,7 @@ function createMap(stops_data, $scope) {
   $.each(stops_data, function(key, value){
     routes[value.route_id] = {name: value.route_short_name, color: value.route_color};
   });
+  $('#routes ul').empty();
   $.each(routes, function(id, items) {
     $('#routes ul').append('<li style="background-color: #' + items.color + '"><a href="#' + id  + '">' + items.name + '</a></li>');
   });
@@ -179,7 +183,7 @@ function createGraph(stops_data, $scope) {
 }
 
 function destroyMap() {
-  $('#map .content').empty();
+  $('#map').empty();
   $('#routes ul').empty();
 }
 function destroyGraph() {

@@ -1,4 +1,7 @@
 /* app css stylesheet */
+body {
+  padding: 5px;
+}
 .septa_route {stroke: gray; stroke-width:0px; fill-opacity:.5; opacity: 1}
 
 #tooltip {
@@ -36,10 +39,17 @@
   float: left;
   margin: 0 0 0 50px;
 }
-#map {
-  float: left;
+#map-container {
   clear: both;
+  float: left;
 }
-#map svg { border: 1px solid #999; }
+#map {
+  border: 1px solid #999;
+  width: 600px;
+  height: 600px;
+}
+#map svg {
+position: absolute;
+}
 
 

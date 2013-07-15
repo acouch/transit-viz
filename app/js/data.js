@@ -1,6 +1,6 @@
   var cities = [
-    {name:'Philadelphia', value:'phl', path: 'data/septa_gtfs/routes_stops.csv', lat: '-75.205219', lon: '40.00061', scale: '71000' },
-    {name:'Madison', value:'mds', path: 'data/madison_gtfs/routes_stops.csv', lat: '-89.4011', lon: '43.0731', scale: '110000'},]
+    {name:'Philadelphia', value:'phl', path: 'data/septa_gtfs/routes_stops.csv', lon: '-75.205219', lat: '40.00061', zoom: '10' },
+    {name:'Madison', value:'mds', path: 'data/madison_gtfs/routes_stops.csv', lon: '-89.4011', lat: '43.0731', zoom: '12'},]
 
   var censusPoints = [
     {value:'B01003_001E', name: 'Total Population'},

@@ -2,9 +2,10 @@
 <html lang="en" ng-app="inequalityTransitMap">
 <head>
   <meta charset="utf-8">
-  <title>My AngularJS App</title>
+  <title>Transite and Inequality Data Viz</title>
   <link rel="stylesheet" href="css/app.css"/>
 
+  <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.6.2/leaflet.css" />
   <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
 </head>
 <body>
@@ -23,9 +24,9 @@
   </div>
   <section class="body">
       <div id="routes"><h2>Routes</h2><ul></ul></div>
-      <div id="map">
+      <div id="map-container">
         <h2>Map</h2>
-        <div class="content"></div>
+        <div id="map"></div>
       </div>
       <div id="graph">
          <h2>Graph</h2>
@@ -41,6 +42,7 @@
   <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
   -->
   <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+  <script src="http://cdn.leafletjs.com/leaflet-0.6.2/leaflet.js"></script>
   <script src="lib/angular/angular.js"></script>
   <script src="lib/d3/d3.v3.min.js"></script>
   <script src="js/util.js"></script>
