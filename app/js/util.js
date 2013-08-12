@@ -10,10 +10,10 @@ var getKey = function(obj, value) {
 }
 
 // ht: http://stackoverflow.com/a/12947816
-function commaSeparateNumber(val){
+var val = function commaSeparateNumber(val){
   while (/(\d+)(\d{3})/.test(val.toString())){
-    val = val.toString().replace(/(\d+)(\d{3})/, '$1'+','+'$2');
+    returnVal = val.toString().replace(/(\d+)(\d{3})/, '$1'+','+'$2');
   }
-  return val;
+  return returnVal;
 }
 

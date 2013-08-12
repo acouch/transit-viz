@@ -86,10 +86,9 @@ function createMap(stops_data, $scope) {
     $('#routes ul').append('<li style="background-color: #' + items.color + '"><a href="#' + id  + '">' + items.name + '</a></li>');
   });
 
-
   // Action.
   d3.selectAll("#routes ul li a")
-  .on("click", function(d) { moveItMoveIt(d3.select(this).attr("href"), stops_data)});
+	  .on("click", function(d) { moveItMoveIt(d3.select(this).attr("href"), stops_data)});
 }
 
 //
