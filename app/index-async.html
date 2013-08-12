@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
+  <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.6.2/leaflet.css" />
+  <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
   <style>
     [ng-cloak] {
       display: none;
@@ -30,29 +32,47 @@
 
     // load all of the dependencies asynchronously.
     $script([
-      'lib/angular/angular.js',
-      'js/app.js',
-      'js/services.js',
-      'js/controllers.js',
-      'js/filters.js',
-      'js/directives.js'
+			'lib/jquery/jquery-1.10.1.min.js',
+			'lib/leaflet/leaflet.js',
+			'lib/angular/angular.js',
+			'lib/d3/d3.v3.min.js',
+			'js/util.js',
+			'js/mapTool.js',
+			'js/data.js',
+			'js/app.js',
     ], function() {
       // when all is done, execute bootstrap angular application
-      angular.bootstrap(document, ['myApp']);
+      angular.bootstrap(document, ['inequalityTransitMap']);
     });
   </script>
   <title>My AngularJS App</title>
   <link rel="stylesheet" href="css/app.css">
 </head>
 <body ng-cloak>
-  <ul class="menu">
-    <li><a href="#/view1">view1</a></li>
-    <li><a href="#/view2">view2</a></li>
-  </ul>
-
-  <div ng-view></div>
-
-  <div>Angular seed app: v<span app-version></span></div>
-
+	<div id="menu">
+		<div ng-controller="CitiesCtrl">
+			<form ng-submit="dataSelect()">
+				Select a city:
+				<select ng-model="currentCity" ng-options="i.name for i in cities">
+					<option value="">Choose City</option>
+				</select>
+				Select a data point:
+				<select ng-model="currentDataPoint" ng-options="c.name for c in censusPoints"></select>
+				<input class="btn" type="submit" value="select" >
+			</form>
+		</div>
+	</div>
+	<section class="body">
+		<div id="routes"><h2>Routes</h2><ul></ul></div>
+		<div id="map-container">
+			<h2>Map</h2>
+			<div id="map"></div>
+		</div>
+		<div id="graph">
+			<h2>Graph</h2>
+			<div class="content"></div>
+		 </div>
+		<div id="tooltip" style="display:none"></div>
+	</section>
 </body>
 </html>
