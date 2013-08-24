@@ -26,7 +26,7 @@ function CitiesCtrl($scope, $location) {
 		currentDataPoint: $scope.currentDataPoint,
 	});
 
-  // Respond to change in city or data point.
+	// Respond to change in city or data point.
 	$scope.dataSelect = function() {
 		$location.path('/' + $scope.currentCity.value + '/' + $scope.currentDataPoint.value);
 		mapTool.update({
@@ -39,17 +39,15 @@ function CitiesCtrl($scope, $location) {
 		mapTool.execute();
 	};
 
-  // Respond to route click.
+	// Respond to route click.
 	$scope.routeSelect = function() {
-		$location.path('/' + $scope.currentCity.value + '/' + $scope.currentDataPoint.value);
-		mapTool.update({
-			lat: $scope.currentCity.lat,
-			lon: $scope.currentCity.lon,
-			zoom: $scope.currentCity.zoom,
-		});
-		mapTool.execute();
 	};
-
 
 	mapTool.execute();
 }
+// TODO:
+// 1) reload map with data
+// 2) save data and check if reclicked
+// - make routes ngclick 
+// - remove points for non-selected
+// - tooltips
