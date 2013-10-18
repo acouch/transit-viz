@@ -1,0 +1,4 @@
+service_id,monday,tuesday,wednesday,thursday,friday,saturday,sunday,start_date,end_date
+LOW_SEASON_WORKDAY,1,1,1,1,1,0,0,20130601,20130731
+RESTDAY,0,0,0,0,0,1,1,20130101,20131231
+WORKDAY,1,1,1,1,1,0,0,20130801,20131231

@@ -32,9 +32,8 @@
 	mapTool.update = function(updates) {
 		options = $.extend(options, updates);
 	}
-  
+
 	mapTool.execute = function() {
-		// TODO: separate as a promise.
 		d3.csv(options.dataPath, function(error, stops_data) {
 			mapTool.addMapPoints(stops_data);
 			mapTool.centerMap();
@@ -45,7 +44,7 @@
 	}
 
 	mapTool.centerMap = function() {
-		options.map.panTo(new L.LatLng(options.lat, options.lon)); 
+		options.map.panTo(new L.LatLng(options.lat, options.lon));
 		// TODO: Fit to bounds.
 		return map;
 	}
@@ -108,11 +107,15 @@
 			});
 			censusPromise.then(function(data) {
 				dff.resolve(data);
+			}, function() {
+				console.log('Census data did not return');
 			});
+		}, function() {
+			console.log('FCC data did not return');
 		});
 		return dff.promise();
 	}
-  
+
 	mapTool.mapPointsHover = function() {
 
 		g = d3.select("g");
@@ -177,7 +180,7 @@
 				mapTool.updateGraph(id, routes[id]);
 			});
 	}
-  
+
 	mapTool.activateRoute = function(route) {
 		var arrayOfLatLons = [];
 		var x = 0;
@@ -187,7 +190,7 @@
 		});
 		var bounds = new L.LatLngBounds(arrayOfLatLons);
 		options.map.fitBounds(bounds);
-   
+
 		return;
 		updateGraph(route);
 	}
@@ -198,6 +201,7 @@
 			.domain([1, stops.length]);
 		return stopScale;
 	}
+
 	mapTool.incomeScale = function (stops) {
 		var highest = 0;
 		$.each(stops, function(key, stop) {
@@ -211,6 +215,7 @@
 			.domain([0, highest]);
 		return incomeScale;
 	}
+
 	mapTool.createGraph = function (stops_data) {
 		$('#graph .content').empty();
 		// Graph.
@@ -240,7 +245,7 @@
 			.tickSize(-options.chart_dimensions.width, 0)
 			.tickPadding(20)
 			.tickFormat(function(d) { return "$" + d; });
-  
+
 		//append the y axis
 		options.chart.append("g")
 			.attr("class", "y axis")
@@ -254,6 +259,7 @@
 			.attr("y", -110);
 
 	}
+
 	mapTool.updateGraph = function (id, route) {
 		// Update circle size. TODO: move
 		g.selectAll("circle")
