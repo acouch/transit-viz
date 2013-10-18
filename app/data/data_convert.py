@@ -88,7 +88,7 @@ def export():
   file.writerows(result)
   fp.close()
 
-#createDatabase(dbHost, dbUser, dbPass, database)
+createDatabase(dbHost, dbUser, dbPass, database)
 
 gtfs = MySQLdb.connect(host=dbHost,
     user=dbUser,
@@ -97,8 +97,8 @@ gtfs = MySQLdb.connect(host=dbHost,
 
 cursor = gtfs.cursor()
 
-#insertData(tables)
-#cleanUpTables()
+insertData(tables)
+cleanUpTables()
 export()
 cursor.close()
 #destroyDatabase()
