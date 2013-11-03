@@ -10,7 +10,7 @@
 </head>
 <body>
 	<div id="menu">
-		<div ng-controller="CitiesCtrl">
+		<div id="CitiesCtrl-div" ng-controller="CitiesCtrl">
 			<form ng-submit="dataSelect()">
 				Select a city:
 				<select ng-model="currentCity" ng-options="i.name for i in cities">
@@ -21,7 +21,7 @@
 				<input class="btn" type="submit" value="select" >
 			</form>
 			<div id="routes">
-				<h2>Routes</h2><ul></ul>
+				<h2>Routes</h2><ul><li ng-repeat="route in routes" id="{{route.id}}" style="background-color: #{{route.color}}" ng-click="routeAdd(route)">{{route.name}}</li</ul>
 			</div>
 		</div>
 	</div>

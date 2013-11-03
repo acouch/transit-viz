@@ -4,7 +4,7 @@
 	mapTool = {};
 
 	mapTool.settings = {
-		cloudmadeUrl: "http://{s}.tile.cloudmade.com/3c140586b7e74d67b2a01a5fc9a51e7f/102295/256/{z}/{x}/{y}.png",
+		cloudmadeUrl: "http://{s}.tile.cloudmade.com/8bf54bcb5ac74cd09f90e4705fcbf200/102295/256/{z}/{x}/{y}.png",
 		cloudmadeZoom: "18",
 		cloudmadeAttribution: 'Map data &copy; 2011 OpenStreetMap contributors, Imagery &copy; 2011 CloudMade',
 		lat: "95",
@@ -15,7 +15,7 @@
 		currentDataPoint: "",
 		dataPath: "",
 		containerDimensions: {width: 500, height: 400},
-                chartMargins: {top: 20, right: 20, bottom: 30, left: 118},
+				chartMargins: {top: 20, right: 20, bottom: 30, left: 118},
 	}
 
 	mapTool.init = function(settings) {
@@ -31,6 +31,7 @@
 
 	mapTool.update = function(updates) {
 		options = $.extend(options, updates);
+    
 	}
 
 	mapTool.execute = function() {
@@ -39,7 +40,6 @@
 			mapTool.centerMap();
 			mapTool.addRoutes(stops_data);
 			mapTool.mapPointsHover();
-			mapTool.createGraph(stops_data);
 		});
 	}
 
@@ -97,7 +97,7 @@
 			var stateFip = FIPS.substring(0,2);
 			var countyFip = FIPS.substring(2,5);
 			var tractFip = FIPS.substring(5,11);
-			var censusUrl = 'http://api.census.gov/data/2011/acs5?key=' + options.censusToken + '&get=B19013_001E,NAME&for=block+group:1&in=state:' + stateFip + '+county:' + countyFip + '+tract:' + tractFip;
+			var censusUrl = 'http://api.census.gov/data/2011/acs5?key=' + options.censusToken + '&get=' + options.currentDataPoint.value + ',NAME&for=block+group:1&in=state:' + stateFip + '+county:' + countyFip + '+tract:' + tractFip;
 			var censusPromise = $.ajax({
 				type: 'GET',
 				url: censusUrl,
@@ -119,7 +119,6 @@
 	mapTool.mapPointsHover = function() {
 
 		g = d3.select("g");
-		//g = options.g;
 		g.selectAll("circle")
 			.on("mouseover", function(d) {
 				d3.select(this)
@@ -164,21 +163,15 @@
 			if ( Object.prototype.toString.call( routes[value.route_id] ) === '[object Object]' ) {
 				routes[value.route_id].stops[value.stop_id] = value;
 			} else {
-				routes[value.route_id] = {name: value.route_short_name, color: value.route_color, stops: {}};
+				routes[value.route_id] = {id: value.route_id, name: value.route_short_name, color: value.route_color, stops: {}};
+				routes[value.route_id].stops[value.stop_id] = value;
 			}
 		});
-		$('#routes ul').empty();
-		$.each(routes, function(id, items) {
-			$('#routes ul').append('<li style="background-color: #' + items.color + '"><a ng-click="routeSelect" href="#' + id  + '">' + items.name + '</a></li>');
-		});
-
-		// TODO: switch to ng-model
-		d3.selectAll("#routes ul li a")
-			.on("click", function(d) {
-				var id = d3.select(this).attr("href").substring(1);
-				mapTool.activateRoute(routes[id]);
-				mapTool.updateGraph(id, routes[id]);
-			});
+    scope = angular.element($('#CitiesCtrl-div')).scope();
+    scope.$apply(function() {
+        scope.routes = routes;
+    }); 
+    
 	}
 
 	mapTool.activateRoute = function(route) {
@@ -192,7 +185,6 @@
 		options.map.fitBounds(bounds);
 
 		return;
-		updateGraph(route);
 	}
 
 	mapTool.stopScale = function (stops) {
@@ -202,62 +194,11 @@
 		return stopScale;
 	}
 
-	mapTool.incomeScale = function (stops) {
-		var highest = 0;
-		$.each(stops, function(key, stop) {
-			if (highest < stop.data) {
-				highest = stop.data;
-			}
-		});
-
+	mapTool.incomeScale = function (highest) {
 		var incomeScale = d3.scale.linear()
 			.range([options.chart_dimensions.height, 0])
 			.domain([0, highest]);
 		return incomeScale;
-	}
-
-	mapTool.createGraph = function (stops_data) {
-		$('#graph .content').empty();
-		// Graph.
-		// TODO: http://bost.ocks.org/mike/chart/
-		options.chart_dimensions = { width: options.containerDimensions.width - options.chartMargins.left - options.chartMargins.right-20,
-					    height: options.containerDimensions.height - options.chartMargins.top - options.chartMargins.bottom };
-		options.chart = d3.select("#graph .content")
-			.append("svg")
-			.attr("width", options.containerDimensions.width)
-			.attr("height", options.containerDimensions.height)
-			.append("g")
-			.attr("transform", "translate(" + options.chartMargins.left + "," + options.chartMargins.top + ")")
-			.attr("id","chart");
-
-		options.stop_scale = d3.scale.linear()
-			.range([0,options.chart_dimensions.width])
-			.domain([1, 10]);
-
-		options.income_scale = d3.scale.linear()
-			.range([options.chart_dimensions.height, 0])
-			.domain([0,230000]);
-
-		options.income_axis = d3.svg.axis()
-			.scale(options.income_scale)
-			.orient("left")
-			.tickValues([0, 50000, 100000, 150000, 200000])
-			.tickSize(-options.chart_dimensions.width, 0)
-			.tickPadding(20)
-			.tickFormat(function(d) { return "$" + d; });
-
-		//append the y axis
-		options.chart.append("g")
-			.attr("class", "y axis")
-			.call(options.income_axis);
-		d3.select(".y.axis")
-			.append("text")
-			.attr("text-anchor","middle")
-			.text(options.currentDataPoint.name)
-			.attr("transform", "rotate (270, 0, 0)")
-			.attr("x", -180)
-			.attr("y", -110);
-
 	}
 
 	mapTool.updateGraph = function (id, route) {
@@ -269,28 +210,88 @@
 			.transition()
 			.attr("r", 5);
 
-		var graphData = {};
-		g2 = d3.select("#chart")
-			.append("g")
-                var stops = objSort(route.stops);
-		var stop_scale = mapTool.stopScale(stops);
-		var income_scale = mapTool.incomeScale(stops);
-		$.each(stops, function(key, de) {
-			var data = mapTool.getCensusData(de.stop_lat, de.stop_lon, de.stop_name);
-			data.done(function(result) {
-				var graphData = {name: de.stop_name, data: result[1][0], color: de.route_color};
+		$('#graph .content').empty();
+		$('#graph .content').append('Loading...');
+    
+		// Graph.
+		var stops = objSort(route.stops);
+		var graphPromise = mapTool.getStopsData(stops);
+    graphPromise.then(function(results) {
+			$('#graph .content').empty();
+			options.chart_dimensions = { width: options.containerDimensions.width - options.chartMargins.left - options.chartMargins.right-20,
+								height: options.containerDimensions.height - options.chartMargins.top - options.chartMargins.bottom };
+			options.chart = d3.select("#graph .content")
+				.append("svg")
+				.attr("width", options.containerDimensions.width)
+				.attr("height", options.containerDimensions.height)
+				.append("g")
+				.attr("transform", "translate(" + options.chartMargins.left + "," + options.chartMargins.top + ")")
+				.attr("id","chart");
+
+			options.stop_scale = d3.scale.linear()
+				.range([0,options.chart_dimensions.width])
+				.domain([0, results.stops.length + 1]);
+
+			options.income_scale = d3.scale.linear()
+				.range([options.chart_dimensions.height, 0])
+				.domain([0, results.highest * 1.5]);
+
+			options.income_axis = d3.svg.axis()
+				.scale(options.income_scale)
+				.orient("left")
+				.tickValues([0, results.highest/4, results.highest/2, results.highest/1.5, results.highest])
+				.tickSize(-options.chart_dimensions.width, 0)
+				.tickPadding(20)
+				.tickFormat(function(d) { return d; });
+
+			//append the y axis
+			options.chart.append("g")
+				.attr("class", "y axis")
+				.call(options.income_axis);
+			d3.select(".y.axis")
+				.append("text")
+				.attr("text-anchor","middle")
+				.text(options.currentDataPoint.name)
+				.attr("transform", "rotate (270, 0, 0)")
+				.attr("x", -180)
+				.attr("y", -110);
+			$.each(stops, function(key, de) {
+
+				var graphData = {};
+				g2 = d3.select("#chart")
+					.append("g")
+				var graphData = {name: de.stop_name, data: de.data, color: de.route_color};
 				options.chart.append("circle")
 					.datum(graphData)
 					.transition()
 					.attr("r", 4)
 					.style("fill", function(d) {return '#' + d.color; })
-					.attr("cx", function(d) {return stop_scale(key + 1)})
+					.attr("cx", function(d) {return options.stop_scale(key)})
 					.attr("cy", function(d) {return options.income_scale(d.data)});
 				// TODO: Save data in array and check if data is already called. Check stop_scale to see longest # of stops to change dimension of graph
 				// TODO: change income scale
-			});
-
+				});
 		});
-
+    
 	}
+  mapTool.getStopsData = function(stops) {
+		var highest = "";
+		var total = 0;
+		var deferred = new $.Deferred();
+		$.each(stops, function(key, de) {
+			var data = mapTool.getCensusData(de.stop_lat, de.stop_lon, de.stop_name);
+			data.done(function(result) {
+				stops[key].data = result[1][0];
+				if (highest < parseFloat(result[1][0])) {
+					highest = result[1][0];
+				}
+				total = total + 1
+				if (stops.length == total) {
+					deferred.resolve({stops: stops, highest: highest});
+				}
+			});
+		});
+    return deferred.promise();
+  }
+
 })();

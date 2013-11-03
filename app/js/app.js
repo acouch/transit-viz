@@ -24,7 +24,17 @@ function CitiesCtrl($scope, $location) {
 		zoom: $scope.currentCity.zoom,
 		dataPath:  $scope.currentCity.dataPath,
 		currentDataPoint: $scope.currentDataPoint,
+// TODO: currentRoutes
 	});
+  
+  $scope.routeAdd = function(route) {
+    $("#" + route.id).addClass('active');
+		$location.path('/' + $scope.currentCity.value + '/' + $scope.currentDataPoint.value + '/' + route.id);
+			mapTool.activateRoute(route);
+			mapTool.updateGraph(route.id, route);
+  }
+
+	mapTool.execute();
 
 	// Respond to change in city or data point.
 	$scope.dataSelect = function() {
@@ -39,15 +49,20 @@ function CitiesCtrl($scope, $location) {
 		mapTool.execute();
 	};
 
-	// Respond to route click.
-	$scope.routeSelect = function() {
-	};
-
-	mapTool.execute();
 }
 // TODO:
-// 1) reload map with data
-// 2) save data and check if reclicked
-// - make routes ngclick 
-// - remove points for non-selected
+// GRAPH:
+// - break out income, demo, eth
+// - demo
+// - - female vs male
+// - - age total
+// - - age per gender
+// - x axis markers
 // - tooltips
+// MAP:
+// - size of dot based off relative size of result
+// - remove other dots 
+// TOOLTIP:
+// - show graph highlighted
+// STOP:
+// - click through to map, graphs for income, demo, eth
