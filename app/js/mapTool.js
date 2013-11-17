@@ -15,7 +15,7 @@
 		currentDataPoint: "",
 		dataPath: "",
 		containerDimensions: {width: 500, height: 400},
-				chartMargins: {top: 20, right: 20, bottom: 30, left: 118},
+				chartMargins: {top: 20, right: 20, bottom: 30, left: 110, buffer: 20},
 	}
 
 	mapTool.init = function(settings) {
@@ -205,22 +205,24 @@
 		// Update circle size. TODO: move
 		g.selectAll("circle")
 			.transition()
-			.attr("r", 2);
+			.attr("r", 5);
 		g.selectAll("circle.route_" + id)
 			.transition()
-			.attr("r", 5);
+			.attr("r", 10);
 
-		$('#graph .content').empty();
-		$('#graph .content').append('Loading...');
+		$('#graph').empty();
+		$('#graph').append('Loading...');
     
 		// Graph.
 		var stops = objSort(route.stops);
 		var graphPromise = mapTool.getStopsData(stops);
     graphPromise.then(function(results) {
-			$('#graph .content').empty();
-			options.chart_dimensions = { width: options.containerDimensions.width - options.chartMargins.left - options.chartMargins.right-20,
-								height: options.containerDimensions.height - options.chartMargins.top - options.chartMargins.bottom };
-			options.chart = d3.select("#graph .content")
+			$('#graph').empty();
+			options.chart_dimensions = { 
+				width: options.containerDimensions.width - options.chartMargins.left - options.chartMargins.right,
+				height: options.containerDimensions.height - options.chartMargins.top - options.chartMargins.bottom
+      };
+			options.chart = d3.select("#graph")
 				.append("svg")
 				.attr("width", options.containerDimensions.width)
 				.attr("height", options.containerDimensions.height)
@@ -228,48 +230,77 @@
 				.attr("transform", "translate(" + options.chartMargins.left + "," + options.chartMargins.top + ")")
 				.attr("id","chart");
 
-			options.stop_scale = d3.scale.linear()
-				.range([0,options.chart_dimensions.width])
-				.domain([0, results.stops.length + 1]);
-
+			// Create Y scale.
 			options.income_scale = d3.scale.linear()
 				.range([options.chart_dimensions.height, 0])
-				.domain([0, results.highest * 1.5]);
-
+				.domain([0, results.highest]);
+			// Create Y axis.
 			options.income_axis = d3.svg.axis()
 				.scale(options.income_scale)
 				.orient("left")
-				.tickValues([0, results.highest/4, results.highest/2, results.highest/1.5, results.highest])
-				.tickSize(-options.chart_dimensions.width, 0)
-				.tickPadding(20)
-				.tickFormat(function(d) { return d; });
-
-			//append the y axis
+				.tickPadding(5);
+			// Add Y axis.
 			options.chart.append("g")
 				.attr("class", "y axis")
 				.call(options.income_axis);
+			// Add Y label.
 			d3.select(".y.axis")
 				.append("text")
 				.attr("text-anchor","middle")
 				.text(options.currentDataPoint.name)
 				.attr("transform", "rotate (270, 0, 0)")
+				.attr("class", "title")
 				.attr("x", -180)
-				.attr("y", -110);
-			$.each(stops, function(key, de) {
+				.attr("y", -90);
 
+			// Create X scale.
+			options.stopScale = d3.scale.ordinal()
+				.rangeBands([0, options.chart_dimensions.width])
+				.domain(stops.map(function(d) { return d.stop_name; }));
+
+      // Create x axis.
+			options.stop_axis = d3.svg.axis()
+				.scale(options.stopScale)
+				.orient('bottom');
+
+			options.chart.append("g")
+				.attr("class", "x axis")
+				.attr({
+					"transform": "translate(0," + options.chart_dimensions.height + ")",
+				})
+				.call(options.stop_axis);
+
+			options.chart.selectAll(".x.axis text")
+				.attr({
+          style: {"text-anchor": "initial"},
+					transform: function (d) {
+						return "rotate(-90, -10, 5)";
+					}
+				});
+
+			// Add bars.
+			options.chart.selectAll(".bar")
+				.data(stops)
+				.enter().append("rect")
+				.attr("class", "bar")
+				.attr("x", function(d) { return options.stopScale(d.stop_name) + ((options.chart_dimensions.width/stops.length)*.25)/2})
+				.attr("y", function(d) { return options.income_scale(d.data);})
+				.style("fill", function(d) {return '#' + d.route_color; })
+				.style("opacity", ".5")
+				.attr("width", (options.chart_dimensions.width/stops.length)*.75)
+				.attr("height", function(d) { return options.chart_dimensions.height - options.income_scale(d.data)});
+
+			// Add circles.
+			$.each(stops, function(key, de) {
 				var graphData = {};
-				g2 = d3.select("#chart")
-					.append("g")
 				var graphData = {name: de.stop_name, data: de.data, color: de.route_color};
 				options.chart.append("circle")
 					.datum(graphData)
 					.transition()
-					.attr("r", 4)
+					.attr("r", 5)
 					.style("fill", function(d) {return '#' + d.color; })
-					.attr("cx", function(d) {return options.stop_scale(key)})
+					.attr("cx", function(d) {return options.stopScale(key) + ((options.chart_dimensions.width/stops.length)/2)})
 					.attr("cy", function(d) {return options.income_scale(d.data)});
-				// TODO: Save data in array and check if data is already called. Check stop_scale to see longest # of stops to change dimension of graph
-				// TODO: change income scale
 				});
 		});
     
@@ -282,6 +313,7 @@
 			var data = mapTool.getCensusData(de.stop_lat, de.stop_lon, de.stop_name);
 			data.done(function(result) {
 				stops[key].data = result[1][0];
+				// Could use d3.max at the end but we have to loop through data anyway.
 				if (highest < parseFloat(result[1][0])) {
 					highest = result[1][0];
 				}
