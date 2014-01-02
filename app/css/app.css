@@ -1,6 +1,8 @@
 /* app css stylesheet */
 body {
   padding: 5px;
+  margin-bottom: 10px;
+	background-color: #E2E2E2 !important;
 }
 .septa_route {stroke: gray; stroke-width:0px; fill-opacity:.5; opacity: 1}
 #tooltip {
@@ -20,15 +22,18 @@ body {
 	stroke: #000;
 	shape-rendering: crispEdges;
 }
+#routes ul {
+  padding: 0;
+}
 #routes li {
   padding: 5px;
   margin: 5px;
   border-radius: 5px;
   float: left;
   list-style: none;
-  opacity: .75;
   color: #FFF;
   cursor: pointer;
+	text-shadow: 1px 1px 0px #444;
 }
 #routes li.active {
   opacity: 1;
@@ -43,19 +48,21 @@ body {
 }
 #loading {
 	position: absolute;
-left: 250px; top: 200px;
+	left: 250px; top: 200px;
 }
 #graph {
   border: 1px solid #999;
+background-color: #FFF;
   padding: 10px;
 }
 #graph-container {
-  float: left;
   clear: both;
 }
 #map-container {
   clear: both;
-  float: left;
+}
+#routes {
+	margin-top: 60px;
 }
 #map {
   border: 1px solid #999;
@@ -63,7 +70,14 @@ left: 250px; top: 200px;
   height: 600px;
 }
 #map svg {
-position: absolute;
+	position: absolute;
 }
+.navbar-sm .navbar-primary .navbar { min-height:40px; border-bottom: 1px solid #999; background-color: #FFF;} 
+.navbar-sm .navbar-primary .navbar-text { margin: 11px 0 12px 10px; } 
+.navbar-sm .navbar-primary .navbar-text-sm { font-size: .9em; margin: 4px 9px; } 
+.navbar-sm .navbar-primary .form-control { font-size: .9em; height: 26px; padding: 3px 6px; } 
+.navbar-sm .navbar-primary .btn { font-size: .9em; padding: 3px 9px; margin: 0 5px; } 
+.navbar-sm .navbar-primary .navbar .navbar-brand{ padding: 12px 12px;font-size: 16px;line-height: 18px; } 
+.navbar-sm .navbar-primary .navbar .navbar-nav > li > a {  padding-top: 12px; padding-bottom: 12px; line-height: 20px; }
 
 

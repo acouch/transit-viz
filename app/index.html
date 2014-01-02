@@ -4,25 +4,45 @@
   <meta charset="utf-8">
   <title>Transit and Inequality Data Viz</title>
   <link rel="stylesheet" href="css/app.css"/>
+  <link rel="stylesheet" href="css/bootstrap-select.min.css"/>
 
   <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.6.2/leaflet.css" />
-  <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap-theme.min.css">
 </head>
 <body>
-	<div id="menu">
-		<div id="CitiesCtrl-div" ng-controller="CitiesCtrl">
-			<form ng-submit="dataSelect()">
-				Select a city:
-				<select ng-model="currentCity" ng-options="i.name for i in cities">
-					<option value="">Choose City</option>
-				</select>
-				Select a data point:
-				<select ng-model="currentDataPoint" ng-options="c.name for c in censusPoints"></select>
-				<input class="btn" type="submit" value="select" >
-			</form>
-			<div id="routes">
-				<h2>Routes</h2><ul><li ng-repeat="route in routes" id="{{route.id}}" style="background-color: #{{route.color}}" ng-click="routeAdd(route)">{{route.name}}</li</ul>
+	<div id="CitiesCtrl-div" ng-controller="CitiesCtrl">
+		<div class="navbar-sm">
+			<div class="navbar-primary">
+				<header class="navbar navbar-fixed-top bs-docs-nav" role="banner">
+					<div class="navbar-header">
+						<button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+					</div>
+					<nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+						<a class="navbar-brand" href="/">TransitViz</a>
+						<p class="navbar-text"><a href="#about">About</a></p>
+						<form ng-submit="dataSelect() "class="navbar-form navbar-left" role="search">
+							<p class="navbar-text navbar-text-sm">Select a city:</p>
+							<select class="navbar-left form-control" ng-model="currentCity" ng-options="i.name for i in cities">
+								<option value="">Choose City</option>
+							</select>
+							<p class="navbar-text navbar-text-sm">Select a data point:</p>
+							<select class="navbar-left form-control" ng-model="currentDataPoint" ng-options="c.name for c in censusPoints"></select>
+							<input class="btn navbar-btn" type="submit" value="select" >
+						</form>
+					</nav>
+				</header>
 			</div>
+		</div>
+		<div id="routes">
+			<h2>Routes</h2><ul><li ng-repeat="route in routes" id="{{route.id}}" class="btn" style="background-color: #{{route.color}}" ng-click="routeAdd(route)">{{route.name}}</li</ul>
 		</div>
 	</div>
 	<section class="body">
@@ -38,6 +58,7 @@
 	</section>
 
 	<script src="lib/jquery/jquery-1.10.1.min.js"></script>
+	<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
 	<script src="lib/leaflet/leaflet.js"></script>
 	<script src="lib/angular/angular.js"></script>
 	<script src="lib/d3/d3.v3.min.js"></script>
