@@ -8,9 +8,7 @@ function CitiesCtrl($scope, $location) {
 	$scope.censusPoints = censusPoints;
 	$scope.currentCity = $scope.cities[0];
 	$scope.currentDataPoint = $scope.censusPoints[4];
-  var width = $(window).width() - 50;
-  $('#map').width(width);
-  $('#graph').width(width);
+  var width = $(".col-md-10").width() - 50;
 
 	// Override defaults if path is set.
 	if ($location.$$path) {

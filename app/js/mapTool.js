@@ -15,7 +15,7 @@
 		currentDataPoint: "",
 		dataPath: "",
 		containerDimensions: {width: 500, height: 400},
-				chartMargins: {top: 20, right: 20, bottom: 30, left: 110, buffer: 20},
+		chartMargins: {top: 20, right: 20, bottom: 30, left: 110, buffer: 20},
 	}
 
 	mapTool.init = function(settings) {
@@ -211,7 +211,7 @@
 			.attr("r", 10);
 
 		$('#graph').empty();
-		$('#graph').append('Loading...');
+		$('#graph').append('<span class="glyphicon glyphicon-refresh"></span> Loading...');
     
 		// Graph.
 		var stops = objSort(route.stops);
@@ -305,6 +305,7 @@
 		});
     
 	}
+
   mapTool.getStopsData = function(stops) {
 		var highest = "";
 		var total = 0;

@@ -4,7 +4,6 @@
   <meta charset="utf-8">
   <title>Transit and Inequality Data Viz</title>
   <link rel="stylesheet" href="css/app.css"/>
-  <link rel="stylesheet" href="css/bootstrap-select.min.css"/>
 
   <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.6.2/leaflet.css" />
 	<!-- Latest compiled and minified CSS -->
@@ -41,26 +40,49 @@
 				</header>
 			</div>
 		</div>
-		<div id="routes">
-			<h2>Routes</h2><ul><li ng-repeat="route in routes" id="{{route.id}}" class="btn" style="background-color: #{{route.color}}" ng-click="routeAdd(route)">{{route.name}}</li</ul>
+		<div class="col-md-12">
+			<div class="row">
+				<div class="col-md-2" id="routes">
+					<h2>Routes</h2>
+					<div class="alert alert-dismissable">
+						<button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+						<span class="glyphicon glyphicon-info-sign"></span> Click route to access data.
+					</div>
+					<ul><li ng-repeat="route in routes" id="{{route.id}}" class="btn" style="background-color: #{{route.color}}" ng-click="routeAdd(route)">{{route.name}}</li</ul>
+				</div>
+				<section class="col-md-10 body">
+					<h2>Data</h2>
+					<ul class="nav nav-tabs">
+						<li class="active"><a href="#map-tab" data-toggle="tab">Map</a></li>
+						<li><a href="#graph-tab" data-toggle="tab">Graph</a></li>
+					</ul>
+					<div class="tab-content">
+						<div class="tab-pane active" id="map-tab">
+							<div id="map-container">
+								<div class="alert alert-dismissable">
+									<button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+									<span class="glyphicon glyphicon-info-sign"></span> Hover over route to reveal data for stop.
+								</div>
+								<div id="map"></div>
+							</div>
+						</div>
+						<div class="tab-pane" id="graph-tab">
+							<div id="graph-container">
+								<div id="graph"><span class="glyphicon glyphicon-info-sign"></span> Select a route above to graph data.</div>
+							 </div>
+						</div>
+					</div>
+					<div id="tooltip" style="display:none"></div>
+				</section>
+			</div>
 		</div>
 	</div>
-	<section class="body">
-		<div id="graph-container">
-			<h2>Graph</h2>
-			<div id="graph">Select a route above to graph data.</div>
-		 </div>
-		<div id="map-container">
-			<h2>Map</h2>
-			<div id="map"></div>
-		</div>
-		<div id="tooltip" style="display:none"></div>
-	</section>
 
 	<script src="lib/jquery/jquery-1.10.1.min.js"></script>
 	<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
 	<script src="lib/leaflet/leaflet.js"></script>
 	<script src="lib/angular/angular.js"></script>
+	<script src="lib/angular/angular-route.js"></script>
 	<script src="lib/d3/d3.v3.min.js"></script>
 	<script src="js/util.js"></script>
 	<script src="js/mapTool.js"></script>
