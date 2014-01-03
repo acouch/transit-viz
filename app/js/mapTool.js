@@ -14,6 +14,7 @@
 		mapDiv: "",
 		currentDataPoint: "",
 		dataPath: "",
+		currentRoute: "",
 		containerDimensions: {width: 500, height: 400},
 		chartMargins: {top: 20, right: 20, bottom: 30, left: 110, buffer: 20},
 	}
@@ -38,8 +39,8 @@
 		d3.csv(options.dataPath, function(error, stops_data) {
 			mapTool.addMapPoints(stops_data);
 			mapTool.centerMap();
-			mapTool.addRoutes(stops_data);
 			mapTool.mapPointsHover();
+			mapTool.addRoutes(stops_data);
 		});
 	}
 
@@ -169,9 +170,12 @@
 		});
     scope = angular.element($('#CitiesCtrl-div')).scope();
     scope.$apply(function() {
-        scope.routes = routes;
+			scope.routes = routes;
     }); 
-    
+    if (options.currentRoute) {
+			mapTool.activateRoute(routes[options.currentRoute]);
+			mapTool.updateGraph(options.currentRoute, routes[options.currentRoute]);
+    }
 	}
 
 	mapTool.activateRoute = function(route) {

@@ -1,55 +1,91 @@
 'use strict';
 
-angular.module('inequalityTransitMap', []);
-function CitiesCtrl($scope, $location) {
+var TransitVizApp = angular.module('inequalityTransitMap', ['ngRoute', 'transitVizControllers']);
 
-	// Set initial Defaults.
-	$scope.cities = cities;
-	$scope.censusPoints = censusPoints;
-	$scope.currentCity = $scope.cities[0];
-	$scope.currentDataPoint = $scope.censusPoints[4];
-  var width = $(".col-md-10").width() - 50;
+TransitVizApp.config(['$routeProvider',
+  function($routeProvider) {
+    $routeProvider.
+      when('/routes/:cityId/:censusId/:routeId', {
+				templateUrl: 'partials/viz.html',
+        controller: 'CitiesCtrl'
+      }).when('/routes/:cityId/:censusId', {
+				templateUrl: 'partials/viz.html',
+        controller: 'CitiesCtrl'
+      }).when('/about', {
+				templateUrl: 'partials/page.html',
+        controller: 'AboutCtrl'
+      }).otherwise({
+				templateUrl: 'partials/viz.html',
+        controller: 'CitiesCtrl'
+      });;
+  }]);
 
-	// Override defaults if path is set.
-	if ($location.$$path) {
-		var path = $location.$$path.split('/');
-		var cityKey = getKey($scope.cities, path[1]);
-		var censusKey = getKey(censusPoints, path[2]);
-		$scope.currentCity = $scope.cities[cityKey];
-		$scope.currentDataPoint = $scope.censusPoints[censusKey];
-	}
+var transitVizControllers = angular.module('transitVizControllers', []);
 
-	var map = mapTool.init({
-		lat: $scope.currentCity.lat,
-		lon: $scope.currentCity.lon,
-		zoom: $scope.currentCity.zoom,
-		dataPath:  $scope.currentCity.dataPath,
-		currentDataPoint: $scope.currentDataPoint,
-		containerDimensions: {width: width, height: 500},
-// TODO: currentRoutes
-	});
-  
-  $scope.routeAdd = function(route) {
-    $("#" + route.id).addClass('active');
-		$location.path('/' + $scope.currentCity.value + '/' + $scope.currentDataPoint.value + '/' + route.id);
-			mapTool.activateRoute(route);
-			mapTool.updateGraph(route.id, route);
-  }
+transitVizControllers.controller('AboutCtrl', ['$scope', 
+  function($scope) {
+		$('.page-body').text('This is a thing.');
+  }]);
 
-	mapTool.execute();
+transitVizControllers.controller('CitiesCtrl', ['$scope', '$location', '$routeParams', 
+  function($scope, $location, $routeParams) {
+		$('.nav-tabs a').click(function(e) {
+			e.preventDefault();
+		});
 
-	// Respond to change in city or data point.
-	$scope.dataSelect = function() {
-		$location.path('/' + $scope.currentCity.value + '/' + $scope.currentDataPoint.value);
-		mapTool.update({
+		// Set initial Defaults.
+		$scope.cities = cities;
+		$scope.censusPoints = censusPoints;
+		$scope.currentCity = $scope.cities[0];
+		$scope.currentDataPoint = $scope.censusPoints[2];
+		var width = $(".col-md-10").width() - 50;
+    
+		// Override defaults if path is set.
+    if ($routeParams.cityId) {
+			var cityKey = getKey($scope.cities, $routeParams.cityId);
+			$scope.currentCity = $scope.cities[cityKey];
+			var censusKey = getKey($scope.censusPoints, $routeParams.censusId);
+			$scope.currentDataPoint = $scope.censusPoints[censusKey];
+    }
+    if ($routeParams.routeId) {
+			$scope.currentRoute = $routeParams.routeId;
+    }
+		else {
+			$scope.currentRoute = "";
+    }
+
+		var map = mapTool.init({
 			lat: $scope.currentCity.lat,
 			lon: $scope.currentCity.lon,
 			zoom: $scope.currentCity.zoom,
 			dataPath:  $scope.currentCity.dataPath,
 			currentDataPoint: $scope.currentDataPoint,
+			containerDimensions: {width: width, height: 500},
+			currentRoute: $scope.currentRoute,
 		});
+		
+		$scope.routeAdd = function(route) {
+			$("#" + route.id).addClass('active');
+			$location.path('/routes/' + $scope.currentCity.value + '/' + $scope.currentDataPoint.value + '/' + route.id);
+		}
+
 		mapTool.execute();
-	};
+
+		// Respond to change in city or data point.
+		$scope.dataSelect = function() {
+			$location.path('/routes/' + $scope.currentCity.value + '/' + $scope.currentDataPoint.value);
+			mapTool.update({
+				lat: $scope.currentCity.lat,
+				lon: $scope.currentCity.lon,
+				zoom: $scope.currentCity.zoom,
+				dataPath:  $scope.currentCity.dataPath,
+				currentDataPoint: $scope.currentDataPoint,
+			});
+			mapTool.execute();
+		};
+  }]);
+
+function CitiesCtrl($scope, $location) {
 
 }
 // TODO:

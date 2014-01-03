@@ -4,6 +4,9 @@ body {
   margin-bottom: 10px;
 	background-color: #E2E2E2 !important;
 }
+.page-body {
+  margin-top: 50px;
+}
 .septa_route {stroke: gray; stroke-width:0px; fill-opacity:.5; opacity: 1}
 #tooltip {
 	position: absolute;
@@ -24,6 +27,13 @@ body {
 }
 #routes ul {
   padding: 0;
+  float: left;
+}
+.navbar-header {
+  float: right;
+}
+.navbar-toggle .icon-bar {
+  background-color: #333;
 }
 #routes li {
   padding: 5px;
@@ -99,3 +109,8 @@ padding-left: 5px;
 padding-bottom: 5px;
 margin-bottom: 5px;
 }
+.body .nav>li>a:hover,
+.body .nav>li>a:focus {
+  background-color: transparent;
+}
+
