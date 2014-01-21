@@ -27,6 +27,10 @@
 
 		var map = mapTool.createMap(options.lat, options.lon, cloudmade);
 		options.map = map;
+		$("g").remove();
+		var svg = d3.select("#map").select("svg"),
+			g = svg.append("g");
+		options.g = g;
 		return map;
 	}
 
@@ -37,9 +41,11 @@
 
 	mapTool.execute = function() {
 		d3.csv(options.dataPath, function(error, stops_data) {
-			mapTool.addMapPoints(stops_data);
-			mapTool.centerMap();
-			mapTool.mapPointsHover();
+			if (!options.currentRoute) {
+				mapTool.addMapPoints(stops_data);
+				mapTool.centerMap();
+				mapTool.mapPointsHover();
+			}			
 			mapTool.addRoutes(stops_data);
 		});
 	}
@@ -61,16 +67,15 @@
 	}
 
 	mapTool.addMapPoints = function(stops_data) {
-		$("g").remove();
-		var svg = d3.select("#map").select("svg"),
-			g = svg.append("g");
-		options.g = g;
-		var feature = g.selectAll("circles.points")
+
+		var feature = options.g.selectAll("circles.points")
 			.data(stops_data)
 			.enter()
 			.append("circle")
-			.attr("r",5)
+			.attr("r", 5)
 			.attr("class", function(d) { return "route_" + d.route_id;})
+			.attr("stop_id", function(d) { return d.stop_id;})
+			.attr("data", function(d) { return d.data;})
 			.attr("cx",function(d) { latLon = new L.LatLng(d.stop_lat, d.stop_lon); return options.map.latLngToLayerPoint(latLon).x})
 			.attr("cy",function(d) { latLon = new L.LatLng(d.stop_lat, d.stop_lon); return options.map.latLngToLayerPoint(latLon).y})
 			.attr("style", function(d) { return "fill: #" + d.route_color; });
@@ -122,44 +127,46 @@
 		g = d3.select("g");
 		g.selectAll("circle")
 			.on("mouseover", function(d) {
+				g.selectAll("circle").attr("class", "");
 				d3.select(this)
 					.transition()
 					.delay(250)
-					.attr("r", 8);
+					.attr("class", 'active');
 
-				var pageX = d3.event.pageX;
-				var pageY = d3.event.pageY;
+				var bound = this.getBoundingClientRect();
+				var offset = bound.width;
+				var top = bound.top - 11;
+				console.log(top);
+				console.log(bound.top);
+				console.log(offset);
+
 				d3.select("#tooltip")
-					.style("left", (pageX) + 20 + "px")
-					.style("top", (pageY) - 30 + "px")
+					.style("left", (bound.left) + offset + "px")
+					.style("top", (top) + "px")
 					.style("display", "block")
-					.transition()
-					.text(d.route_short_name + ': ' + d.stop_name + 'loading...');
+					.html('<div class="popover fade right in"><div class="arrow"></div><h3 class="popover-title">' + d.route_short_name + ': ' + d.stop_name + '</h3><button onclick="this.parentNode.parentNode.style.display = \'none\';" type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><div class="popover-content"><p><span class="glyphicon glyphicon-refresh"></span>  loading...</div></div>');
 
 					var data = mapTool.getCensusData(d.stop_lat, d.stop_lon);
 					data.done(function(data) {
 						d3.select("#tooltip")
-							.style("left", (pageX) + 20 + "px")
-							.style("top", (pageY) - 30 + "px")
+							.style("left", (bound.left) + offset + "px")
+							.style("top", top + "px")
 							.style("display", "block")
-							.transition()
-							.text(d.route_short_name + ': ' + d.stop_name + ' ' + options.currentDataPoint.name + ': ' + data[1][0]);
-
+							// This is lazy and bad. TODO: fix.
+							.html('<div class="popover fade right in"><div class="arrow"></div><h3 class="popover-title">' + d.route_short_name + ': ' + d.stop_name + '</h3><button onclick="this.parentNode.parentNode.style.display = \'none\';" type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><div class="popover-content"><p>' + options.currentDataPoint.name + ': <strong>' + data[1][0] + '</strong></div></div>');
 					});
 		});
+        $("button").click(function(){
+        	$(this).hide();
+        	console.log('wtf');
+        });
 
-		g.selectAll("circle")
-			.on("mouseout", function(d) {
-				d3.select(this)
-					.transition()
-					.attr("r", 5);
-				$('#tooltip').hide();
-		});
 	}
+
 
 	mapTool.addRoutes = function(stops_data) {
 		var routes = {};
-		// Lines
+		// Get the lines.
 		$.each(stops_data, function(key, value) {
 			if ( Object.prototype.toString.call( routes[value.route_id] ) === '[object Object]' ) {
 				routes[value.route_id].stops[value.stop_id] = value;
@@ -168,17 +175,62 @@
 				routes[value.route_id].stops[value.stop_id] = value;
 			}
 		});
-    scope = angular.element($('#CitiesCtrl-div')).scope();
-    scope.$apply(function() {
+		// Add routes to DOM.
+    	scope = angular.element($('#CitiesCtrl-div')).scope();
+    	scope.$apply(function() {
 			scope.routes = routes;
-    }); 
-    if (options.currentRoute) {
-			mapTool.activateRoute(routes[options.currentRoute]);
-			mapTool.updateGraph(options.currentRoute, routes[options.currentRoute]);
-    }
+    	});
+    	// 
+    	if (options.currentRoute) {
+    		$("#" + options.currentRoute).addClass('active');
+    		$('#graph').empty();
+			$('#graph').append('<span class="glyphicon glyphicon-refresh"></span> Loading...');
+			$('#map').append('<div id="map-load"><span class="glyphicon glyphicon-refresh"></span> Loading...</div>');
+
+    		var stops = objSort(routes[options.currentRoute].stops);
+			var graphPromise = mapTool.getStopsData(stops);
+    		graphPromise.then(function(results) {
+				mapTool.activateRoute(options.currentRoute, routes[options.currentRoute], results, stops_data);
+				mapTool.updateGraph(routes[options.currentRoute], results, stops);
+				mapTool.updatePointSize(options.currentRoute, results);
+				mapTool.mapPointsHover();
+				$("#map-load").hide();
+			});
+   		 }
 	}
 
-	mapTool.activateRoute = function(route) {
+	mapTool.updatePointSize = function(route, results) {
+		var pointsScale = d3.scale.linear()
+			.range([3, 12])
+			.domain([0, results.highest]);
+		var circleClass = '.route_' + route;
+
+		$(circleClass).each(function() {
+			var data = $(this).attr('data');
+			if (data) {
+			  var size = pointsScale (data);
+			}
+			else {
+				var size = 3;
+			}
+
+			$(this).attr('r', size);
+		});
+	}
+
+	mapTool.activateRoute = function(id, route, results, stops_data) {
+		
+	    var route_data = [];
+	   	var i = 0;
+		Object.keys(stops_data).forEach(function(key) {
+			if (stops_data[key].route_id == route.id) {
+				route_data[i] = stops_data[key];
+				i++;
+			}
+		});
+		mapTool.addMapPoints(route_data);
+		
+
 		var arrayOfLatLons = [];
 		var x = 0;
 		$.each(route.stops, function(key, value) {
@@ -205,112 +257,94 @@
 		return incomeScale;
 	}
 
-	mapTool.updateGraph = function (id, route) {
-		// Update circle size. TODO: move
-		g.selectAll("circle")
-			.transition()
-			.attr("r", 5);
-		g.selectAll("circle.route_" + id)
-			.transition()
-			.attr("r", 10);
-
+	mapTool.updateGraph = function (route, results, stops) {
 		$('#graph').empty();
-		$('#graph').append('<span class="glyphicon glyphicon-refresh"></span> Loading...');
-    
-		// Graph.
-		var stops = objSort(route.stops);
-		var graphPromise = mapTool.getStopsData(stops);
-    graphPromise.then(function(results) {
-			$('#graph').empty();
-			options.chart_dimensions = { 
-				width: options.containerDimensions.width - options.chartMargins.left - options.chartMargins.right,
-				height: options.containerDimensions.height - options.chartMargins.top - options.chartMargins.bottom
-      };
-			options.chart = d3.select("#graph")
-				.append("svg")
-				.attr("width", options.containerDimensions.width)
-				.attr("height", options.containerDimensions.height)
-				.append("g")
-				.attr("transform", "translate(" + options.chartMargins.left + "," + options.chartMargins.top + ")")
-				.attr("id","chart");
+		options.chart_dimensions = { 
+			width: options.containerDimensions.width - options.chartMargins.left - options.chartMargins.right,
+			height: options.containerDimensions.height - options.chartMargins.top - options.chartMargins.bottom
+  		};
+		options.chart = d3.select("#graph")
+			.append("svg")
+			.attr("width", options.containerDimensions.width)
+			.attr("height", options.containerDimensions.height)
+			.append("g")
+			.attr("transform", "translate(" + options.chartMargins.left + "," + options.chartMargins.top + ")")
+			.attr("id","chart");
 
-			// Create Y scale.
-			options.income_scale = d3.scale.linear()
-				.range([options.chart_dimensions.height, 0])
-				.domain([0, results.highest]);
-			// Create Y axis.
-			options.income_axis = d3.svg.axis()
-				.scale(options.income_scale)
-				.orient("left")
-				.tickPadding(5);
-			// Add Y axis.
-			options.chart.append("g")
-				.attr("class", "y axis")
-				.call(options.income_axis);
-			// Add Y label.
-			d3.select(".y.axis")
-				.append("text")
-				.attr("text-anchor","middle")
-				.text(options.currentDataPoint.name)
-				.attr("transform", "rotate (270, 0, 0)")
-				.attr("class", "title")
-				.attr("x", -180)
-				.attr("y", -90);
+		// Create Y scale.
+		options.income_scale = d3.scale.linear()
+			.range([options.chart_dimensions.height, 0])
+			.domain([0, results.highest]);
+		// Create Y axis.
+		options.income_axis = d3.svg.axis()
+			.scale(options.income_scale)
+			.orient("left")
+			.tickPadding(5);
+		// Add Y axis.
+		options.chart.append("g")
+			.attr("class", "y axis")
+			.call(options.income_axis);
+		// Add Y label.
+		d3.select(".y.axis")
+			.append("text")
+			.attr("text-anchor","middle")
+			.text(options.currentDataPoint.name)
+			.attr("transform", "rotate (270, 0, 0)")
+			.attr("class", "title")
+			.attr("x", -180)
+			.attr("y", -90);
 
-			// Create X scale.
-			options.stopScale = d3.scale.ordinal()
-				.rangeBands([0, options.chart_dimensions.width])
-				.domain(stops.map(function(d) { return d.stop_name; }));
+		// Create X scale.
+		options.stopScale = d3.scale.ordinal()
+			.rangeBands([0, options.chart_dimensions.width])
+			.domain(stops.map(function(d) { return d.stop_name; }));
 
-      // Create x axis.
-			options.stop_axis = d3.svg.axis()
-				.scale(options.stopScale)
-				.orient('bottom');
+ 		// Create x axis.
+		options.stop_axis = d3.svg.axis()
+			.scale(options.stopScale)
+			.orient('bottom');
 
-			options.chart.append("g")
-				.attr("class", "x axis")
-				.attr({
-					"transform": "translate(0," + options.chart_dimensions.height + ")",
-				})
-				.call(options.stop_axis);
+		options.chart.append("g")
+			.attr("class", "x axis")
+			.attr({
+				"transform": "translate(0," + options.chart_dimensions.height + ")",
+			})
+			.call(options.stop_axis);
 
-			options.chart.selectAll(".x.axis text")
-				.attr({
-          style: {"text-anchor": "initial"},
+		options.chart.selectAll(".x.axis text")
+			.attr({
+      			style: {"text-anchor": "initial"},
 					transform: function (d) {
-						return "rotate(-90, -10, 5)";
-					}
-				});
+					return "rotate(-90, -10, 5)";
+				}
+			});
+		// Add bars.
+		options.chart.selectAll(".bar")
+			.data(stops)
+			.enter().append("rect")
+			.attr("class", "bar")
+			.attr("x", function(d) { return options.stopScale(d.stop_name) + ((options.chart_dimensions.width/stops.length)*.25)/2})
+			.attr("y", function(d) { return options.income_scale(d.data);})
+			.style("fill", function(d) {return '#' + d.route_color; })
+			.style("opacity", ".5")
+			.attr("width", (options.chart_dimensions.width/stops.length)*.75)
+			.attr("height", function(d) { return options.chart_dimensions.height - options.income_scale(d.data)});
 
-			// Add bars.
-			options.chart.selectAll(".bar")
-				.data(stops)
-				.enter().append("rect")
-				.attr("class", "bar")
-				.attr("x", function(d) { return options.stopScale(d.stop_name) + ((options.chart_dimensions.width/stops.length)*.25)/2})
-				.attr("y", function(d) { return options.income_scale(d.data);})
-				.style("fill", function(d) {return '#' + d.route_color; })
-				.style("opacity", ".5")
-				.attr("width", (options.chart_dimensions.width/stops.length)*.75)
-				.attr("height", function(d) { return options.chart_dimensions.height - options.income_scale(d.data)});
-
-			// Add circles.
-			$.each(stops, function(key, de) {
-				var graphData = {};
-				var graphData = {name: de.stop_name, data: de.data, color: de.route_color};
-				options.chart.append("circle")
-					.datum(graphData)
-					.transition()
-					.attr("r", 5)
-					.style("fill", function(d) {return '#' + d.color; })
-					.attr("cx", function(d) {return options.stopScale(key) + ((options.chart_dimensions.width/stops.length)/2)})
-					.attr("cy", function(d) {return options.income_scale(d.data)});
-				});
-		});
-    
+		// Add circles.
+		$.each(stops, function(key, de) {
+			var graphData = {};
+			var graphData = {name: de.stop_name, data: de.data, color: de.route_color};
+			options.chart.append("circle")
+				.datum(graphData)
+				.transition()
+				.attr("r", 5)
+				.style("fill", function(d) {return '#' + d.color; })
+				.attr("cx", function(d) {return options.stopScale(key) + ((options.chart_dimensions.width/stops.length)/2)})
+				.attr("cy", function(d) {return options.income_scale(d.data)});
+			});
 	}
 
-  mapTool.getStopsData = function(stops) {
+  	mapTool.getStopsData = function(stops) {
 		var highest = "";
 		var total = 0;
 		var deferred = new $.Deferred();
@@ -328,7 +362,7 @@
 				}
 			});
 		});
-    return deferred.promise();
-  }
+    	return deferred.promise();
+  	}
 
 })();
