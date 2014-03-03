@@ -20,20 +20,14 @@ TransitVizApp.config(['$routeProvider',
       });;
   }]);
 
-transitVizControllers.controller('AboutCtrl', ['$scope', 
-  function($scope) {
-		$('.page-body').text('This is a thing.');
-  }]);
+var transitVizControllers = angular.module('transitVizControllers', []);
 
-transitVizControllers.controller('CitiesCtrl', ['$scope', 'Project','$location', '$routeParams', 
-  function($scope, Project, $location, $routeParams) {
+transitVizControllers.controller('CitiesCtrl', ['$scope', '$location', '$routeParams', 
+  function($scope, $location, $routeParams) {
   	$('.nav-tabs a').click(function(e) {
 		$("#tooltip").hide();
 		e.preventDefault();
 	});
-    console.log(Project);
-	//Project.saveOrUpdate('testsavecb', 'testupdatecb', 'errorSave', 'errorUpdate');
-	$scope.projects = Project.query();
 
 	// Set initial Defaults.
 	$scope.cities = cities;
