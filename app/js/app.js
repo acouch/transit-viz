@@ -1,6 +1,6 @@
 'use strict';
 
-var TransitVizApp = angular.module('inequalityTransitMap', ['ngRoute', 'mongolabResource', 'transitVizControllers']);
+var TransitVizApp = angular.module('inequalityTransitMap', ['ngRoute', 'transitVizControllers']);
 
 TransitVizApp.config(['$routeProvider',
   function($routeProvider) {
@@ -20,27 +20,6 @@ TransitVizApp.config(['$routeProvider',
       });;
   }]);
 
-  var app = angular.module('app', ['mongolabResource']);
-
- app.constant('API_KEY', 'naxmGGEcx2A5_rE1KAJRC0RiCZFyrc5s');
-        app.constant('DB_NAME', 'routes');
-
-        app.factory('Project', function ($mongolabResource) {
-            return $mongolabResource('projects');
-        });
-
-        app.controller('AppController', function ($scope, Project) {
-      console.log(Project);
-            $scope.projects = Project.query();
-        });
-
-var transitVizControllers = angular.module('transitVizControllers', ['mongolabResource']);
-
-transitVizControllers.constant('API_KEY', 'naxmGGEcx2A5_rE1KAJRC0RiCZFyrc5s');
-transitVizControllers.constant('DB_NAME', 'routes');
-transitVizControllers.factory('Project', function ($mongolabResource) {
-  return $mongolabResource('routes');
-});
 transitVizControllers.controller('AboutCtrl', ['$scope', 
   function($scope) {
 		$('.page-body').text('This is a thing.');
