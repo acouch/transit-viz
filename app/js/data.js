@@ -1,6 +1,8 @@
 var cities = [
 	{name:'Philadelphia', value:'phl', dataPath: 'data/septa_gtfs/routes_stops.csv', lon: '-75.205219', lat: '40.00061', zoom: '10' },
+	{name:'Philadelphia - bus', value:'phl-bus', dataPath: 'data/septa_bus_gtfs/routes_stops.csv', lon: '-75.205219', lat: '40.00061', zoom: '10' },
 	{name:'Puerto Rico', value:'pr', dataPath: 'data/pr_gtfs/routes_stops.csv', lon: '-66.590149', lat: '18.220833', zoom: '10' },
+	{name:'Tucson', value:'tucson', dataPath: 'data/tucson_gtfs/routes_stops.csv', lon: '-110.977224', lat: '32.216585', zoom: '10' },
 	{name:'Madison', value:'mds', dataPath: 'data/madison_gtfs/routes_stops.csv', lon: '-89.4011', lat: '43.0731', zoom: '12'},]
 
 var censusPoints = [

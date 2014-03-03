@@ -1,6 +1,6 @@
 'use strict';
 
-var TransitVizApp = angular.module('inequalityTransitMap', ['ngRoute', 'transitVizControllers']);
+var TransitVizApp = angular.module('inequalityTransitMap', ['ngRoute', 'mongolabResource', 'transitVizControllers']);
 
 TransitVizApp.config(['$routeProvider',
   function($routeProvider) {
@@ -20,19 +20,41 @@ TransitVizApp.config(['$routeProvider',
       });;
   }]);
 
-var transitVizControllers = angular.module('transitVizControllers', []);
+  var app = angular.module('app', ['mongolabResource']);
 
+ app.constant('API_KEY', 'naxmGGEcx2A5_rE1KAJRC0RiCZFyrc5s');
+        app.constant('DB_NAME', 'routes');
+
+        app.factory('Project', function ($mongolabResource) {
+            return $mongolabResource('projects');
+        });
+
+        app.controller('AppController', function ($scope, Project) {
+      console.log(Project);
+            $scope.projects = Project.query();
+        });
+
+var transitVizControllers = angular.module('transitVizControllers', ['mongolabResource']);
+
+transitVizControllers.constant('API_KEY', 'naxmGGEcx2A5_rE1KAJRC0RiCZFyrc5s');
+transitVizControllers.constant('DB_NAME', 'routes');
+transitVizControllers.factory('Project', function ($mongolabResource) {
+  return $mongolabResource('routes');
+});
 transitVizControllers.controller('AboutCtrl', ['$scope', 
   function($scope) {
 		$('.page-body').text('This is a thing.');
   }]);
 
-transitVizControllers.controller('CitiesCtrl', ['$scope', '$location', '$routeParams', 
-	function($scope, $location, $routeParams) {
+transitVizControllers.controller('CitiesCtrl', ['$scope', 'Project','$location', '$routeParams', 
+  function($scope, Project, $location, $routeParams) {
   	$('.nav-tabs a').click(function(e) {
 		$("#tooltip").hide();
 		e.preventDefault();
 	});
+    console.log(Project);
+	//Project.saveOrUpdate('testsavecb', 'testupdatecb', 'errorSave', 'errorUpdate');
+	$scope.projects = Project.query();
 
 	// Set initial Defaults.
 	$scope.cities = cities;
