@@ -2,6 +2,7 @@
 import re
 import csv
 import MySQLdb
+import pprint
 database = 'gtfs'
 dbHost = 'localhost'
 dbUser = 'root'
@@ -70,19 +71,32 @@ def executeQuery(conn, query):
   cur.close()
   return rows
 
-def export():
+def routes():
   sql = "SELECT DISTINCT route_id FROM trips;"
   routes = executeQuery(gtfs, sql)
+  return routes
+
+def stops(day):
+  routes = routes();
   result = [('stop_id', 'stop_name', 'stop_lat', 'stop_lon', 'route_short_name', 'route_id', 'route_color', 'route_text_color', 'stop_sequence')]
   for route in routes:
     # I want to graph this along the route. There is no list of
     # official stops along routes. This picks the first trip on
-    # a Monday as the best guess as to when a trip will be full.
-    sql = "SELECT trip_id FROM trips JOIN calendar ON trips.service_id = calendar.service_id WHERE route_id = '%s' AND monday = 1 LIMIT 1;" % route
+    # a "day" as the best guess as to when a trip will be full.
+    sql = "SELECT trip_id FROM trips JOIN calendar ON trips.service_id = calendar.service_id WHERE route_id = '%s' AND day = 1 LIMIT 1;" % route
     tripID = executeQuery(gtfs, sql)
     print "Exporting route: %s" % route
     sql = "SELECT stops.stop_id stop_id, stops.stop_name, stops.stop_lat, stops.stop_lon, routes.route_short_name, routes.route_id, routes.route_color, routes.route_text_color, stop_sequence FROM stop_times JOIN stops ON stop_times.stop_id = stops.stop_id JOIN trips ON stop_times.trip_id = trips.trip_id JOIN routes ON routes.route_id = trips.route_id  WHERE stop_times.trip_id = '%s' ORDER BY stop_sequence ASC;" % tripID[0]
     result += executeQuery(gtfs, sql)
+  return result
+
+def fip(routes):
+  for route in routes:
+    pprint.pprint(route)
+    
+
+def export():
+  result = stops('monday')
   fp = open('routes_stops.csv', 'a')
   file = csv.writer(fp)
   file.writerows(result)
