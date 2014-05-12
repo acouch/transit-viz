@@ -22,10 +22,15 @@
 	mapTool.init = function(settings) {
 		// Options.
 		options = $.extend(mapTool.settings, settings);
-		var cloudmadeUrl = options.cloudmadeUrl,
-			cloudmade = new L.TileLayer(cloudmadeUrl, {maxZoom: options.cloudmadeZoom, attribution: options.cloudmadeAttribution});
 
-		var map = mapTool.createMap(options.lat, options.lon, cloudmade);
+        var openStreetMap = L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+            });
+        var mapboxTiles = L.tileLayer('https://{s}.tiles.mapbox.com/v3/acouch1.i6npjkea/{z}/{x}/{y}.png', {
+            attribution: '<a href="http://www.mapbox.com/about/maps/" target="_blank">Terms &amp; Feedback</a>'
+        });
+
+		var map = mapTool.createMap(options.lat, options.lon, mapboxTiles);
 		options.map = map;
 		$("g").remove();
 		var svg = d3.select("#map").select("svg"),
