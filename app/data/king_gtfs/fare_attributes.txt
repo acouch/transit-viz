@@ -1,0 +1,6 @@
+fare_id,agency_id,price,descriptions,currency_type,payment_method,transfers,transfer_duration
+1,"KCM",2.75,"MetroOneZonePeak","USD",0,,5400
+5,"KCM",3.25,"MetroTwoZonePeak","USD",0,,5400
+6,"KCM",3.25,"MetroTwoZonePeak","USD",1,,5400
+19,"ST",1.75,"LLR$1.75","USD",0,0,0
+20,"ST",2,"LLR$2.00","USD",0,0,0
