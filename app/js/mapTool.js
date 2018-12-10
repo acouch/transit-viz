@@ -94,7 +94,7 @@
 	}
 
 	mapTool.getCensusData = function(lat, lon, stopName) {
-		var fccUrl = "http://data.fcc.gov/api/block/find?format=jsonp&latitude=" + lat + "&longitude=" + lon + "&callback=?";
+		var fccUrl = "https://geo.fcc.gov/api/census/block/find?format=jsonp&latitude=" + lat + "&longitude=" + lon + "&callback=?";
 		var fccPromise = $.ajax({
 		    type: 'GET',
 		    url: fccUrl,
