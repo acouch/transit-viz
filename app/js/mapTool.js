@@ -22,7 +22,6 @@
   mapTool.init = function(settings) {
     // Options.
     options = $.extend(mapTool.settings, settings);
-
         var openStreetMap = L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
             attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
             });
@@ -108,7 +107,7 @@
       var stateFip = FIPS.substring(0,2);
       var countyFip = FIPS.substring(2,5);
       var tractFip = FIPS.substring(5,11);
-      var censusUrl = 'http://api.census.gov/data/2011/acs5?key=' + options.censusToken + '&get=' + options.currentDataPoint.value + ',NAME&for=block+group:1&in=state:' + stateFip + '+county:' + countyFip + '+tract:' + tractFip;
+      var censusUrl = 'http://api.census.gov/data/2015/acs5?key=' + options.censusToken + '&get=' + options.currentDataPoint.value + ',NAME&for=block+group:1&in=state:' + stateFip + '+county:' + countyFip + '+tract:' + tractFip;
       var censusPromise = $.ajax({
         type: 'GET',
         url: censusUrl,
