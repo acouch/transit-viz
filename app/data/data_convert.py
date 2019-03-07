@@ -77,13 +77,13 @@ def routes():
   return routes
 
 def stops(day):
-  routes = routes();
+  dayRoutes = routes();
   result = [('stop_id', 'stop_name', 'stop_lat', 'stop_lon', 'route_short_name', 'route_id', 'route_color', 'route_text_color', 'stop_sequence')]
-  for route in routes:
+  for route in dayRoutes:
     # I want to graph this along the route. There is no list of
     # official stops along routes. This picks the first trip on
     # a "day" as the best guess as to when a trip will be full.
-    sql = "SELECT trip_id FROM trips JOIN calendar ON trips.service_id = calendar.service_id WHERE route_id = '%s' AND day = 1 LIMIT 1;" % route
+    sql = "SELECT trip_id FROM trips JOIN calendar ON trips.service_id = calendar.service_id WHERE route_id = '%s' AND monday = 1 LIMIT 1;" % route
     tripID = executeQuery(gtfs, sql)
     print "Exporting route: %s" % route
     sql = "SELECT stops.stop_id stop_id, stops.stop_name, stops.stop_lat, stops.stop_lon, routes.route_short_name, routes.route_id, routes.route_color, routes.route_text_color, stop_sequence FROM stop_times JOIN stops ON stop_times.stop_id = stops.stop_id JOIN trips ON stop_times.trip_id = trips.trip_id JOIN routes ON routes.route_id = trips.route_id  WHERE stop_times.trip_id = '%s' ORDER BY stop_sequence ASC;" % tripID[0]
@@ -102,7 +102,7 @@ def export():
   file.writerows(result)
   fp.close()
 
-createDatabase(dbHost, dbUser, dbPass, database)
+#createDatabase(dbHost, dbUser, dbPass, database)
 
 gtfs = MySQLdb.connect(host=dbHost,
     user=dbUser,
@@ -111,8 +111,8 @@ gtfs = MySQLdb.connect(host=dbHost,
 
 cursor = gtfs.cursor()
 
-insertData(tables)
-cleanUpTables()
+#insertData(tables)
+#cleanUpTables()
 export()
 cursor.close()
 #destroyDatabase()
