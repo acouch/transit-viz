@@ -10,7 +10,7 @@
 		lat: "95",
 		lon: "43",
 		zoom: 5,
-		censusToken: 'f5bd9c51b563f034639bab7be5bb546c1b456cdc',
+		censusToken: 'b9492c584d1fe26d8727d2e96a84e0689a827cf6',
 		mapDiv: "",
 		currentDataPoint: "",
 		dataPath: "",
@@ -23,14 +23,7 @@
 		// Options.
 		options = $.extend(mapTool.settings, settings);
 
-        var openStreetMap = L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
-            attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
-            });
-        var mapboxTiles = L.tileLayer('https://{s}.tiles.mapbox.com/v3/acouch1.i6npjkea/{z}/{x}/{y}.png', {
-            attribution: '<a href="http://www.mapbox.com/about/maps/" target="_blank">Terms &amp; Feedback</a>'
-        });
-
-		var map = mapTool.createMap(options.lat, options.lon, mapboxTiles);
+		var map = mapTool.createMap(options.lat, options.lon);
 		options.map = map;
 		$("g").remove();
 		var svg = d3.select("#map").select("svg"),
@@ -62,12 +55,12 @@
 	}
 
 	mapTool.createMap = function(lat, lon, cloudmade) {
-		var map = new L.Map('map', {
-			center: new L.LatLng(options.lat, options.lon),
-			zoom: options.zoom,
-			layers: [cloudmade]
-		});
-		map._initPathRoot();
+		L.mapbox.accessToken = 'pk.eyJ1IjoiYWNvdWNoMSIsImEiOiJDTy0zMFJrIn0.hewU0mOW08Wm5-0-Qr8TpQ';
+		var map = L.mapbox.map('map')
+				.setView([40, -74.50], 10)
+				.addLayer(L.mapbox.styleLayer('mapbox://styles/mapbox/streets-v11'));
+		L.svg().addTo(map);
+
 		return map;
 	}
 
@@ -90,17 +83,17 @@
 			feature.attr("cx",function(d) { latLon = new L.LatLng(d.stop_lat, d.stop_lon); return options.map.latLngToLayerPoint(latLon).x})
 			feature.attr("cy",function(d) { latLon = new L.LatLng(d.stop_lat, d.stop_lon); return options.map.latLngToLayerPoint(latLon).y})
 		}
-		attach();
+		//attach();
 	}
 
 	mapTool.getCensusData = function(lat, lon, stopName) {
-		var fccUrl = "http://data.fcc.gov/api/block/find?format=jsonp&latitude=" + lat + "&longitude=" + lon + "&callback=?";
+		var fccUrl = "https://geo.fcc.gov/api/census/block/find?format=json&latitude=" + lat + "&longitude=" + lon + "&censusYear=2020";
 		var fccPromise = $.ajax({
 		    type: 'GET',
 		    url: fccUrl,
 		    dataType: 'json',
 		    data: {},
-		    async: false,
+		    async: true,
 		});
 		var dff = $.Deferred();
 		fccPromise.then(function(results) {
@@ -108,13 +101,13 @@
 			var stateFip = FIPS.substring(0,2);
 			var countyFip = FIPS.substring(2,5);
 			var tractFip = FIPS.substring(5,11);
-			var censusUrl = 'http://api.census.gov/data/2011/acs5?key=' + options.censusToken + '&get=' + options.currentDataPoint.value + ',NAME&for=block+group:1&in=state:' + stateFip + '+county:' + countyFip + '+tract:' + tractFip;
+			var censusUrl = 'https://api.census.gov/data/2019/acs/acs5/profile?get=NAME,' + options.currentDataPoint.value + '&for=tract:' + tractFip + '&in=state:' + stateFip + ' county:' + countyFip + '&key=' + options.censusToken;
 			var censusPromise = $.ajax({
 				type: 'GET',
 				url: censusUrl,
 				dataType: 'json',
 				data: {},
-				async: false,
+				async: true,
 			});
 			censusPromise.then(function(data) {
 				dff.resolve(data);
@@ -141,10 +134,6 @@
 				var bound = this.getBoundingClientRect();
 				var offset = bound.width;
 				var top = bound.top - 11;
-				console.log(top);
-				console.log(bound.top);
-				console.log(offset);
-
 				d3.select("#tooltip")
 					.style("left", (bound.left) + offset + "px")
 					.style("top", (top) + "px")
@@ -158,12 +147,11 @@
 							.style("top", top + "px")
 							.style("display", "block")
 							// This is lazy and bad. TODO: fix.
-							.html('<div class="popover fade right in"><div class="arrow"></div><h3 class="popover-title">' + d.route_short_name + ': ' + d.stop_name + '</h3><button onclick="this.parentNode.parentNode.style.display = \'none\';" type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><div class="popover-content"><p>' + options.currentDataPoint.name + ': <strong>' + data[1][0] + '</strong></div></div>');
+							.html('<div class="popover fade right in"><div class="arrow"></div><h3 class="popover-title">' + d.route_short_name + ': ' + d.stop_name + '</h3><button onclick="this.parentNode.parentNode.style.display = \'none\';" type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><div class="popover-content"><p>' + options.currentDataPoint.name + ': <strong>' + data[1][1] + '</strong></div></div>');
 					});
 		});
         $("button").click(function(){
         	$(this).hide();
-        	console.log('wtf');
         });
 
 	}
@@ -189,19 +177,19 @@
     	if (options.currentRoute) {
     		$("#" + options.currentRoute).addClass('active');
     		$('#graph').empty();
-			$('#graph').append('<span class="glyphicon glyphicon-refresh"></span> Loading...');
-			$('#map').append('<div id="map-load"><span class="glyphicon glyphicon-refresh"></span> Loading...</div>');
+				$('#graph').append('<span class="glyphicon glyphicon-refresh"></span> Loading...');
+				$('#map').append('<div id="map-load"><span class="glyphicon glyphicon-refresh"></span> Loading...</div>');
 
     		var stops = objSort(routes[options.currentRoute].stops);
-			var graphPromise = mapTool.getStopsData(stops);
-    		graphPromise.then(function(results) {
-				mapTool.activateRoute(options.currentRoute, routes[options.currentRoute], results, stops_data);
-				mapTool.updateGraph(routes[options.currentRoute], results, stops);
-				mapTool.updatePointSize(options.currentRoute, results);
-				mapTool.mapPointsHover();
-				$("#map-load").hide();
-			});
-   		 }
+				var graphPromise = mapTool.getStopsData(stops);
+				graphPromise.then(function(results) {
+					mapTool.activateRoute(options.currentRoute, routes[options.currentRoute], results, stops_data);
+					mapTool.updateGraph(routes[options.currentRoute], results, stops);
+					mapTool.updatePointSize(options.currentRoute, results);
+					mapTool.mapPointsHover();
+					$("#map-load").hide();
+				});
+			}
 	}
 
 	mapTool.updatePointSize = function(route, results) {
@@ -337,7 +325,6 @@
 
 		// Add circles.
 		$.each(stops, function(key, de) {
-			var graphData = {};
 			var graphData = {name: de.stop_name, data: de.data, color: de.route_color};
 			options.chart.append("circle")
 				.datum(graphData)
@@ -356,10 +343,14 @@
 		$.each(stops, function(key, de) {
 			var data = mapTool.getCensusData(de.stop_lat, de.stop_lon, de.stop_name);
 			data.done(function(result) {
-				stops[key].data = result[1][0];
+				let data = 0;
+				if (result) {
+					data = result[1][1];
+				}
+				stops[key].data = data;
 				// Could use d3.max at the end but we have to loop through data anyway.
-				if (highest < parseFloat(result[1][0])) {
-					highest = result[1][0];
+				if (highest < parseFloat(data)) {
+					highest = data;
 				}
 				total = total + 1
 				if (stops.length == total) {
