@@ -99,7 +99,8 @@ background-color: #FFF;
 	border: 1px solid #CCC;
 }
 #map svg {
-	position: absolute;
+  position: absolute;
+  pointer-events: auto !important;
 }
 .navbar-sm .navbar-primary .navbar { min-height:40px; border-bottom: 1px solid #999; background-color: #FFF;} 
 .navbar-sm .navbar-primary .navbar-text { margin: 11px 0 12px 10px; } 
@@ -137,5 +138,8 @@ margin-bottom: 5px;
 circle.active {
   opacity: .75;
   stroke: black;
+}
+circle:hover {
+  cursor: pointer;
 }
 

@@ -4,11 +4,6 @@
 	mapTool = {};
 
 	mapTool.settings = {
-		cloudmadeUrl: "http://{s}.tile.cloudmade.com/8bf54bcb5ac74cd09f90e4705fcbf200/102295/256/{z}/{x}/{y}.png",
-		cloudmadeZoom: "18",
-		cloudmadeAttribution: 'Map data &copy; 2011 OpenStreetMap contributors, Imagery &copy; 2011 CloudMade',
-		lat: "95",
-		lon: "43",
 		zoom: 5,
 		censusToken: 'b9492c584d1fe26d8727d2e96a84e0689a827cf6',
 		mapDiv: "",
@@ -33,8 +28,7 @@
 	}
 
 	mapTool.update = function(updates) {
-		options = $.extend(options, updates);
-    
+		options = $.extend(options, updates);  
 	}
 
 	mapTool.execute = function() {
@@ -57,8 +51,8 @@
 	mapTool.createMap = function(lat, lon, cloudmade) {
 		L.mapbox.accessToken = 'pk.eyJ1IjoiYWNvdWNoMSIsImEiOiJDTy0zMFJrIn0.hewU0mOW08Wm5-0-Qr8TpQ';
 		var map = L.mapbox.map('map')
-				.setView([40, -74.50], 10)
-				.addLayer(L.mapbox.styleLayer('mapbox://styles/mapbox/streets-v11'));
+				.setView([lat, lon], 10)
+				.addLayer(L.mapbox.styleLayer('mapbox://styles/acouch1/cl0n771pp002415r041gj0d8p'));
 		L.svg().addTo(map);
 
 		return map;
@@ -78,12 +72,13 @@
 			.attr("cy",function(d) { latLon = new L.LatLng(d.stop_lat, d.stop_lon); return options.map.latLngToLayerPoint(latLon).y})
 			.attr("style", function(d) { return "fill: #" + d.route_color; });
 
-		options.map.on("viewreset", attach);
+		options.map.on("zoom", attach);
+
 		function attach() {
 			feature.attr("cx",function(d) { latLon = new L.LatLng(d.stop_lat, d.stop_lon); return options.map.latLngToLayerPoint(latLon).x})
 			feature.attr("cy",function(d) { latLon = new L.LatLng(d.stop_lat, d.stop_lon); return options.map.latLngToLayerPoint(latLon).y})
 		}
-		//attach();
+		attach();
 	}
 
 	mapTool.getCensusData = function(lat, lon, stopName) {
@@ -133,7 +128,8 @@
 
 				var bound = this.getBoundingClientRect();
 				var offset = bound.width;
-				var top = bound.top - 11;
+				var scrollTop = (window.pageYOffset !== undefined) ? window.pageYOffset : (document.documentElement || document.body.parentNode || document.body).scrollTop
+				var top = bound.top + scrollTop - 11;
 				d3.select("#tooltip")
 					.style("left", (bound.left) + offset + "px")
 					.style("top", (top) + "px")
@@ -142,20 +138,20 @@
 
 					var data = mapTool.getCensusData(d.stop_lat, d.stop_lon);
 					data.done(function(data) {
+						var res = data ? data[1][1] : "No data";
 						d3.select("#tooltip")
 							.style("left", (bound.left) + offset + "px")
 							.style("top", top + "px")
 							.style("display", "block")
 							// This is lazy and bad. TODO: fix.
-							.html('<div class="popover fade right in"><div class="arrow"></div><h3 class="popover-title">' + d.route_short_name + ': ' + d.stop_name + '</h3><button onclick="this.parentNode.parentNode.style.display = \'none\';" type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><div class="popover-content"><p>' + options.currentDataPoint.name + ': <strong>' + data[1][1] + '</strong></div></div>');
+							.html('<div class="popover fade right in"><div class="arrow"></div><h3 class="popover-title">' + d.route_short_name + ': ' + d.stop_name + '</h3><button onclick="this.parentNode.parentNode.style.display = \'none\';" type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><div class="popover-content"><p>' + options.currentDataPoint.name + ': <strong>' + res + '</strong></div></div>');
 					});
 		});
-        $("button").click(function(){
-        	$(this).hide();
-        });
+		$("button").click(function(){
+			$(this).hide();
+		});
 
 	}
-
 
 	mapTool.addRoutes = function(stops_data) {
 		var routes = {};
@@ -171,7 +167,7 @@
 		// Add routes to DOM.
     	scope = angular.element($('#CitiesCtrl-div')).scope();
     	scope.$apply(function() {
-			scope.routes = routes;
+				scope.routes = routes;
     	});
     	// 
     	if (options.currentRoute) {
