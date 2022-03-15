@@ -6,6 +6,7 @@ var cities = [
 	{name:'Minneapolis', value:'msp', dataPath: 'data/msp_gtfs/routes_stops.csv', lon: '-93.266670', lat: '44.983334', zoom: '10' },
 	{name:'Madison', value:'mds', dataPath: 'data/madison_gtfs/routes_stops.csv', lon: '-89.4011', lat: '43.0731', zoom: '12'},
 	{name:'BART', value:'bart', dataPath: 'data/bart_gtfs/routes_stops.csv', lon: '-122.431297', lat: '37.773972', zoom: '12'},
+	{name:'AC Transit', value:'actransit', dataPath: 'data/ac_transit/routes_stops.csv', lon: '-122.156830', lat: '37.725685', zoom: '13'},
 	{name:'Seattle', value:'king', dataPath: 'data/king_gtfs/routes_stops.csv', lon: '-122.3331', lat: '47.6097', zoom: '11'},]
 
 var censusPoints = [

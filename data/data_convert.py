@@ -98,10 +98,14 @@ def fip(routes):
     
 def export():
   result = stops('monday')
-  fp = open(folder + './routes_stops.csv', 'a')
+  fp = open(folder + '/routes_stops.csv', 'a')
   file = csv.writer(fp)
   file.writerows(result)
   fp.close()
+
+def destroyDatabase():
+  sql = "DROP DATABASE %s" % (database)
+  executeQuery(gtfs, sql)
 
 createDatabase(dbHost, dbUser, dbPass, database)
 
