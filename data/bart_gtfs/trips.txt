@@ -1,0 +1,2556 @@
+route_id,service_id,trip_id,trip_headsign,direction_id,block_id,shape_id,trip_load_information,wheelchair_accessible,bikes_allowed
+5,2022_02_14-DX-MVS-Weekday-02,1001860,Daly City,1,,1001860_shp,,1,1
+6,2022_02_14-DX-MVS-Weekday-02,1001614,Berryessa/North San Jose,0,,1001614_shp,,1,1
+5,2022_02_14-DX-MVS-Weekday-02,1009562,Daly City,1,,1009562_shp,,1,1
+6,2022_02_14-DX-MVS-Weekday-02,1009530,Berryessa/North San Jose,0,,1009530_shp,,1,1
+5,2022_02_14-DX-MVS-Weekday-02,1001808,Daly City,1,,1001860_shp,,1,1
+6,2022_02_14-DX-MVS-Weekday-02,1001626,Berryessa/North San Jose,0,,1009530_shp,,1,1
+5,2022_02_14-DX-MVS-Weekday-02,1001809,Daly City,1,,1001860_shp,,1,1
+6,2022_02_14-DX-MVS-Weekday-02,1001625,Berryessa/North San Jose,0,,1009530_shp,,1,1
+5,2022_02_14-DX-MVS-Weekday-02,1001810,Daly City,1,,1001860_shp,,1,1
+6,2022_02_14-DX-MVS-Weekday-02,1001628,Berryessa/North San Jose,0,,1009530_shp,,1,1
+5,2022_02_14-DX-MVS-Weekday-02,1001811,Daly City,1,,1001860_shp,,1,1
+6,2022_02_14-DX-MVS-Weekday-02,1001627,Berryessa/North San Jose,0,,1009530_shp,,1,1
+5,2022_02_14-DX-MVS-Weekday-02,1001812,Daly City,1,,1001860_shp,,1,1
+6,2022_02_14-DX-MVS-Weekday-02,1001633,Berryessa/North San Jose,0,,1009530_shp,,1,1
+5,2022_02_14-DX-MVS-Weekday-02,1001813,Daly City,1,,1001860_shp,,1,1
+6,2022_02_14-DX-MVS-Weekday-02,1001629,Berryessa/North San Jose,0,,1009530_shp,,1,1
+5,2022_02_14-DX-MVS-Weekday-02,1001814,Daly City,1,,1001860_shp,,1,1
+6,2022_02_14-DX-MVS-Weekday-02,1001622,Berryessa/North San Jose,0,,1009530_shp,,1,1
+5,2022_02_14-DX-MVS-Weekday-02,1001815,Daly City,1,,1001860_shp,,1,1
+6,2022_02_14-DX-MVS-Weekday-02,1001615,Berryessa/North San Jose,0,,1009530_shp,,1,1
+5,2022_02_14-DX-MVS-Weekday-02,1001816,Daly City,1,,1001860_shp,,1,1
+6,2022_02_14-DX-MVS-Weekday-02,1001618,Berryessa/North San Jose,0,,1009530_shp,,1,1
+5,2022_02_14-DX-MVS-Weekday-02,1001817,Daly City,1,,1001860_shp,,1,1
+6,2022_02_14-DX-MVS-Weekday-02,1001617,Berryessa/North San Jose,0,,1009530_shp,,1,1
+5,2022_02_14-DX-MVS-Weekday-02,1001818,Daly City,1,,1001860_shp,,1,1
+6,2022_02_14-DX-MVS-Weekday-02,1001632,Berryessa/North San Jose,0,,1009530_shp,,1,1
+5,2022_02_14-DX-MVS-Weekday-02,1001819,Daly City,1,,1001860_shp,,1,1
+6,2022_02_14-DX-MVS-Weekday-02,1001624,Berryessa/North San Jose,0,,1009530_shp,,1,1
+5,2022_02_14-DX-MVS-Weekday-02,1001820,Daly City,1,,1001860_shp,,1,1
+6,2022_02_14-DX-MVS-Weekday-02,1001619,Berryessa/North San Jose,0,,1009530_shp,,1,1
+5,2022_02_14-DX-MVS-Weekday-02,1001821,Daly City,1,,1001860_shp,,1,1
+6,2022_02_14-DX-MVS-Weekday-02,1001623,Berryessa/North San Jose,0,,1009530_shp,,1,1
+5,2022_02_14-DX-MVS-Weekday-02,1001822,Daly City,1,,1001860_shp,,1,1
+6,2022_02_14-DX-MVS-Weekday-02,1001635,Berryessa/North San Jose,0,,1009530_shp,,1,1
+5,2022_02_14-DX-MVS-Weekday-02,1001823,Daly City,1,,1001860_shp,,1,1
+6,2022_02_14-DX-MVS-Weekday-02,1001631,Berryessa/North San Jose,0,,1009530_shp,,1,1
+5,2022_02_14-DX-MVS-Weekday-02,1001824,Daly City,1,,1001860_shp,,1,1
+6,2022_02_14-DX-MVS-Weekday-02,1001637,Berryessa/North San Jose,0,,1009530_shp,,1,1
+5,2022_02_14-DX-MVS-Weekday-02,1001825,Daly City,1,,1001860_shp,,1,1
+6,2022_02_14-DX-MVS-Weekday-02,1001630,Berryessa/North San Jose,0,,1009530_shp,,1,1
+5,2022_02_14-DX-MVS-Weekday-02,1001826,Daly City,1,,1001860_shp,,1,1
+6,2022_02_14-DX-MVS-Weekday-02,1001634,Berryessa/North San Jose,0,,1009530_shp,,1,1
+5,2022_02_14-DX-MVS-Weekday-02,1001827,Daly City,1,,1001860_shp,,1,1
+6,2022_02_14-DX-MVS-Weekday-02,1001616,Berryessa/North San Jose,0,,1009530_shp,,1,1
+5,2022_02_14-DX-MVS-Weekday-02,1001828,Daly City,1,,1001860_shp,,1,1
+6,2022_02_14-DX-MVS-Weekday-02,1001636,Berryessa/North San Jose,0,,1009530_shp,,1,1
+5,2022_02_14-DX-MVS-Weekday-02,1001829,Daly City,1,,1001860_shp,,1,1
+6,2022_02_14-DX-MVS-Weekday-02,1001620,Berryessa/North San Jose,0,,1009530_shp,,1,1
+5,2022_02_14-DX-MVS-Weekday-02,1001830,Daly City,1,,1001860_shp,,1,1
+6,2022_02_14-DX-MVS-Weekday-02,1001621,Berryessa/North San Jose,0,,1009530_shp,,1,1
+5,2022_02_14-DX-MVS-Weekday-02,1001831,Daly City,1,,1001860_shp,,1,1
+6,2022_02_14-DX-MVS-Weekday-02,1001651,Berryessa/North San Jose,0,,1009530_shp,,1,1
+5,2022_02_14-DX-MVS-Weekday-02,1001832,Daly City,1,,1001860_shp,,1,1
+6,2022_02_14-DX-MVS-Weekday-02,1001662,Berryessa/North San Jose,0,,1009530_shp,,1,1
+5,2022_02_14-DX-MVS-Weekday-02,1001833,Daly City,1,,1001860_shp,,1,1
+6,2022_02_14-DX-MVS-Weekday-02,1001649,Berryessa/North San Jose,0,,1009530_shp,,1,1
+5,2022_02_14-DX-MVS-Weekday-02,1001834,Daly City,1,,1001860_shp,,1,1
+6,2022_02_14-DX-MVS-Weekday-02,1001641,Berryessa/North San Jose,0,,1009530_shp,,1,1
+5,2022_02_14-DX-MVS-Weekday-02,1001835,Daly City,1,,1001860_shp,,1,1
+6,2022_02_14-DX-MVS-Weekday-02,1001653,Berryessa/North San Jose,0,,1009530_shp,,1,1
+5,2022_02_14-DX-MVS-Weekday-02,1001836,Daly City,1,,1001860_shp,,1,1
+6,2022_02_14-DX-MVS-Weekday-02,1001654,Berryessa/North San Jose,0,,1009530_shp,,1,1
+5,2022_02_14-DX-MVS-Weekday-02,1001837,Daly City,1,,1001860_shp,,1,1
+6,2022_02_14-DX-MVS-Weekday-02,1001655,Berryessa/North San Jose,0,,1009530_shp,,1,1
+5,2022_02_14-DX-MVS-Weekday-02,1001838,Daly City,1,,1001860_shp,,1,1
+6,2022_02_14-DX-MVS-Weekday-02,1001665,Berryessa/North San Jose,0,,1009530_shp,,1,1
+5,2022_02_14-DX-MVS-Weekday-02,1001839,Daly City,1,,1001860_shp,,1,1
+6,2022_02_14-DX-MVS-Weekday-02,1001646,Berryessa/North San Jose,0,,1009530_shp,,1,1
+5,2022_02_14-DX-MVS-Weekday-02,1001840,Daly City,1,,1001860_shp,,1,1
+6,2022_02_14-DX-MVS-Weekday-02,1001642,Berryessa/North San Jose,0,,1009530_shp,,1,1
+5,2022_02_14-DX-MVS-Weekday-02,1001841,Daly City,1,,1001860_shp,,1,1
+6,2022_02_14-DX-MVS-Weekday-02,1001652,Berryessa/North San Jose,0,,1009530_shp,,1,1
+5,2022_02_14-DX-MVS-Weekday-02,1001842,Daly City,1,,1001860_shp,,1,1
+6,2022_02_14-DX-MVS-Weekday-02,1001648,Berryessa/North San Jose,0,,1009530_shp,,1,1
+5,2022_02_14-DX-MVS-Weekday-02,1001843,Daly City,1,,1001860_shp,,1,1
+6,2022_02_14-DX-MVS-Weekday-02,1001645,Berryessa/North San Jose,0,,1009530_shp,,1,1
+5,2022_02_14-DX-MVS-Weekday-02,1001844,Daly City,1,,1001860_shp,,1,1
+6,2022_02_14-DX-MVS-Weekday-02,1001657,Berryessa/North San Jose,0,,1009530_shp,,1,1
+5,2022_02_14-DX-MVS-Weekday-02,1001845,Daly City,1,,1001860_shp,,1,1
+6,2022_02_14-DX-MVS-Weekday-02,1001658,Berryessa/North San Jose,0,,1009530_shp,,1,1
+5,2022_02_14-DX-MVS-Weekday-02,1001846,Daly City,1,,1001860_shp,,1,1
+6,2022_02_14-DX-MVS-Weekday-02,1001656,Berryessa/North San Jose,0,,1009530_shp,,1,1
+5,2022_02_14-DX-MVS-Weekday-02,1001847,Daly City,1,,1001860_shp,,1,1
+6,2022_02_14-DX-MVS-Weekday-02,1001659,Berryessa/North San Jose,0,,1009530_shp,,1,1
+5,2022_02_14-DX-MVS-Weekday-02,1001848,Daly City,1,,1001860_shp,,1,1
+6,2022_02_14-DX-MVS-Weekday-02,1001643,Berryessa/North San Jose,0,,1009530_shp,,1,1
+5,2022_02_14-DX-MVS-Weekday-02,1001849,Daly City,1,,1001860_shp,,1,1
+6,2022_02_14-DX-MVS-Weekday-02,1001644,Berryessa/North San Jose,0,,1009530_shp,,1,1
+5,2022_02_14-DX-MVS-Weekday-02,1001850,Daly City,1,,1001860_shp,,1,1
+6,2022_02_14-DX-MVS-Weekday-02,1001647,Berryessa/North San Jose,0,,1009530_shp,,1,1
+5,2022_02_14-DX-MVS-Weekday-02,1001851,Daly City,1,,1001860_shp,,1,1
+6,2022_02_14-DX-MVS-Weekday-02,1001660,Berryessa/North San Jose,0,,1009530_shp,,1,1
+5,2022_02_14-DX-MVS-Weekday-02,1001852,Daly City,1,,1001860_shp,,1,1
+6,2022_02_14-DX-MVS-Weekday-02,1001666,Berryessa/North San Jose,0,,1009530_shp,,1,1
+5,2022_02_14-DX-MVS-Weekday-02,1001853,Daly City,1,,1001860_shp,,1,1
+6,2022_02_14-DX-MVS-Weekday-02,1001667,Berryessa/North San Jose,0,,1009530_shp,,1,1
+5,2022_02_14-DX-MVS-Weekday-02,1001854,Daly City,1,,1001860_shp,,1,1
+6,2022_02_14-DX-MVS-Weekday-02,1001661,Berryessa/North San Jose,0,,1009530_shp,,1,1
+5,2022_02_14-DX-MVS-Weekday-02,1001855,Daly City,1,,1001860_shp,,1,1
+6,2022_02_14-DX-MVS-Weekday-02,1001663,Berryessa/North San Jose,0,,1009530_shp,,1,1
+5,2022_02_14-DX-MVS-Weekday-02,1001856,Daly City,1,,1001860_shp,,1,1
+6,2022_02_14-DX-MVS-Weekday-02,1001664,Berryessa/North San Jose,0,,1009530_shp,,1,1
+5,2022_02_14-DX-MVS-Weekday-02,1001857,Daly City,1,,1001860_shp,,1,1
+6,2022_02_14-DX-MVS-Weekday-02,1001650,Berryessa/North San Jose,0,,1009530_shp,,1,1
+5,2022_02_14-DX-MVS-Weekday-02,1001858,Daly City,1,,1001860_shp,,1,1
+6,2022_02_14-DX-MVS-Weekday-02,1001638,Berryessa/North San Jose,0,,1009530_shp,,1,1
+5,2022_02_14-DX-MVS-Weekday-02,1001859,Daly City,1,,1001860_shp,,1,1
+6,2022_02_14-DX-MVS-Weekday-02,1001639,Berryessa/North San Jose,0,,1009530_shp,,1,1
+6,2022_02_14-DX-MVS-Weekday-02,1001640,Berryessa/North San Jose,0,,1009530_shp,,1,1
+3,2022_02_14-DX-MVS-Weekday-02,1001605,Richmond,0,,1001605_shp,,1,1
+4,2022_02_14-DX-MVS-Weekday-02,1001542,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-DX-MVS-Weekday-02,1001612,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-DX-MVS-Weekday-02,1001470,Berryessa/North San Jose,1,,1001614_shp,,1,1
+3,2022_02_14-DX-MVS-Weekday-02,1001604,Richmond,0,,1001604_shp,,1,1
+4,2022_02_14-DX-MVS-Weekday-02,1001529,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-DX-MVS-Weekday-02,1001608,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-DX-MVS-Weekday-02,1001469,Berryessa/North San Jose,1,,1001614_shp,,1,1
+3,2022_02_14-DX-MVS-Weekday-02,1001607,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-DX-MVS-Weekday-02,1001530,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-DX-MVS-Weekday-02,1001573,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-DX-MVS-Weekday-02,1001539,Berryessa/North San Jose,1,,1001614_shp,,1,1
+3,2022_02_14-DX-MVS-Weekday-02,1001611,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-DX-MVS-Weekday-02,1001531,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-DX-MVS-Weekday-02,1001547,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-DX-MVS-Weekday-02,1001537,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-DX-MVS-Weekday-02,1001548,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-DX-MVS-Weekday-02,1001538,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-DX-MVS-Weekday-02,1001545,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-DX-MVS-Weekday-02,1001532,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-DX-MVS-Weekday-02,1001543,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-DX-MVS-Weekday-02,1001533,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-DX-MVS-Weekday-02,1001544,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-DX-MVS-Weekday-02,1001534,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-DX-MVS-Weekday-02,1001546,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-DX-MVS-Weekday-02,1001535,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-DX-MVS-Weekday-02,1001550,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-DX-MVS-Weekday-02,1001536,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-DX-MVS-Weekday-02,1001551,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-DX-MVS-Weekday-02,1001478,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-DX-MVS-Weekday-02,1001552,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-DX-MVS-Weekday-02,1001500,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-DX-MVS-Weekday-02,1001553,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-DX-MVS-Weekday-02,1001499,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-DX-MVS-Weekday-02,1001586,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-DX-MVS-Weekday-02,1001501,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-DX-MVS-Weekday-02,1001570,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-DX-MVS-Weekday-02,1001480,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-DX-MVS-Weekday-02,1001555,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-DX-MVS-Weekday-02,1001482,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-DX-MVS-Weekday-02,1001557,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-DX-MVS-Weekday-02,1001492,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-DX-MVS-Weekday-02,1001578,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-DX-MVS-Weekday-02,1001471,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-DX-MVS-Weekday-02,1001556,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-DX-MVS-Weekday-02,1001483,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-DX-MVS-Weekday-02,1001559,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-DX-MVS-Weekday-02,1001497,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-DX-MVS-Weekday-02,1001554,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-DX-MVS-Weekday-02,1001490,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-DX-MVS-Weekday-02,1001561,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-DX-MVS-Weekday-02,1001476,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-DX-MVS-Weekday-02,1001558,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-DX-MVS-Weekday-02,1001486,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-DX-MVS-Weekday-02,1001562,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-DX-MVS-Weekday-02,1001487,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-DX-MVS-Weekday-02,1001563,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-DX-MVS-Weekday-02,1001484,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-DX-MVS-Weekday-02,1001564,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-DX-MVS-Weekday-02,1001474,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-DX-MVS-Weekday-02,1001565,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-DX-MVS-Weekday-02,1001479,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-DX-MVS-Weekday-02,1001560,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-DX-MVS-Weekday-02,1001485,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-DX-MVS-Weekday-02,1001581,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-DX-MVS-Weekday-02,1001493,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-DX-MVS-Weekday-02,1001591,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-DX-MVS-Weekday-02,1001488,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-DX-MVS-Weekday-02,1001594,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-DX-MVS-Weekday-02,1001495,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-DX-MVS-Weekday-02,1001596,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-DX-MVS-Weekday-02,1001489,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-DX-MVS-Weekday-02,1001588,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-DX-MVS-Weekday-02,1001494,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-DX-MVS-Weekday-02,1001576,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-DX-MVS-Weekday-02,1001491,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-DX-MVS-Weekday-02,1001592,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-DX-MVS-Weekday-02,1001496,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-DX-MVS-Weekday-02,1001579,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-DX-MVS-Weekday-02,1001472,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-DX-MVS-Weekday-02,1001597,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-DX-MVS-Weekday-02,1001481,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-DX-MVS-Weekday-02,1001568,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-DX-MVS-Weekday-02,1001502,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-DX-MVS-Weekday-02,1001590,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-DX-MVS-Weekday-02,1001498,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-DX-MVS-Weekday-02,1001595,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-DX-MVS-Weekday-02,1001503,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-DX-MVS-Weekday-02,1001574,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-DX-MVS-Weekday-02,1001473,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-DX-MVS-Weekday-02,1001569,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-DX-MVS-Weekday-02,1001505,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-DX-MVS-Weekday-02,1001600,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-DX-MVS-Weekday-02,1001475,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-DX-MVS-Weekday-02,1001571,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-DX-MVS-Weekday-02,1001504,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-DX-MVS-Weekday-02,1001580,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-DX-MVS-Weekday-02,1001507,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-DX-MVS-Weekday-02,1001587,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-DX-MVS-Weekday-02,1001508,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-DX-MVS-Weekday-02,1001583,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-DX-MVS-Weekday-02,1001506,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-DX-MVS-Weekday-02,1001566,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-DX-MVS-Weekday-02,1001477,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-DX-MVS-Weekday-02,1001582,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-DX-MVS-Weekday-02,1001516,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-DX-MVS-Weekday-02,1001575,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-DX-MVS-Weekday-02,1001524,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-DX-MVS-Weekday-02,1001589,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-DX-MVS-Weekday-02,1001511,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-DX-MVS-Weekday-02,1001572,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-DX-MVS-Weekday-02,1001523,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-DX-MVS-Weekday-02,1001585,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-DX-MVS-Weekday-02,1001526,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-DX-MVS-Weekday-02,1001577,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-DX-MVS-Weekday-02,1001514,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-DX-MVS-Weekday-02,1001598,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-DX-MVS-Weekday-02,1001509,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-DX-MVS-Weekday-02,1001613,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-DX-MVS-Weekday-02,1001518,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-DX-MVS-Weekday-02,1001584,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-DX-MVS-Weekday-02,1001519,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-DX-MVS-Weekday-02,1001593,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-DX-MVS-Weekday-02,1001512,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-DX-MVS-Weekday-02,1001610,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-DX-MVS-Weekday-02,1001513,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-DX-MVS-Weekday-02,1001567,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-DX-MVS-Weekday-02,1001527,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-DX-MVS-Weekday-02,1001601,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-DX-MVS-Weekday-02,1001517,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-DX-MVS-Weekday-02,1001602,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-DX-MVS-Weekday-02,1001515,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-DX-MVS-Weekday-02,1001609,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-DX-MVS-Weekday-02,1001541,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-DX-MVS-Weekday-02,1001603,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-DX-MVS-Weekday-02,1001520,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-DX-MVS-Weekday-02,1001599,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-DX-MVS-Weekday-02,1001521,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-DX-MVS-Weekday-02,1001549,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-DX-MVS-Weekday-02,1001522,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-DX-MVS-Weekday-02,1001606,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-DX-MVS-Weekday-02,1001528,Berryessa/North San Jose,1,,1001542_shp,,1,1
+4,2022_02_14-DX-MVS-Weekday-02,1001540,Berryessa/North San Jose,1,,1001542_shp,,1,1
+4,2022_02_14-DX-MVS-Weekday-02,1001510,Berryessa/North San Jose,1,,1001542_shp,,1,1
+4,2022_02_14-DX-MVS-Weekday-02,1001525,Berryessa/North San Jose,1,,1001542_shp,,1,1
+1,2022_02_14-DX-MVS-Weekday-02,1001440,San Francisco International Airport,1,,1001440_shp,,1,1
+2,2022_02_14-DX-MVS-Weekday-02,1001357,Antioch via SFO,0,,1001357_shp,,1,1
+1,2022_02_14-DX-MVS-Weekday-02,1001439,San Francisco International Airport,1,,1001439_shp,,1,1
+2,2022_02_14-DX-MVS-Weekday-02,1001349,Antioch,0,,1001349_shp,,1,1
+1,2022_02_14-DX-MVS-Weekday-02,1001410,San Francisco International Airport,1,,1001439_shp,,1,1
+2,2022_02_14-DX-MVS-Weekday-02,1001355,Antioch,0,,1001349_shp,,1,1
+1,2022_02_14-DX-MVS-Weekday-02,1001433,San Francisco International Airport,1,,1001439_shp,,1,1
+2,2022_02_14-DX-MVS-Weekday-02,1009368,Antioch via SFO,0,,1001357_shp,,1,1
+1,2022_02_14-DX-MVS-Weekday-02,1001420,San Francisco International Airport,1,,1001439_shp,,1,1
+2,2022_02_14-DX-MVS-Weekday-02,1009365,Antioch via SFO,0,,1001357_shp,,1,1
+1,2022_02_14-DX-MVS-Weekday-02,1001431,San Francisco International Airport,1,,1001439_shp,,1,1
+2,2022_02_14-DX-MVS-Weekday-02,1009481,Antioch via SFO,0,,1001357_shp,,1,1
+1,2022_02_14-DX-MVS-Weekday-02,1001421,San Francisco International Airport,1,,1001439_shp,,1,1
+2,2022_02_14-DX-MVS-Weekday-02,1009383,Antioch via SFO,0,,1001357_shp,,1,1
+1,2022_02_14-DX-MVS-Weekday-02,1001427,San Francisco International Airport,1,,1001439_shp,,1,1
+2,2022_02_14-DX-MVS-Weekday-02,1001350,Antioch,0,,1001350_shp,,1,1
+1,2022_02_14-DX-MVS-Weekday-02,1001425,San Francisco International Airport,1,,1001439_shp,,1,1
+2,2022_02_14-DX-MVS-Weekday-02,1001353,Antioch,0,,1001350_shp,,1,1
+1,2022_02_14-DX-MVS-Weekday-02,1001436,San Francisco International Airport,1,,1001439_shp,,1,1
+2,2022_02_14-DX-MVS-Weekday-02,1001351,Antioch,0,,1001350_shp,,1,1
+1,2022_02_14-DX-MVS-Weekday-02,1001416,San Francisco International Airport,1,,1001439_shp,,1,1
+2,2022_02_14-DX-MVS-Weekday-02,1001354,Antioch,0,,1001350_shp,,1,1
+1,2022_02_14-DX-MVS-Weekday-02,1001415,San Francisco International Airport,1,,1001439_shp,,1,1
+2,2022_02_14-DX-MVS-Weekday-02,1001352,Antioch,0,,1001350_shp,,1,1
+1,2022_02_14-DX-MVS-Weekday-02,1001422,San Francisco International Airport,1,,1001439_shp,,1,1
+2,2022_02_14-DX-MVS-Weekday-02,1001356,Antioch,0,,1001350_shp,,1,1
+1,2022_02_14-DX-MVS-Weekday-02,1001432,San Francisco International Airport,1,,1001439_shp,,1,1
+2,2022_02_14-DX-MVS-Weekday-02,1001370,Antioch,0,,1001350_shp,,1,1
+1,2022_02_14-DX-MVS-Weekday-02,1001430,San Francisco International Airport,1,,1001439_shp,,1,1
+2,2022_02_14-DX-MVS-Weekday-02,1001387,Antioch,0,,1001350_shp,,1,1
+1,2022_02_14-DX-MVS-Weekday-02,1001419,San Francisco International Airport,1,,1001439_shp,,1,1
+2,2022_02_14-DX-MVS-Weekday-02,1001374,Antioch,0,,1001350_shp,,1,1
+1,2022_02_14-DX-MVS-Weekday-02,1001434,San Francisco International Airport,1,,1001439_shp,,1,1
+2,2022_02_14-DX-MVS-Weekday-02,1001388,Antioch,0,,1001350_shp,,1,1
+1,2022_02_14-DX-MVS-Weekday-02,1001435,San Francisco International Airport,1,,1001439_shp,,1,1
+2,2022_02_14-DX-MVS-Weekday-02,1001373,Antioch,0,,1001350_shp,,1,1
+1,2022_02_14-DX-MVS-Weekday-02,1001441,San Francisco International Airport,1,,1001439_shp,,1,1
+2,2022_02_14-DX-MVS-Weekday-02,1001384,Antioch,0,,1001350_shp,,1,1
+1,2022_02_14-DX-MVS-Weekday-02,1001413,San Francisco International Airport,1,,1001439_shp,,1,1
+2,2022_02_14-DX-MVS-Weekday-02,1001363,Antioch,0,,1001350_shp,,1,1
+1,2022_02_14-DX-MVS-Weekday-02,1001423,San Francisco International Airport,1,,1001439_shp,,1,1
+2,2022_02_14-DX-MVS-Weekday-02,1001400,Antioch,0,,1001350_shp,,1,1
+1,2022_02_14-DX-MVS-Weekday-02,1001412,San Francisco International Airport,1,,1001439_shp,,1,1
+2,2022_02_14-DX-MVS-Weekday-02,1001378,Antioch,0,,1001350_shp,,1,1
+1,2022_02_14-DX-MVS-Weekday-02,1001424,San Francisco International Airport,1,,1001439_shp,,1,1
+2,2022_02_14-DX-MVS-Weekday-02,1001402,Antioch,0,,1001350_shp,,1,1
+1,2022_02_14-DX-MVS-Weekday-02,1001468,San Francisco International Airport,1,,1001439_shp,,1,1
+2,2022_02_14-DX-MVS-Weekday-02,1001361,Antioch,0,,1001350_shp,,1,1
+1,2022_02_14-DX-MVS-Weekday-02,1001417,San Francisco International Airport,1,,1001439_shp,,1,1
+2,2022_02_14-DX-MVS-Weekday-02,1001408,Antioch,0,,1001350_shp,,1,1
+1,2022_02_14-DX-MVS-Weekday-02,1001465,San Francisco International Airport,1,,1001439_shp,,1,1
+2,2022_02_14-DX-MVS-Weekday-02,1001375,Antioch,0,,1001350_shp,,1,1
+1,2022_02_14-DX-MVS-Weekday-02,1001467,San Francisco International Airport,1,,1001439_shp,,1,1
+2,2022_02_14-DX-MVS-Weekday-02,1001401,Antioch,0,,1001350_shp,,1,1
+1,2022_02_14-DX-MVS-Weekday-02,1001428,San Francisco International Airport,1,,1001439_shp,,1,1
+2,2022_02_14-DX-MVS-Weekday-02,1001371,Antioch,0,,1001350_shp,,1,1
+1,2022_02_14-DX-MVS-Weekday-02,1001411,San Francisco International Airport,1,,1001439_shp,,1,1
+2,2022_02_14-DX-MVS-Weekday-02,1001398,Antioch,0,,1001350_shp,,1,1
+1,2022_02_14-DX-MVS-Weekday-02,1001418,San Francisco International Airport,1,,1001439_shp,,1,1
+2,2022_02_14-DX-MVS-Weekday-02,1001382,Antioch,0,,1001350_shp,,1,1
+1,2022_02_14-DX-MVS-Weekday-02,1001443,San Francisco International Airport,1,,1001439_shp,,1,1
+2,2022_02_14-DX-MVS-Weekday-02,1001397,Antioch,0,,1001350_shp,,1,1
+1,2022_02_14-DX-MVS-Weekday-02,1001442,San Francisco International Airport,1,,1001439_shp,,1,1
+2,2022_02_14-DX-MVS-Weekday-02,1001376,Antioch,0,,1001350_shp,,1,1
+1,2022_02_14-DX-MVS-Weekday-02,1001426,San Francisco International Airport,1,,1001439_shp,,1,1
+2,2022_02_14-DX-MVS-Weekday-02,1001396,Antioch,0,,1001350_shp,,1,1
+1,2022_02_14-DX-MVS-Weekday-02,1001437,San Francisco International Airport,1,,1001439_shp,,1,1
+2,2022_02_14-DX-MVS-Weekday-02,1001368,Antioch,0,,1001350_shp,,1,1
+1,2022_02_14-DX-MVS-Weekday-02,1001444,San Francisco International Airport,1,,1001439_shp,,1,1
+2,2022_02_14-DX-MVS-Weekday-02,1001406,Antioch,0,,1001350_shp,,1,1
+1,2022_02_14-DX-MVS-Weekday-02,1001429,San Francisco International Airport,1,,1001439_shp,,1,1
+2,2022_02_14-DX-MVS-Weekday-02,1001364,Antioch,0,,1001350_shp,,1,1
+1,2022_02_14-DX-MVS-Weekday-02,1001445,San Francisco International Airport,1,,1001439_shp,,1,1
+2,2022_02_14-DX-MVS-Weekday-02,1001389,Antioch,0,,1001350_shp,,1,1
+1,2022_02_14-DX-MVS-Weekday-02,1001462,San Francisco International Airport,1,,1001439_shp,,1,1
+2,2022_02_14-DX-MVS-Weekday-02,1001365,Antioch,0,,1001350_shp,,1,1
+1,2022_02_14-DX-MVS-Weekday-02,1001461,San Francisco International Airport,1,,1001439_shp,,1,1
+2,2022_02_14-DX-MVS-Weekday-02,1001403,Antioch,0,,1001350_shp,,1,1
+1,2022_02_14-DX-MVS-Weekday-02,1001438,San Francisco International Airport,1,,1001439_shp,,1,1
+2,2022_02_14-DX-MVS-Weekday-02,1001372,Antioch,0,,1001350_shp,,1,1
+1,2022_02_14-DX-MVS-Weekday-02,1001414,San Francisco International Airport,1,,1001439_shp,,1,1
+2,2022_02_14-DX-MVS-Weekday-02,1001390,Antioch,0,,1001350_shp,,1,1
+1,2022_02_14-DX-MVS-Weekday-02,1001453,San Francisco International Airport,1,,1001439_shp,,1,1
+2,2022_02_14-DX-MVS-Weekday-02,1001359,Antioch,0,,1001350_shp,,1,1
+1,2022_02_14-DX-MVS-Weekday-02,1001451,San Francisco International Airport,1,,1001439_shp,,1,1
+2,2022_02_14-DX-MVS-Weekday-02,1001407,Antioch,0,,1001350_shp,,1,1
+1,2022_02_14-DX-MVS-Weekday-02,1001446,San Francisco International Airport,1,,1001439_shp,,1,1
+2,2022_02_14-DX-MVS-Weekday-02,1001369,Antioch,0,,1001350_shp,,1,1
+1,2022_02_14-DX-MVS-Weekday-02,1001460,San Francisco International Airport,1,,1001439_shp,,1,1
+2,2022_02_14-DX-MVS-Weekday-02,1001391,Antioch,0,,1001350_shp,,1,1
+1,2022_02_14-DX-MVS-Weekday-02,1001456,San Francisco International Airport,1,,1001439_shp,,1,1
+2,2022_02_14-DX-MVS-Weekday-02,1001379,Antioch,0,,1001350_shp,,1,1
+1,2022_02_14-DX-MVS-Weekday-02,1001454,San Francisco International Airport,1,,1001439_shp,,1,1
+2,2022_02_14-DX-MVS-Weekday-02,1001404,Antioch,0,,1001350_shp,,1,1
+1,2022_02_14-DX-MVS-Weekday-02,1001450,San Francisco International Airport,1,,1001439_shp,,1,1
+2,2022_02_14-DX-MVS-Weekday-02,1001362,Antioch,0,,1001350_shp,,1,1
+1,2022_02_14-DX-MVS-Weekday-02,1001455,San Francisco International Airport,1,,1001439_shp,,1,1
+2,2022_02_14-DX-MVS-Weekday-02,1001394,Antioch,0,,1001350_shp,,1,1
+1,2022_02_14-DX-MVS-Weekday-02,1001448,San Francisco International Airport,1,,1001439_shp,,1,1
+2,2022_02_14-DX-MVS-Weekday-02,1001377,Antioch,0,,1001350_shp,,1,1
+1,2022_02_14-DX-MVS-Weekday-02,1001449,San Francisco International Airport,1,,1001439_shp,,1,1
+2,2022_02_14-DX-MVS-Weekday-02,1001393,Antioch,0,,1001350_shp,,1,1
+1,2022_02_14-DX-MVS-Weekday-02,1001457,San Francisco International Airport,1,,1001439_shp,,1,1
+2,2022_02_14-DX-MVS-Weekday-02,1001366,Antioch,0,,1001350_shp,,1,1
+1,2022_02_14-DX-MVS-Weekday-02,1001452,San Francisco International Airport,1,,1001439_shp,,1,1
+2,2022_02_14-DX-MVS-Weekday-02,1001385,Antioch,0,,1001350_shp,,1,1
+1,2022_02_14-DX-MVS-Weekday-02,1001463,San Francisco International Airport,1,,1001439_shp,,1,1
+2,2022_02_14-DX-MVS-Weekday-02,1001360,Antioch,0,,1001350_shp,,1,1
+1,2022_02_14-DX-MVS-Weekday-02,1001464,San Francisco International Airport,1,,1001439_shp,,1,1
+2,2022_02_14-DX-MVS-Weekday-02,1001399,Antioch,0,,1001350_shp,,1,1
+1,2022_02_14-DX-MVS-Weekday-02,1001458,San Francisco International Airport,1,,1001439_shp,,1,1
+2,2022_02_14-DX-MVS-Weekday-02,1001380,Antioch,0,,1001350_shp,,1,1
+1,2022_02_14-DX-MVS-Weekday-02,1001459,San Francisco International Airport,1,,1001439_shp,,1,1
+2,2022_02_14-DX-MVS-Weekday-02,1001392,Antioch,0,,1001350_shp,,1,1
+1,2022_02_14-DX-MVS-Weekday-02,1001447,San Francisco International Airport,1,,1001439_shp,,1,1
+2,2022_02_14-DX-MVS-Weekday-02,1001367,Antioch,0,,1001350_shp,,1,1
+1,2022_02_14-DX-MVS-Weekday-02,1009378,San Francisco Int'l Airport + Millbrae,1,,1009378_shp,,1,1
+2,2022_02_14-DX-MVS-Weekday-02,1001386,Antioch,0,,1001350_shp,,1,1
+1,2022_02_14-DX-MVS-Weekday-02,1009388,San Francisco Int'l Airport + Millbrae,1,,1009378_shp,,1,1
+2,2022_02_14-DX-MVS-Weekday-02,1001381,Antioch,0,,1001350_shp,,1,1
+1,2022_02_14-DX-MVS-Weekday-02,1009382,San Francisco Int'l Airport + Millbrae,1,,1009378_shp,,1,1
+2,2022_02_14-DX-MVS-Weekday-02,1001395,Pittsburg/Bay Point,0,,1001395_shp,,1,1
+1,2022_02_14-DX-MVS-Weekday-02,1009376,San Francisco Int'l Airport + Millbrae,1,,1009378_shp,,1,1
+2,2022_02_14-DX-MVS-Weekday-02,1001358,Antioch,0,,1001350_shp,,1,1
+1,2022_02_14-DX-MVS-Weekday-02,1009377,San Francisco Int'l Airport + Millbrae,1,,1009378_shp,,1,1
+2,2022_02_14-DX-MVS-Weekday-02,1001405,Pittsburg/Bay Point,0,,1001395_shp,,1,1
+1,2022_02_14-DX-MVS-Weekday-02,1001409,San Francisco Int'l Airport + Millbrae,1,,1009378_shp,,1,1
+2,2022_02_14-DX-MVS-Weekday-02,1001383,Antioch,0,,1001350_shp,,1,1
+1,2022_02_14-DX-MVS-Weekday-02,1009362,San Francisco Int'l Airport + Millbrae,1,,1009378_shp,,1,1
+2,2022_02_14-DX-MVS-Weekday-02,1009369,Antioch via SFO,0,,1001357_shp,,1,1
+1,2022_02_14-DX-MVS-Weekday-02,1009364,San Francisco Int'l Airport + Millbrae,1,,1009378_shp,,1,1
+2,2022_02_14-DX-MVS-Weekday-02,1009371,Antioch via SFO,0,,1001357_shp,,1,1
+1,2022_02_14-DX-MVS-Weekday-02,1009379,San Francisco Int'l Airport + Millbrae,1,,1009378_shp,,1,1
+2,2022_02_14-DX-MVS-Weekday-02,1009370,Antioch via SFO,0,,1001357_shp,,1,1
+1,2022_02_14-DX-MVS-Weekday-02,1009385,San Francisco Int'l Airport + Millbrae,1,,1009378_shp,,1,1
+2,2022_02_14-DX-MVS-Weekday-02,1009372,Antioch via SFO,0,,1001357_shp,,1,1
+1,2022_02_14-DX-MVS-Weekday-02,1009527,San Francisco Int'l Airport + Millbrae,1,,1009378_shp,,1,1
+2,2022_02_14-DX-MVS-Weekday-02,1009513,Antioch via SFO,0,,1001357_shp,,1,1
+1,2022_02_14-DX-MVS-Weekday-02,1009515,San Francisco Int'l Airport + Millbrae,1,,1009378_shp,,1,1
+2,2022_02_14-DX-MVS-Weekday-02,1009517,Antioch via SFO,0,,1001357_shp,,1,1
+1,2022_02_14-DX-MVS-Weekday-02,1001466,San Francisco International Airport,1,,1001439_shp,,1,1
+2,2022_02_14-DX-MVS-Weekday-02,1009374,Antioch via SFO,0,,1001357_shp,,1,1
+7,2022_02_14-DX-MVS-Weekday-02,1001291,San Francisco Int'l Airport + Millbrae,1,,1001291_shp,,1,1
+8,2022_02_14-DX-MVS-Weekday-02,1001232,Richmond,0,,1001232_shp,,1,1
+7,2022_02_14-DX-MVS-Weekday-02,1001292,San Francisco Int'l Airport + Millbrae,1,,1001291_shp,,1,1
+8,2022_02_14-DX-MVS-Weekday-02,1001233,Richmond,0,,1001232_shp,,1,1
+7,2022_02_14-DX-MVS-Weekday-02,1001293,San Francisco Int'l Airport + Millbrae,1,,1001291_shp,,1,1
+8,2022_02_14-DX-MVS-Weekday-02,1001234,Richmond via Millbrae,0,,1001234_shp,,1,1
+7,2022_02_14-DX-MVS-Weekday-02,1001294,San Francisco Int'l Airport + Millbrae,1,,1001291_shp,,1,1
+8,2022_02_14-DX-MVS-Weekday-02,1001235,Richmond via Millbrae,0,,1001234_shp,,1,1
+7,2022_02_14-DX-MVS-Weekday-02,1001295,San Francisco Int'l Airport + Millbrae,1,,1001291_shp,,1,1
+8,2022_02_14-DX-MVS-Weekday-02,1001236,Richmond via Millbrae,0,,1001234_shp,,1,1
+7,2022_02_14-DX-MVS-Weekday-02,1001296,San Francisco Int'l Airport + Millbrae,1,,1001291_shp,,1,1
+8,2022_02_14-DX-MVS-Weekday-02,1001237,Richmond via Millbrae,0,,1001234_shp,,1,1
+7,2022_02_14-DX-MVS-Weekday-02,1001297,San Francisco Int'l Airport + Millbrae,1,,1001291_shp,,1,1
+8,2022_02_14-DX-MVS-Weekday-02,1001238,Richmond via Millbrae,0,,1001234_shp,,1,1
+7,2022_02_14-DX-MVS-Weekday-02,1001298,San Francisco Int'l Airport + Millbrae,1,,1001291_shp,,1,1
+8,2022_02_14-DX-MVS-Weekday-02,1001239,Richmond via Millbrae,0,,1001234_shp,,1,1
+7,2022_02_14-DX-MVS-Weekday-02,1001299,San Francisco Int'l Airport + Millbrae,1,,1001291_shp,,1,1
+8,2022_02_14-DX-MVS-Weekday-02,1001240,Richmond via Millbrae,0,,1001234_shp,,1,1
+7,2022_02_14-DX-MVS-Weekday-02,1001300,San Francisco Int'l Airport + Millbrae,1,,1001291_shp,,1,1
+8,2022_02_14-DX-MVS-Weekday-02,1001241,Richmond via Millbrae,0,,1001234_shp,,1,1
+7,2022_02_14-DX-MVS-Weekday-02,1001301,San Francisco Int'l Airport + Millbrae,1,,1001291_shp,,1,1
+8,2022_02_14-DX-MVS-Weekday-02,1001242,Richmond via Millbrae,0,,1001234_shp,,1,1
+7,2022_02_14-DX-MVS-Weekday-02,1001302,San Francisco Int'l Airport + Millbrae,1,,1001291_shp,,1,1
+8,2022_02_14-DX-MVS-Weekday-02,1001243,Richmond via Millbrae,0,,1001234_shp,,1,1
+7,2022_02_14-DX-MVS-Weekday-02,1001303,San Francisco Int'l Airport + Millbrae,1,,1001291_shp,,1,1
+8,2022_02_14-DX-MVS-Weekday-02,1001244,Richmond via Millbrae,0,,1001234_shp,,1,1
+7,2022_02_14-DX-MVS-Weekday-02,1001304,San Francisco Int'l Airport + Millbrae,1,,1001291_shp,,1,1
+8,2022_02_14-DX-MVS-Weekday-02,1001245,Richmond via Millbrae,0,,1001234_shp,,1,1
+7,2022_02_14-DX-MVS-Weekday-02,1001305,San Francisco Int'l Airport + Millbrae,1,,1001291_shp,,1,1
+8,2022_02_14-DX-MVS-Weekday-02,1001246,Richmond via Millbrae,0,,1001234_shp,,1,1
+7,2022_02_14-DX-MVS-Weekday-02,1001306,San Francisco Int'l Airport + Millbrae,1,,1001291_shp,,1,1
+8,2022_02_14-DX-MVS-Weekday-02,1001247,Richmond via Millbrae,0,,1001234_shp,,1,1
+7,2022_02_14-DX-MVS-Weekday-02,1001307,San Francisco Int'l Airport + Millbrae,1,,1001291_shp,,1,1
+8,2022_02_14-DX-MVS-Weekday-02,1001248,Richmond via Millbrae,0,,1001234_shp,,1,1
+7,2022_02_14-DX-MVS-Weekday-02,1001308,San Francisco Int'l Airport + Millbrae,1,,1001291_shp,,1,1
+8,2022_02_14-DX-MVS-Weekday-02,1001249,Richmond via Millbrae,0,,1001234_shp,,1,1
+7,2022_02_14-DX-MVS-Weekday-02,1001309,San Francisco Int'l Airport + Millbrae,1,,1001291_shp,,1,1
+8,2022_02_14-DX-MVS-Weekday-02,1001250,Richmond via Millbrae,0,,1001234_shp,,1,1
+7,2022_02_14-DX-MVS-Weekday-02,1001310,San Francisco Int'l Airport + Millbrae,1,,1001291_shp,,1,1
+8,2022_02_14-DX-MVS-Weekday-02,1001251,Richmond via Millbrae,0,,1001234_shp,,1,1
+7,2022_02_14-DX-MVS-Weekday-02,1001311,San Francisco Int'l Airport + Millbrae,1,,1001291_shp,,1,1
+8,2022_02_14-DX-MVS-Weekday-02,1001252,Richmond via Millbrae,0,,1001234_shp,,1,1
+7,2022_02_14-DX-MVS-Weekday-02,1001312,San Francisco Int'l Airport + Millbrae,1,,1001291_shp,,1,1
+8,2022_02_14-DX-MVS-Weekday-02,1001253,Richmond via Millbrae,0,,1001234_shp,,1,1
+7,2022_02_14-DX-MVS-Weekday-02,1001313,San Francisco Int'l Airport + Millbrae,1,,1001291_shp,,1,1
+8,2022_02_14-DX-MVS-Weekday-02,1001254,Richmond via Millbrae,0,,1001234_shp,,1,1
+7,2022_02_14-DX-MVS-Weekday-02,1001314,San Francisco Int'l Airport + Millbrae,1,,1001291_shp,,1,1
+8,2022_02_14-DX-MVS-Weekday-02,1001255,Richmond via Millbrae,0,,1001234_shp,,1,1
+7,2022_02_14-DX-MVS-Weekday-02,1001315,San Francisco Int'l Airport + Millbrae,1,,1001291_shp,,1,1
+8,2022_02_14-DX-MVS-Weekday-02,1001256,Richmond via Millbrae,0,,1001234_shp,,1,1
+7,2022_02_14-DX-MVS-Weekday-02,1001316,San Francisco Int'l Airport + Millbrae,1,,1001291_shp,,1,1
+8,2022_02_14-DX-MVS-Weekday-02,1001257,Richmond via Millbrae,0,,1001234_shp,,1,1
+7,2022_02_14-DX-MVS-Weekday-02,1001317,San Francisco Int'l Airport + Millbrae,1,,1001291_shp,,1,1
+8,2022_02_14-DX-MVS-Weekday-02,1001258,Richmond via Millbrae,0,,1001234_shp,,1,1
+7,2022_02_14-DX-MVS-Weekday-02,1001318,San Francisco Int'l Airport + Millbrae,1,,1001291_shp,,1,1
+8,2022_02_14-DX-MVS-Weekday-02,1001259,Richmond via Millbrae,0,,1001234_shp,,1,1
+7,2022_02_14-DX-MVS-Weekday-02,1001319,San Francisco Int'l Airport + Millbrae,1,,1001291_shp,,1,1
+8,2022_02_14-DX-MVS-Weekday-02,1001260,Richmond via Millbrae,0,,1001234_shp,,1,1
+7,2022_02_14-DX-MVS-Weekday-02,1001320,San Francisco Int'l Airport + Millbrae,1,,1001291_shp,,1,1
+8,2022_02_14-DX-MVS-Weekday-02,1001261,Richmond via Millbrae,0,,1001234_shp,,1,1
+7,2022_02_14-DX-MVS-Weekday-02,1001321,San Francisco Int'l Airport + Millbrae,1,,1001291_shp,,1,1
+8,2022_02_14-DX-MVS-Weekday-02,1001262,Richmond via Millbrae,0,,1001234_shp,,1,1
+7,2022_02_14-DX-MVS-Weekday-02,1001322,San Francisco Int'l Airport + Millbrae,1,,1001291_shp,,1,1
+8,2022_02_14-DX-MVS-Weekday-02,1001263,Richmond via Millbrae,0,,1001234_shp,,1,1
+7,2022_02_14-DX-MVS-Weekday-02,1001323,San Francisco Int'l Airport + Millbrae,1,,1001291_shp,,1,1
+8,2022_02_14-DX-MVS-Weekday-02,1001264,Richmond via Millbrae,0,,1001234_shp,,1,1
+7,2022_02_14-DX-MVS-Weekday-02,1001324,San Francisco Int'l Airport + Millbrae,1,,1001291_shp,,1,1
+8,2022_02_14-DX-MVS-Weekday-02,1001265,Richmond via Millbrae,0,,1001234_shp,,1,1
+7,2022_02_14-DX-MVS-Weekday-02,1001325,San Francisco Int'l Airport + Millbrae,1,,1001291_shp,,1,1
+8,2022_02_14-DX-MVS-Weekday-02,1001266,Richmond via Millbrae,0,,1001234_shp,,1,1
+7,2022_02_14-DX-MVS-Weekday-02,1001326,San Francisco Int'l Airport + Millbrae,1,,1001291_shp,,1,1
+8,2022_02_14-DX-MVS-Weekday-02,1001267,Richmond via Millbrae,0,,1001234_shp,,1,1
+7,2022_02_14-DX-MVS-Weekday-02,1001327,San Francisco Int'l Airport + Millbrae,1,,1001291_shp,,1,1
+8,2022_02_14-DX-MVS-Weekday-02,1001268,Richmond via Millbrae,0,,1001234_shp,,1,1
+7,2022_02_14-DX-MVS-Weekday-02,1001328,San Francisco Int'l Airport + Millbrae,1,,1001291_shp,,1,1
+8,2022_02_14-DX-MVS-Weekday-02,1001269,Richmond via Millbrae,0,,1001234_shp,,1,1
+7,2022_02_14-DX-MVS-Weekday-02,1001329,San Francisco Int'l Airport + Millbrae,1,,1001291_shp,,1,1
+8,2022_02_14-DX-MVS-Weekday-02,1001270,Richmond via Millbrae,0,,1001234_shp,,1,1
+7,2022_02_14-DX-MVS-Weekday-02,1001330,San Francisco Int'l Airport + Millbrae,1,,1001291_shp,,1,1
+8,2022_02_14-DX-MVS-Weekday-02,1001271,Richmond via Millbrae,0,,1001234_shp,,1,1
+7,2022_02_14-DX-MVS-Weekday-02,1001331,San Francisco Int'l Airport + Millbrae,1,,1001291_shp,,1,1
+8,2022_02_14-DX-MVS-Weekday-02,1001272,Richmond via Millbrae,0,,1001234_shp,,1,1
+7,2022_02_14-DX-MVS-Weekday-02,1001332,San Francisco Int'l Airport + Millbrae,1,,1001291_shp,,1,1
+8,2022_02_14-DX-MVS-Weekday-02,1001273,Richmond via Millbrae,0,,1001234_shp,,1,1
+7,2022_02_14-DX-MVS-Weekday-02,1001333,San Francisco Int'l Airport + Millbrae,1,,1001291_shp,,1,1
+8,2022_02_14-DX-MVS-Weekday-02,1001274,Richmond via Millbrae,0,,1001234_shp,,1,1
+7,2022_02_14-DX-MVS-Weekday-02,1001334,San Francisco Int'l Airport + Millbrae,1,,1001291_shp,,1,1
+8,2022_02_14-DX-MVS-Weekday-02,1001275,Richmond via Millbrae,0,,1001234_shp,,1,1
+7,2022_02_14-DX-MVS-Weekday-02,1001335,San Francisco Int'l Airport + Millbrae,1,,1001291_shp,,1,1
+8,2022_02_14-DX-MVS-Weekday-02,1001276,Richmond via Millbrae,0,,1001234_shp,,1,1
+7,2022_02_14-DX-MVS-Weekday-02,1001336,San Francisco Int'l Airport + Millbrae,1,,1001291_shp,,1,1
+8,2022_02_14-DX-MVS-Weekday-02,1001277,Richmond via Millbrae,0,,1001234_shp,,1,1
+7,2022_02_14-DX-MVS-Weekday-02,1001337,San Francisco Int'l Airport + Millbrae,1,,1001291_shp,,1,1
+8,2022_02_14-DX-MVS-Weekday-02,1001278,Richmond via Millbrae,0,,1001234_shp,,1,1
+7,2022_02_14-DX-MVS-Weekday-02,1001338,San Francisco Int'l Airport + Millbrae,1,,1001291_shp,,1,1
+8,2022_02_14-DX-MVS-Weekday-02,1001279,Richmond via Millbrae,0,,1001234_shp,,1,1
+7,2022_02_14-DX-MVS-Weekday-02,1001339,San Francisco Int'l Airport + Millbrae,1,,1001291_shp,,1,1
+8,2022_02_14-DX-MVS-Weekday-02,1001280,Richmond via Millbrae,0,,1001234_shp,,1,1
+7,2022_02_14-DX-MVS-Weekday-02,1001340,San Francisco Int'l Airport + Millbrae,1,,1001291_shp,,1,1
+8,2022_02_14-DX-MVS-Weekday-02,1001281,Richmond via Millbrae,0,,1001234_shp,,1,1
+7,2022_02_14-DX-MVS-Weekday-02,1001341,San Francisco Int'l Airport + Millbrae,1,,1001291_shp,,1,1
+8,2022_02_14-DX-MVS-Weekday-02,1001282,Richmond via Millbrae,0,,1001234_shp,,1,1
+7,2022_02_14-DX-MVS-Weekday-02,1001342,San Francisco Int'l Airport + Millbrae,1,,1001291_shp,,1,1
+8,2022_02_14-DX-MVS-Weekday-02,1001283,Richmond via Millbrae,0,,1001234_shp,,1,1
+7,2022_02_14-DX-MVS-Weekday-02,1001343,San Francisco Int'l Airport + Millbrae,1,,1001291_shp,,1,1
+8,2022_02_14-DX-MVS-Weekday-02,1001284,Richmond via Millbrae,0,,1001234_shp,,1,1
+7,2022_02_14-DX-MVS-Weekday-02,1001344,San Francisco Int'l Airport + Millbrae,1,,1001291_shp,,1,1
+8,2022_02_14-DX-MVS-Weekday-02,1001285,Richmond via Millbrae,0,,1001234_shp,,1,1
+7,2022_02_14-DX-MVS-Weekday-02,1001345,San Francisco Int'l Airport + Millbrae,1,,1001291_shp,,1,1
+8,2022_02_14-DX-MVS-Weekday-02,1001286,Richmond via Millbrae,0,,1001234_shp,,1,1
+7,2022_02_14-DX-MVS-Weekday-02,1001346,San Francisco Int'l Airport + Millbrae,1,,1001291_shp,,1,1
+8,2022_02_14-DX-MVS-Weekday-02,1001287,Richmond via Millbrae,0,,1001234_shp,,1,1
+7,2022_02_14-DX-MVS-Weekday-02,1001347,San Francisco Int'l Airport + Millbrae,1,,1001291_shp,,1,1
+8,2022_02_14-DX-MVS-Weekday-02,1001288,Richmond via Millbrae,0,,1001234_shp,,1,1
+7,2022_02_14-DX-MVS-Weekday-02,1001348,Millbrae (Caltrain Transfer Platform),1,,1001348_shp,,1,1
+8,2022_02_14-DX-MVS-Weekday-02,1001289,Richmond via Millbrae,0,,1001234_shp,,1,1
+8,2022_02_14-DX-MVS-Weekday-02,1001290,Millbrae (Caltrain Transfer Platform),0,,1001290_shp,,1,1
+11,2022_02_14-DX-MVS-Weekday-02,1001696,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-DX-MVS-Weekday-02,1001744,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-DX-MVS-Weekday-02,1001680,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-DX-MVS-Weekday-02,1001787,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-DX-MVS-Weekday-02,1001702,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-DX-MVS-Weekday-02,1001788,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-DX-MVS-Weekday-02,1001685,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-DX-MVS-Weekday-02,1001769,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-DX-MVS-Weekday-02,1001707,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-DX-MVS-Weekday-02,1001798,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-DX-MVS-Weekday-02,1001681,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-DX-MVS-Weekday-02,1001784,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-DX-MVS-Weekday-02,1001698,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-DX-MVS-Weekday-02,1001782,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-DX-MVS-Weekday-02,1001682,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-DX-MVS-Weekday-02,1001783,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-DX-MVS-Weekday-02,1001711,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-DX-MVS-Weekday-02,1001805,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-DX-MVS-Weekday-02,1001700,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-DX-MVS-Weekday-02,1001765,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-DX-MVS-Weekday-02,1001686,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-DX-MVS-Weekday-02,1001785,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-DX-MVS-Weekday-02,1001697,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-DX-MVS-Weekday-02,1001754,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-DX-MVS-Weekday-02,1001694,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-DX-MVS-Weekday-02,1001753,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-DX-MVS-Weekday-02,1001684,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-DX-MVS-Weekday-02,1001786,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-DX-MVS-Weekday-02,1001692,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-DX-MVS-Weekday-02,1001795,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-DX-MVS-Weekday-02,1001687,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-DX-MVS-Weekday-02,1001797,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-DX-MVS-Weekday-02,1001706,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-DX-MVS-Weekday-02,1001752,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-DX-MVS-Weekday-02,1001701,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-DX-MVS-Weekday-02,1001751,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-DX-MVS-Weekday-02,1001683,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-DX-MVS-Weekday-02,1001779,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-DX-MVS-Weekday-02,1001695,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-DX-MVS-Weekday-02,1001776,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-DX-MVS-Weekday-02,1001703,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-DX-MVS-Weekday-02,1001763,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-DX-MVS-Weekday-02,1001714,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-DX-MVS-Weekday-02,1001750,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-DX-MVS-Weekday-02,1001689,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-DX-MVS-Weekday-02,1001806,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-DX-MVS-Weekday-02,1001690,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-DX-MVS-Weekday-02,1001780,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-DX-MVS-Weekday-02,1001709,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-DX-MVS-Weekday-02,1001796,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-DX-MVS-Weekday-02,1001704,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-DX-MVS-Weekday-02,1001768,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-DX-MVS-Weekday-02,1001699,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-DX-MVS-Weekday-02,1001778,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-DX-MVS-Weekday-02,1001705,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-DX-MVS-Weekday-02,1001756,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-DX-MVS-Weekday-02,1001730,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-DX-MVS-Weekday-02,1001802,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-DX-MVS-Weekday-02,1001718,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-DX-MVS-Weekday-02,1001767,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-DX-MVS-Weekday-02,1001693,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-DX-MVS-Weekday-02,1001770,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-DX-MVS-Weekday-02,1001710,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-DX-MVS-Weekday-02,1001758,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-DX-MVS-Weekday-02,1001708,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-DX-MVS-Weekday-02,1001760,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-DX-MVS-Weekday-02,1001712,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-DX-MVS-Weekday-02,1001792,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-DX-MVS-Weekday-02,1001713,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-DX-MVS-Weekday-02,1001800,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-DX-MVS-Weekday-02,1001688,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-DX-MVS-Weekday-02,1001771,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-DX-MVS-Weekday-02,1001716,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-DX-MVS-Weekday-02,1001804,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-DX-MVS-Weekday-02,1001717,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-DX-MVS-Weekday-02,1001794,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-DX-MVS-Weekday-02,1001715,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-DX-MVS-Weekday-02,1001759,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-DX-MVS-Weekday-02,1001719,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-DX-MVS-Weekday-02,1001773,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-DX-MVS-Weekday-02,1001720,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-DX-MVS-Weekday-02,1001775,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-DX-MVS-Weekday-02,1001691,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-DX-MVS-Weekday-02,1001801,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-DX-MVS-Weekday-02,1001722,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-DX-MVS-Weekday-02,1001777,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-DX-MVS-Weekday-02,1001737,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-DX-MVS-Weekday-02,1001774,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-DX-MVS-Weekday-02,1001721,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-DX-MVS-Weekday-02,1001772,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-DX-MVS-Weekday-02,1001723,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-DX-MVS-Weekday-02,1001766,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-DX-MVS-Weekday-02,1001724,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-DX-MVS-Weekday-02,1001755,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-DX-MVS-Weekday-02,1001735,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-DX-MVS-Weekday-02,1001790,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-DX-MVS-Weekday-02,1001725,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-DX-MVS-Weekday-02,1001791,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-DX-MVS-Weekday-02,1001726,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-DX-MVS-Weekday-02,1001789,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-DX-MVS-Weekday-02,1001727,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-DX-MVS-Weekday-02,1001793,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-DX-MVS-Weekday-02,1001732,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-DX-MVS-Weekday-02,1001762,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-DX-MVS-Weekday-02,1001728,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-DX-MVS-Weekday-02,1001803,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-DX-MVS-Weekday-02,1001729,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-DX-MVS-Weekday-02,1001764,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-DX-MVS-Weekday-02,1001731,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-DX-MVS-Weekday-02,1001781,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-DX-MVS-Weekday-02,1001736,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-DX-MVS-Weekday-02,1001757,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-DX-MVS-Weekday-02,1001733,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-DX-MVS-Weekday-02,1001799,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-DX-MVS-Weekday-02,1001734,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-DX-MVS-Weekday-02,1001761,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-DX-MVS-Weekday-02,1001669,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-DX-MVS-Weekday-02,1001749,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-DX-MVS-Weekday-02,1001673,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-DX-MVS-Weekday-02,1001742,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-DX-MVS-Weekday-02,1001676,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-DX-MVS-Weekday-02,1001741,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-DX-MVS-Weekday-02,1001675,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-DX-MVS-Weekday-02,1001743,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-DX-MVS-Weekday-02,1001679,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-DX-MVS-Weekday-02,1001745,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-DX-MVS-Weekday-02,1001678,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-DX-MVS-Weekday-02,1001746,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-DX-MVS-Weekday-02,1001674,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-DX-MVS-Weekday-02,1001747,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-DX-MVS-Weekday-02,1001677,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-DX-MVS-Weekday-02,1001748,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-DX-MVS-Weekday-02,1001671,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-DX-MVS-Weekday-02,1001739,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-DX-MVS-Weekday-02,1001668,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-DX-MVS-Weekday-02,1001807,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-DX-MVS-Weekday-02,1001670,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-DX-MVS-Weekday-02,1001740,Dublin/Pleasanton,0,,1001740_shp,,1,1
+11,2022_02_14-DX-MVS-Weekday-02,1001672,Bay Fair,1,,1001672_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004175,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004176,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004177,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004178,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004179,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004180,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004181,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004182,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004183,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004184,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004185,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004186,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004187,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004188,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004189,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004190,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004191,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004192,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004193,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004194,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004195,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004196,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004197,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004198,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004199,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004200,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004201,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004202,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004203,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004204,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004205,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004206,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004207,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004208,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004209,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004210,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004211,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004212,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004213,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004214,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004215,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004216,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004217,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004218,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004219,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004220,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004221,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004222,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004223,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004224,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004225,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004226,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004227,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004228,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004229,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004230,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004231,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004232,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004233,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004234,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004235,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004236,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004237,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004238,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004239,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004240,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004241,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004242,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004243,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004244,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004245,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004246,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004247,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004248,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004249,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004250,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004251,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004252,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004253,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004254,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004255,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004256,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004257,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004258,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004259,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004260,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004261,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004262,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004263,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004264,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004265,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004266,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004267,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004268,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004269,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004270,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004271,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004272,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004273,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004274,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004275,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004276,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004277,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004278,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004279,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004280,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004281,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004282,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004283,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004284,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004285,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004286,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004287,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004288,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004289,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004290,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004291,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004292,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004293,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004294,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004295,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004296,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004297,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004298,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004299,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004300,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004301,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004302,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004303,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004304,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004305,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004306,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004307,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004308,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004309,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004310,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004311,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004312,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004313,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004314,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004315,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004316,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004317,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004318,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004319,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004320,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004321,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004322,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004323,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004324,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004325,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004326,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004327,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004328,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004329,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004330,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004331,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004332,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004333,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004334,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004335,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004336,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004337,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004338,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004339,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004340,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004341,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004342,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004343,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004344,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004345,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004346,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004347,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004348,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004349,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004350,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004351,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004352,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004353,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004354,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-DX19-Weekday-01,1004355,Coliseum,0,,1004175_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003859,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003860,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003861,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003862,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003863,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003864,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003865,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003866,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003867,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003868,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003869,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003870,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003871,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003872,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003873,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003874,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003875,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003876,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003877,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003878,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003879,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003880,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003881,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003882,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003883,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003884,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003885,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003886,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003887,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003888,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003889,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003890,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003891,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003892,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003893,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003894,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003895,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003896,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003897,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003898,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003899,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003900,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003901,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003902,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003903,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003904,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003905,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003906,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003907,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003908,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003909,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003910,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003911,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003912,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003913,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003914,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003915,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003916,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003917,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003918,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003919,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003920,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003921,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003922,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003923,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003924,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003925,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003926,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003927,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003928,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003929,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003930,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003931,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003932,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003933,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003934,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003935,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003936,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003937,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003938,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003939,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003940,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003941,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003942,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003943,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003944,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003945,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003946,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003947,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003948,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003949,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003950,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003951,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003952,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003953,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003954,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003955,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003956,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003957,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003958,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003959,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003960,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003961,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003962,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003963,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003964,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003965,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003966,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003967,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003968,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003969,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003970,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003971,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003972,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003973,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003974,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003975,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003976,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003977,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003978,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003979,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003980,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003981,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003982,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003983,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003984,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003985,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003986,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003987,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003988,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003989,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003990,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003991,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003992,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003993,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003994,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003995,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003996,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003997,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003998,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1003999,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1004000,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1004001,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1004002,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1004003,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1004004,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1004005,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1004006,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1004007,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1004008,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1004009,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1004010,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1004011,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1004012,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1004013,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1004014,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1004015,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1004016,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1004017,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1004018,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1004019,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1004020,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1004021,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1004022,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1004023,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1004024,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1004025,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1004026,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1004027,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1004028,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1004029,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1004030,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1004031,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1004032,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1004033,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1004034,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1004035,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1004036,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-DX20-Weekday-01,1004037,Oakland Airport,1,,1003859_shp,,1,1
+5,2022_02_14-SA-MVS-Saturday-03,1053085,Daly City,1,,1001860_shp,,1,1
+6,2022_02_14-SA-MVS-Saturday-03,1053065,Berryessa/North San Jose,0,,1001614_shp,,1,1
+5,2022_02_14-SA-MVS-Saturday-03,1053086,Daly City,1,,1001860_shp,,1,1
+6,2022_02_14-SA-MVS-Saturday-03,1053064,Berryessa/North San Jose,0,,1009530_shp,,1,1
+5,2022_02_14-SA-MVS-Saturday-03,1053087,Daly City,1,,1001860_shp,,1,1
+6,2022_02_14-SA-MVS-Saturday-03,1053061,Berryessa/North San Jose,0,,1009530_shp,,1,1
+5,2022_02_14-SA-MVS-Saturday-03,1053088,Daly City,1,,1001860_shp,,1,1
+6,2022_02_14-SA-MVS-Saturday-03,1053062,Berryessa/North San Jose,0,,1009530_shp,,1,1
+5,2022_02_14-SA-MVS-Saturday-03,1053067,Daly City,1,,1001860_shp,,1,1
+6,2022_02_14-SA-MVS-Saturday-03,1053060,Berryessa/North San Jose,0,,1009530_shp,,1,1
+5,2022_02_14-SA-MVS-Saturday-03,1053068,Daly City,1,,1001860_shp,,1,1
+6,2022_02_14-SA-MVS-Saturday-03,1053063,Berryessa/North San Jose,0,,1009530_shp,,1,1
+5,2022_02_14-SA-MVS-Saturday-03,1053069,Daly City,1,,1001860_shp,,1,1
+6,2022_02_14-SA-MVS-Saturday-03,1053041,Berryessa/North San Jose,0,,1009530_shp,,1,1
+5,2022_02_14-SA-MVS-Saturday-03,1053070,Daly City,1,,1001860_shp,,1,1
+6,2022_02_14-SA-MVS-Saturday-03,1053042,Berryessa/North San Jose,0,,1009530_shp,,1,1
+5,2022_02_14-SA-MVS-Saturday-03,1053071,Daly City,1,,1001860_shp,,1,1
+6,2022_02_14-SA-MVS-Saturday-03,1053043,Berryessa/North San Jose,0,,1009530_shp,,1,1
+5,2022_02_14-SA-MVS-Saturday-03,1053072,Daly City,1,,1001860_shp,,1,1
+6,2022_02_14-SA-MVS-Saturday-03,1053044,Berryessa/North San Jose,0,,1009530_shp,,1,1
+5,2022_02_14-SA-MVS-Saturday-03,1053073,Daly City,1,,1001860_shp,,1,1
+6,2022_02_14-SA-MVS-Saturday-03,1053045,Berryessa/North San Jose,0,,1009530_shp,,1,1
+5,2022_02_14-SA-MVS-Saturday-03,1053074,Daly City,1,,1001860_shp,,1,1
+6,2022_02_14-SA-MVS-Saturday-03,1053046,Berryessa/North San Jose,0,,1009530_shp,,1,1
+5,2022_02_14-SA-MVS-Saturday-03,1053075,Daly City,1,,1001860_shp,,1,1
+6,2022_02_14-SA-MVS-Saturday-03,1053047,Berryessa/North San Jose,0,,1009530_shp,,1,1
+5,2022_02_14-SA-MVS-Saturday-03,1053076,Daly City,1,,1001860_shp,,1,1
+6,2022_02_14-SA-MVS-Saturday-03,1053048,Berryessa/North San Jose,0,,1009530_shp,,1,1
+5,2022_02_14-SA-MVS-Saturday-03,1053077,Daly City,1,,1001860_shp,,1,1
+6,2022_02_14-SA-MVS-Saturday-03,1053049,Berryessa/North San Jose,0,,1009530_shp,,1,1
+5,2022_02_14-SA-MVS-Saturday-03,1053078,Daly City,1,,1001860_shp,,1,1
+6,2022_02_14-SA-MVS-Saturday-03,1053050,Berryessa/North San Jose,0,,1009530_shp,,1,1
+5,2022_02_14-SA-MVS-Saturday-03,1053079,Daly City,1,,1001860_shp,,1,1
+6,2022_02_14-SA-MVS-Saturday-03,1053051,Berryessa/North San Jose,0,,1009530_shp,,1,1
+5,2022_02_14-SA-MVS-Saturday-03,1053080,Daly City,1,,1001860_shp,,1,1
+6,2022_02_14-SA-MVS-Saturday-03,1053052,Berryessa/North San Jose,0,,1009530_shp,,1,1
+5,2022_02_14-SA-MVS-Saturday-03,1053081,Daly City,1,,1001860_shp,,1,1
+6,2022_02_14-SA-MVS-Saturday-03,1053053,Berryessa/North San Jose,0,,1009530_shp,,1,1
+5,2022_02_14-SA-MVS-Saturday-03,1053082,Daly City,1,,1001860_shp,,1,1
+6,2022_02_14-SA-MVS-Saturday-03,1053054,Berryessa/North San Jose,0,,1009530_shp,,1,1
+5,2022_02_14-SA-MVS-Saturday-03,1053083,Daly City,1,,1001860_shp,,1,1
+6,2022_02_14-SA-MVS-Saturday-03,1053055,Berryessa/North San Jose,0,,1009530_shp,,1,1
+5,2022_02_14-SA-MVS-Saturday-03,1053084,Daly City,1,,1001860_shp,,1,1
+6,2022_02_14-SA-MVS-Saturday-03,1053056,Berryessa/North San Jose,0,,1009530_shp,,1,1
+5,2022_02_14-SA-MVS-Saturday-03,1053066,Daly City,1,,1001860_shp,,1,1
+6,2022_02_14-SA-MVS-Saturday-03,1053057,Berryessa/North San Jose,0,,1009530_shp,,1,1
+5,2022_02_14-SA-MVS-Saturday-03,1053089,Daly City,1,,1001860_shp,,1,1
+6,2022_02_14-SA-MVS-Saturday-03,1053058,Berryessa/North San Jose,0,,1009530_shp,,1,1
+6,2022_02_14-SA-MVS-Saturday-03,1053059,Berryessa/North San Jose,0,,1009530_shp,,1,1
+3,2022_02_14-SA-MVS-Saturday-03,1052845,Richmond,0,,1001605_shp,,1,1
+4,2022_02_14-SA-MVS-Saturday-03,1052874,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-SA-MVS-Saturday-03,1052839,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-SA-MVS-Saturday-03,1052875,Berryessa/North San Jose,1,,1001614_shp,,1,1
+3,2022_02_14-SA-MVS-Saturday-03,1052838,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-SA-MVS-Saturday-03,1052873,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-SA-MVS-Saturday-03,1052837,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-SA-MVS-Saturday-03,1052872,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-SA-MVS-Saturday-03,1052811,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-SA-MVS-Saturday-03,1052846,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-SA-MVS-Saturday-03,1052812,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-SA-MVS-Saturday-03,1052847,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-SA-MVS-Saturday-03,1052813,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-SA-MVS-Saturday-03,1052848,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-SA-MVS-Saturday-03,1052814,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-SA-MVS-Saturday-03,1052849,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-SA-MVS-Saturday-03,1052815,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-SA-MVS-Saturday-03,1052850,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-SA-MVS-Saturday-03,1052816,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-SA-MVS-Saturday-03,1052851,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-SA-MVS-Saturday-03,1052817,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-SA-MVS-Saturday-03,1052852,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-SA-MVS-Saturday-03,1052818,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-SA-MVS-Saturday-03,1052853,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-SA-MVS-Saturday-03,1052819,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-SA-MVS-Saturday-03,1052854,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-SA-MVS-Saturday-03,1052820,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-SA-MVS-Saturday-03,1052855,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-SA-MVS-Saturday-03,1052821,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-SA-MVS-Saturday-03,1052856,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-SA-MVS-Saturday-03,1052822,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-SA-MVS-Saturday-03,1052857,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-SA-MVS-Saturday-03,1052823,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-SA-MVS-Saturday-03,1052858,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-SA-MVS-Saturday-03,1052824,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-SA-MVS-Saturday-03,1052859,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-SA-MVS-Saturday-03,1052825,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-SA-MVS-Saturday-03,1052860,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-SA-MVS-Saturday-03,1052826,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-SA-MVS-Saturday-03,1052861,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-SA-MVS-Saturday-03,1052827,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-SA-MVS-Saturday-03,1052862,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-SA-MVS-Saturday-03,1052828,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-SA-MVS-Saturday-03,1052863,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-SA-MVS-Saturday-03,1052829,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-SA-MVS-Saturday-03,1052864,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-SA-MVS-Saturday-03,1052830,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-SA-MVS-Saturday-03,1052865,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-SA-MVS-Saturday-03,1052831,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-SA-MVS-Saturday-03,1052866,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-SA-MVS-Saturday-03,1052832,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-SA-MVS-Saturday-03,1052867,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-SA-MVS-Saturday-03,1052833,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-SA-MVS-Saturday-03,1052868,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-SA-MVS-Saturday-03,1053519,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-SA-MVS-Saturday-03,1053524,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-SA-MVS-Saturday-03,1053521,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-SA-MVS-Saturday-03,1053516,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-SA-MVS-Saturday-03,1053529,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-SA-MVS-Saturday-03,1053526,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-SA-MVS-Saturday-03,1053536,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-SA-MVS-Saturday-03,1053532,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-SA-MVS-Saturday-03,1053542,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-SA-MVS-Saturday-03,1053538,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-SA-MVS-Saturday-03,1053548,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-SA-MVS-Saturday-03,1053544,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-SA-MVS-Saturday-03,1053554,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-SA-MVS-Saturday-03,1053550,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-SA-MVS-Saturday-03,1053560,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-SA-MVS-Saturday-03,1053556,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-SA-MVS-Saturday-03,1053566,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-SA-MVS-Saturday-03,1053562,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-SA-MVS-Saturday-03,1053572,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-SA-MVS-Saturday-03,1053568,Berryessa/North San Jose,1,,1001542_shp,,1,1
+4,2022_02_14-SA-MVS-Saturday-03,1053574,Berryessa/North San Jose,1,,1001542_shp,,1,1
+1,2022_02_14-SA-MVS-Saturday-03,1053127,San Francisco International Airport,1,,1053127_shp,,1,1
+2,2022_02_14-SA-MVS-Saturday-03,1053175,Antioch,0,,1001349_shp,,1,1
+1,2022_02_14-SA-MVS-Saturday-03,1053117,San Francisco International Airport,1,,1001439_shp,,1,1
+2,2022_02_14-SA-MVS-Saturday-03,1053177,Antioch via SFO,0,,1001357_shp,,1,1
+1,2022_02_14-SA-MVS-Saturday-03,1053128,San Francisco International Airport,1,,1053127_shp,,1,1
+2,2022_02_14-SA-MVS-Saturday-03,1053662,Pittsburg/Bay Point,0,,1053662_shp,,1,1
+1,2022_02_14-SA-MVS-Saturday-03,1053116,San Francisco International Airport,1,,1001439_shp,,1,1
+2,2022_02_14-SA-MVS-Saturday-03,1053176,Antioch via SFO,0,,1001357_shp,,1,1
+1,2022_02_14-SA-MVS-Saturday-03,1053129,San Francisco International Airport,1,,1053127_shp,,1,1
+2,2022_02_14-SA-MVS-Saturday-03,1053661,Pittsburg/Bay Point,0,,1053662_shp,,1,1
+1,2022_02_14-SA-MVS-Saturday-03,1053112,San Francisco International Airport,1,,1001439_shp,,1,1
+2,2022_02_14-SA-MVS-Saturday-03,1053190,Pittsburg/Bay Point,0,,1001395_shp,,1,1
+1,2022_02_14-SA-MVS-Saturday-03,1053130,San Francisco International Airport,1,,1053127_shp,,1,1
+2,2022_02_14-SA-MVS-Saturday-03,1053180,Antioch,0,,1001350_shp,,1,1
+1,2022_02_14-SA-MVS-Saturday-03,1053110,San Francisco International Airport,1,,1001439_shp,,1,1
+2,2022_02_14-SA-MVS-Saturday-03,1053191,Pittsburg/Bay Point,0,,1001395_shp,,1,1
+1,2022_02_14-SA-MVS-Saturday-03,1053131,San Francisco International Airport,1,,1053127_shp,,1,1
+2,2022_02_14-SA-MVS-Saturday-03,1053178,Antioch,0,,1001350_shp,,1,1
+1,2022_02_14-SA-MVS-Saturday-03,1053090,San Francisco International Airport,1,,1001439_shp,,1,1
+2,2022_02_14-SA-MVS-Saturday-03,1053192,Pittsburg/Bay Point,0,,1001395_shp,,1,1
+1,2022_02_14-SA-MVS-Saturday-03,1053132,San Francisco International Airport,1,,1053127_shp,,1,1
+2,2022_02_14-SA-MVS-Saturday-03,1053179,Antioch,0,,1001350_shp,,1,1
+1,2022_02_14-SA-MVS-Saturday-03,1053091,San Francisco International Airport,1,,1001439_shp,,1,1
+2,2022_02_14-SA-MVS-Saturday-03,1053193,Pittsburg/Bay Point,0,,1001395_shp,,1,1
+1,2022_02_14-SA-MVS-Saturday-03,1053133,San Francisco International Airport,1,,1053127_shp,,1,1
+2,2022_02_14-SA-MVS-Saturday-03,1053153,Antioch,0,,1001350_shp,,1,1
+1,2022_02_14-SA-MVS-Saturday-03,1053092,San Francisco International Airport,1,,1001439_shp,,1,1
+2,2022_02_14-SA-MVS-Saturday-03,1053194,Pittsburg/Bay Point,0,,1001395_shp,,1,1
+1,2022_02_14-SA-MVS-Saturday-03,1053134,San Francisco International Airport,1,,1053127_shp,,1,1
+2,2022_02_14-SA-MVS-Saturday-03,1053154,Antioch,0,,1001350_shp,,1,1
+1,2022_02_14-SA-MVS-Saturday-03,1053093,San Francisco International Airport,1,,1001439_shp,,1,1
+2,2022_02_14-SA-MVS-Saturday-03,1053195,Pittsburg/Bay Point,0,,1001395_shp,,1,1
+1,2022_02_14-SA-MVS-Saturday-03,1053135,San Francisco International Airport,1,,1053127_shp,,1,1
+2,2022_02_14-SA-MVS-Saturday-03,1053155,Antioch,0,,1001350_shp,,1,1
+1,2022_02_14-SA-MVS-Saturday-03,1053094,San Francisco International Airport,1,,1001439_shp,,1,1
+2,2022_02_14-SA-MVS-Saturday-03,1053196,Pittsburg/Bay Point,0,,1001395_shp,,1,1
+1,2022_02_14-SA-MVS-Saturday-03,1053136,San Francisco International Airport,1,,1053127_shp,,1,1
+2,2022_02_14-SA-MVS-Saturday-03,1053156,Antioch,0,,1001350_shp,,1,1
+1,2022_02_14-SA-MVS-Saturday-03,1053095,San Francisco International Airport,1,,1001439_shp,,1,1
+2,2022_02_14-SA-MVS-Saturday-03,1053197,Pittsburg/Bay Point,0,,1001395_shp,,1,1
+1,2022_02_14-SA-MVS-Saturday-03,1053137,San Francisco International Airport,1,,1053127_shp,,1,1
+2,2022_02_14-SA-MVS-Saturday-03,1053157,Antioch,0,,1001350_shp,,1,1
+1,2022_02_14-SA-MVS-Saturday-03,1053096,San Francisco International Airport,1,,1001439_shp,,1,1
+2,2022_02_14-SA-MVS-Saturday-03,1053198,Pittsburg/Bay Point,0,,1001395_shp,,1,1
+1,2022_02_14-SA-MVS-Saturday-03,1053138,San Francisco International Airport,1,,1053127_shp,,1,1
+2,2022_02_14-SA-MVS-Saturday-03,1053158,Antioch,0,,1001350_shp,,1,1
+1,2022_02_14-SA-MVS-Saturday-03,1053097,San Francisco International Airport,1,,1001439_shp,,1,1
+2,2022_02_14-SA-MVS-Saturday-03,1053199,Pittsburg/Bay Point,0,,1001395_shp,,1,1
+1,2022_02_14-SA-MVS-Saturday-03,1053139,San Francisco International Airport,1,,1053127_shp,,1,1
+2,2022_02_14-SA-MVS-Saturday-03,1053159,Antioch,0,,1001350_shp,,1,1
+1,2022_02_14-SA-MVS-Saturday-03,1053098,San Francisco International Airport,1,,1001439_shp,,1,1
+2,2022_02_14-SA-MVS-Saturday-03,1053201,Pittsburg/Bay Point,0,,1001395_shp,,1,1
+1,2022_02_14-SA-MVS-Saturday-03,1053140,San Francisco International Airport,1,,1053127_shp,,1,1
+2,2022_02_14-SA-MVS-Saturday-03,1053160,Antioch,0,,1001350_shp,,1,1
+1,2022_02_14-SA-MVS-Saturday-03,1053099,San Francisco International Airport,1,,1001439_shp,,1,1
+2,2022_02_14-SA-MVS-Saturday-03,1053202,Pittsburg/Bay Point,0,,1001395_shp,,1,1
+1,2022_02_14-SA-MVS-Saturday-03,1053141,San Francisco International Airport,1,,1053127_shp,,1,1
+2,2022_02_14-SA-MVS-Saturday-03,1053161,Antioch,0,,1001350_shp,,1,1
+1,2022_02_14-SA-MVS-Saturday-03,1053100,San Francisco International Airport,1,,1001439_shp,,1,1
+2,2022_02_14-SA-MVS-Saturday-03,1053203,Pittsburg/Bay Point,0,,1001395_shp,,1,1
+1,2022_02_14-SA-MVS-Saturday-03,1053142,San Francisco International Airport,1,,1053127_shp,,1,1
+2,2022_02_14-SA-MVS-Saturday-03,1053162,Antioch,0,,1001350_shp,,1,1
+1,2022_02_14-SA-MVS-Saturday-03,1053101,San Francisco International Airport,1,,1001439_shp,,1,1
+2,2022_02_14-SA-MVS-Saturday-03,1053200,Pittsburg/Bay Point,0,,1001395_shp,,1,1
+1,2022_02_14-SA-MVS-Saturday-03,1053143,San Francisco International Airport,1,,1053127_shp,,1,1
+2,2022_02_14-SA-MVS-Saturday-03,1053163,Antioch,0,,1001350_shp,,1,1
+1,2022_02_14-SA-MVS-Saturday-03,1053102,San Francisco International Airport,1,,1001439_shp,,1,1
+2,2022_02_14-SA-MVS-Saturday-03,1053204,Pittsburg/Bay Point,0,,1001395_shp,,1,1
+1,2022_02_14-SA-MVS-Saturday-03,1053144,San Francisco International Airport,1,,1053127_shp,,1,1
+2,2022_02_14-SA-MVS-Saturday-03,1053164,Antioch,0,,1001350_shp,,1,1
+1,2022_02_14-SA-MVS-Saturday-03,1053103,San Francisco International Airport,1,,1001439_shp,,1,1
+2,2022_02_14-SA-MVS-Saturday-03,1053165,Antioch,0,,1001395_shp,,1,1
+1,2022_02_14-SA-MVS-Saturday-03,1053145,San Francisco International Airport,1,,1053127_shp,,1,1
+2,2022_02_14-SA-MVS-Saturday-03,1053205,Pittsburg/Bay Point,0,,1001350_shp,,1,1
+1,2022_02_14-SA-MVS-Saturday-03,1053104,San Francisco International Airport,1,,1001439_shp,,1,1
+2,2022_02_14-SA-MVS-Saturday-03,1053166,Antioch,0,,1001395_shp,,1,1
+1,2022_02_14-SA-MVS-Saturday-03,1053146,San Francisco International Airport,1,,1053127_shp,,1,1
+2,2022_02_14-SA-MVS-Saturday-03,1053206,Pittsburg/Bay Point,0,,1001350_shp,,1,1
+1,2022_02_14-SA-MVS-Saturday-03,1053105,San Francisco International Airport,1,,1001439_shp,,1,1
+2,2022_02_14-SA-MVS-Saturday-03,1053167,Antioch,0,,1001395_shp,,1,1
+1,2022_02_14-SA-MVS-Saturday-03,1053147,San Francisco International Airport,1,,1053127_shp,,1,1
+2,2022_02_14-SA-MVS-Saturday-03,1053207,Pittsburg/Bay Point,0,,1001350_shp,,1,1
+1,2022_02_14-SA-MVS-Saturday-03,1053106,San Francisco International Airport,1,,1001439_shp,,1,1
+2,2022_02_14-SA-MVS-Saturday-03,1053168,Antioch,0,,1001395_shp,,1,1
+1,2022_02_14-SA-MVS-Saturday-03,1053107,San Francisco International Airport,1,,1053127_shp,,1,1
+2,2022_02_14-SA-MVS-Saturday-03,1053208,Pittsburg/Bay Point,0,,1001350_shp,,1,1
+1,2022_02_14-SA-MVS-Saturday-03,1053148,San Francisco International Airport,1,,1001439_shp,,1,1
+2,2022_02_14-SA-MVS-Saturday-03,1053169,Antioch,0,,1001395_shp,,1,1
+1,2022_02_14-SA-MVS-Saturday-03,1053108,San Francisco International Airport,1,,1053127_shp,,1,1
+2,2022_02_14-SA-MVS-Saturday-03,1053209,Pittsburg/Bay Point,0,,1001350_shp,,1,1
+1,2022_02_14-SA-MVS-Saturday-03,1053149,San Francisco International Airport,1,,1001439_shp,,1,1
+2,2022_02_14-SA-MVS-Saturday-03,1053170,Antioch,0,,1001395_shp,,1,1
+1,2022_02_14-SA-MVS-Saturday-03,1053109,San Francisco International Airport,1,,1053127_shp,,1,1
+2,2022_02_14-SA-MVS-Saturday-03,1053210,Pittsburg/Bay Point,0,,1001350_shp,,1,1
+1,2022_02_14-SA-MVS-Saturday-03,1053150,San Francisco International Airport,1,,1001439_shp,,1,1
+2,2022_02_14-SA-MVS-Saturday-03,1053171,Antioch,0,,1001395_shp,,1,1
+1,2022_02_14-SA-MVS-Saturday-03,1053120,San Francisco Int'l Airport + Millbrae,1,,1053120_shp,,1,1
+2,2022_02_14-SA-MVS-Saturday-03,1053172,Antioch,0,,1001350_shp,,1,1
+1,2022_02_14-SA-MVS-Saturday-03,1053151,San Francisco International Airport,1,,1001439_shp,,1,1
+2,2022_02_14-SA-MVS-Saturday-03,1053173,Antioch,0,,1001395_shp,,1,1
+1,2022_02_14-SA-MVS-Saturday-03,1053121,San Francisco Int'l Airport + Millbrae,1,,1053120_shp,,1,1
+2,2022_02_14-SA-MVS-Saturday-03,1053211,Pittsburg/Bay Point,0,,1001350_shp,,1,1
+1,2022_02_14-SA-MVS-Saturday-03,1053658,Daly City,1,,1053658_shp,,1,1
+2,2022_02_14-SA-MVS-Saturday-03,1053174,Antioch,0,,1001395_shp,,1,1
+1,2022_02_14-SA-MVS-Saturday-03,1053125,San Francisco Int'l Airport + Millbrae,1,,1053120_shp,,1,1
+2,2022_02_14-SA-MVS-Saturday-03,1053212,Pittsburg/Bay Point,0,,1001350_shp,,1,1
+1,2022_02_14-SA-MVS-Saturday-03,1053659,Daly City,1,,1053658_shp,,1,1
+2,2022_02_14-SA-MVS-Saturday-03,1053213,Pittsburg/Bay Point,0,,1001395_shp,,1,1
+1,2022_02_14-SA-MVS-Saturday-03,1053124,San Francisco Int'l Airport + Millbrae,1,,1053120_shp,,1,1
+2,2022_02_14-SA-MVS-Saturday-03,1053520,Antioch,0,,1001357_shp,,1,1
+1,2022_02_14-SA-MVS-Saturday-03,1053518,San Francisco Int'l Airport + Millbrae,1,,1009378_shp,,1,1
+2,2022_02_14-SA-MVS-Saturday-03,1053528,Antioch,0,,1001357_shp,,1,1
+1,2022_02_14-SA-MVS-Saturday-03,1053527,San Francisco Int'l Airport + Millbrae,1,,1009378_shp,,1,1
+2,2022_02_14-SA-MVS-Saturday-03,1053534,Antioch,0,,1001357_shp,,1,1
+1,2022_02_14-SA-MVS-Saturday-03,1053533,San Francisco Int'l Airport + Millbrae,1,,1009378_shp,,1,1
+2,2022_02_14-SA-MVS-Saturday-03,1053540,Antioch via SFO,0,,1001357_shp,,1,1
+1,2022_02_14-SA-MVS-Saturday-03,1053539,San Francisco Int'l Airport + Millbrae,1,,1009378_shp,,1,1
+2,2022_02_14-SA-MVS-Saturday-03,1053546,Antioch via SFO,0,,1001357_shp,,1,1
+1,2022_02_14-SA-MVS-Saturday-03,1053545,San Francisco Int'l Airport + Millbrae,1,,1009378_shp,,1,1
+2,2022_02_14-SA-MVS-Saturday-03,1053552,Antioch via SFO,0,,1001357_shp,,1,1
+1,2022_02_14-SA-MVS-Saturday-03,1053551,San Francisco Int'l Airport + Millbrae,1,,1009378_shp,,1,1
+2,2022_02_14-SA-MVS-Saturday-03,1053558,Antioch via SFO,0,,1001357_shp,,1,1
+1,2022_02_14-SA-MVS-Saturday-03,1053557,San Francisco Int'l Airport + Millbrae,1,,1009378_shp,,1,1
+2,2022_02_14-SA-MVS-Saturday-03,1053564,Antioch via SFO,0,,1001357_shp,,1,1
+1,2022_02_14-SA-MVS-Saturday-03,1053563,San Francisco Int'l Airport + Millbrae,1,,1009378_shp,,1,1
+2,2022_02_14-SA-MVS-Saturday-03,1053570,Antioch via SFO,0,,1001357_shp,,1,1
+1,2022_02_14-SA-MVS-Saturday-03,1053569,San Francisco Int'l Airport + Millbrae,1,,1009378_shp,,1,1
+2,2022_02_14-SA-MVS-Saturday-03,1053575,Antioch via SFO,0,,1001357_shp,,1,1
+1,2022_02_14-SA-MVS-Saturday-03,1053576,San Francisco Int'l Airport + Millbrae,1,,1001439_shp,,1,1
+7,2022_02_14-SA-MVS-Saturday-03,1052809,San Francisco Int'l Airport + Millbrae,1,,1001291_shp,,1,1
+8,2022_02_14-SA-MVS-Saturday-03,1052784,Richmond via Millbrae,0,,1001234_shp,,1,1
+7,2022_02_14-SA-MVS-Saturday-03,1052808,San Francisco Int'l Airport + Millbrae,1,,1001291_shp,,1,1
+8,2022_02_14-SA-MVS-Saturday-03,1052785,Richmond via Millbrae,0,,1001234_shp,,1,1
+7,2022_02_14-SA-MVS-Saturday-03,1052807,San Francisco Int'l Airport + Millbrae,1,,1001291_shp,,1,1
+8,2022_02_14-SA-MVS-Saturday-03,1052773,Richmond via Millbrae,0,,1001234_shp,,1,1
+7,2022_02_14-SA-MVS-Saturday-03,1052793,San Francisco Int'l Airport + Millbrae,1,,1001291_shp,,1,1
+8,2022_02_14-SA-MVS-Saturday-03,1052778,Richmond via Millbrae,0,,1001234_shp,,1,1
+7,2022_02_14-SA-MVS-Saturday-03,1052789,San Francisco Int'l Airport + Millbrae,1,,1001291_shp,,1,1
+8,2022_02_14-SA-MVS-Saturday-03,1052770,Richmond via Millbrae,0,,1001234_shp,,1,1
+7,2022_02_14-SA-MVS-Saturday-03,1052804,San Francisco Int'l Airport + Millbrae,1,,1001291_shp,,1,1
+8,2022_02_14-SA-MVS-Saturday-03,1052766,Richmond via Millbrae,0,,1001234_shp,,1,1
+7,2022_02_14-SA-MVS-Saturday-03,1052805,San Francisco Int'l Airport + Millbrae,1,,1001291_shp,,1,1
+8,2022_02_14-SA-MVS-Saturday-03,1052762,Richmond via Millbrae,0,,1001234_shp,,1,1
+7,2022_02_14-SA-MVS-Saturday-03,1052796,San Francisco Int'l Airport + Millbrae,1,,1001291_shp,,1,1
+8,2022_02_14-SA-MVS-Saturday-03,1052783,Richmond via Millbrae,0,,1001234_shp,,1,1
+7,2022_02_14-SA-MVS-Saturday-03,1052800,San Francisco Int'l Airport + Millbrae,1,,1001291_shp,,1,1
+8,2022_02_14-SA-MVS-Saturday-03,1052774,Richmond via Millbrae,0,,1001234_shp,,1,1
+7,2022_02_14-SA-MVS-Saturday-03,1052794,San Francisco Int'l Airport + Millbrae,1,,1001291_shp,,1,1
+8,2022_02_14-SA-MVS-Saturday-03,1052775,Richmond via Millbrae,0,,1001234_shp,,1,1
+7,2022_02_14-SA-MVS-Saturday-03,1052790,San Francisco Int'l Airport + Millbrae,1,,1001291_shp,,1,1
+8,2022_02_14-SA-MVS-Saturday-03,1052767,Richmond via Millbrae,0,,1001234_shp,,1,1
+7,2022_02_14-SA-MVS-Saturday-03,1052786,San Francisco Int'l Airport + Millbrae,1,,1001291_shp,,1,1
+8,2022_02_14-SA-MVS-Saturday-03,1052763,Richmond via Millbrae,0,,1001234_shp,,1,1
+7,2022_02_14-SA-MVS-Saturday-03,1052806,San Francisco Int'l Airport + Millbrae,1,,1001291_shp,,1,1
+8,2022_02_14-SA-MVS-Saturday-03,1052779,Richmond via Millbrae,0,,1001234_shp,,1,1
+7,2022_02_14-SA-MVS-Saturday-03,1052797,San Francisco Int'l Airport + Millbrae,1,,1001291_shp,,1,1
+8,2022_02_14-SA-MVS-Saturday-03,1052780,Richmond via Millbrae,0,,1001234_shp,,1,1
+7,2022_02_14-SA-MVS-Saturday-03,1052798,San Francisco Int'l Airport + Millbrae,1,,1001291_shp,,1,1
+8,2022_02_14-SA-MVS-Saturday-03,1052771,Richmond via Millbrae,0,,1001234_shp,,1,1
+7,2022_02_14-SA-MVS-Saturday-03,1052791,San Francisco Int'l Airport + Millbrae,1,,1001291_shp,,1,1
+8,2022_02_14-SA-MVS-Saturday-03,1052776,Richmond via Millbrae,0,,1001234_shp,,1,1
+7,2022_02_14-SA-MVS-Saturday-03,1052787,San Francisco Int'l Airport + Millbrae,1,,1001291_shp,,1,1
+8,2022_02_14-SA-MVS-Saturday-03,1052768,Richmond via Millbrae,0,,1001234_shp,,1,1
+7,2022_02_14-SA-MVS-Saturday-03,1052801,San Francisco Int'l Airport + Millbrae,1,,1001291_shp,,1,1
+8,2022_02_14-SA-MVS-Saturday-03,1052764,Richmond via Millbrae,0,,1001234_shp,,1,1
+7,2022_02_14-SA-MVS-Saturday-03,1052802,San Francisco Int'l Airport + Millbrae,1,,1001291_shp,,1,1
+8,2022_02_14-SA-MVS-Saturday-03,1052781,Richmond via Millbrae,0,,1001234_shp,,1,1
+7,2022_02_14-SA-MVS-Saturday-03,1052795,San Francisco Int'l Airport + Millbrae,1,,1001291_shp,,1,1
+8,2022_02_14-SA-MVS-Saturday-03,1052782,Richmond via Millbrae,0,,1001234_shp,,1,1
+7,2022_02_14-SA-MVS-Saturday-03,1052799,San Francisco Int'l Airport + Millbrae,1,,1001291_shp,,1,1
+8,2022_02_14-SA-MVS-Saturday-03,1052772,Richmond via Millbrae,0,,1001234_shp,,1,1
+7,2022_02_14-SA-MVS-Saturday-03,1052792,San Francisco Int'l Airport + Millbrae,1,,1001291_shp,,1,1
+8,2022_02_14-SA-MVS-Saturday-03,1052777,Richmond via Millbrae,0,,1001234_shp,,1,1
+7,2022_02_14-SA-MVS-Saturday-03,1052788,San Francisco Int'l Airport + Millbrae,1,,1001291_shp,,1,1
+8,2022_02_14-SA-MVS-Saturday-03,1052769,Richmond via Millbrae,0,,1001234_shp,,1,1
+7,2022_02_14-SA-MVS-Saturday-03,1052803,San Francisco Int'l Airport + Millbrae,1,,1001291_shp,,1,1
+8,2022_02_14-SA-MVS-Saturday-03,1052765,Richmond via Millbrae,0,,1001234_shp,,1,1
+11,2022_02_14-SA-MVS-Saturday-03,1052915,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-SA-MVS-Saturday-03,1052954,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-SA-MVS-Saturday-03,1052913,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-SA-MVS-Saturday-03,1052952,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-SA-MVS-Saturday-03,1052914,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-SA-MVS-Saturday-03,1052953,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-SA-MVS-Saturday-03,1052911,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-SA-MVS-Saturday-03,1052922,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-SA-MVS-Saturday-03,1052884,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-SA-MVS-Saturday-03,1052923,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-SA-MVS-Saturday-03,1052885,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-SA-MVS-Saturday-03,1052924,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-SA-MVS-Saturday-03,1052886,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-SA-MVS-Saturday-03,1052925,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-SA-MVS-Saturday-03,1052887,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-SA-MVS-Saturday-03,1052926,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-SA-MVS-Saturday-03,1052888,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-SA-MVS-Saturday-03,1052927,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-SA-MVS-Saturday-03,1052889,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-SA-MVS-Saturday-03,1052928,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-SA-MVS-Saturday-03,1052890,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-SA-MVS-Saturday-03,1052929,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-SA-MVS-Saturday-03,1052891,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-SA-MVS-Saturday-03,1052930,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-SA-MVS-Saturday-03,1052892,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-SA-MVS-Saturday-03,1052931,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-SA-MVS-Saturday-03,1052893,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-SA-MVS-Saturday-03,1052932,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-SA-MVS-Saturday-03,1052894,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-SA-MVS-Saturday-03,1052933,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-SA-MVS-Saturday-03,1052895,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-SA-MVS-Saturday-03,1052934,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-SA-MVS-Saturday-03,1052896,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-SA-MVS-Saturday-03,1052935,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-SA-MVS-Saturday-03,1052897,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-SA-MVS-Saturday-03,1052936,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-SA-MVS-Saturday-03,1052898,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-SA-MVS-Saturday-03,1052937,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-SA-MVS-Saturday-03,1052899,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-SA-MVS-Saturday-03,1052938,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-SA-MVS-Saturday-03,1052900,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-SA-MVS-Saturday-03,1052939,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-SA-MVS-Saturday-03,1052901,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-SA-MVS-Saturday-03,1052940,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-SA-MVS-Saturday-03,1052902,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-SA-MVS-Saturday-03,1052941,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-SA-MVS-Saturday-03,1052903,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-SA-MVS-Saturday-03,1052942,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-SA-MVS-Saturday-03,1052904,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-SA-MVS-Saturday-03,1052943,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-SA-MVS-Saturday-03,1052905,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-SA-MVS-Saturday-03,1052944,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-SA-MVS-Saturday-03,1052906,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-SA-MVS-Saturday-03,1052945,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-SA-MVS-Saturday-03,1052907,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-SA-MVS-Saturday-03,1053466,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-SA-MVS-Saturday-03,1052908,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-SA-MVS-Saturday-03,1053522,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-SA-MVS-Saturday-03,1053523,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-SA-MVS-Saturday-03,1053531,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-SA-MVS-Saturday-03,1053530,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-SA-MVS-Saturday-03,1053537,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-SA-MVS-Saturday-03,1053535,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-SA-MVS-Saturday-03,1053543,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-SA-MVS-Saturday-03,1053541,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-SA-MVS-Saturday-03,1053549,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-SA-MVS-Saturday-03,1053547,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-SA-MVS-Saturday-03,1053555,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-SA-MVS-Saturday-03,1053553,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-SA-MVS-Saturday-03,1053561,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-SA-MVS-Saturday-03,1053559,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-SA-MVS-Saturday-03,1053567,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-SA-MVS-Saturday-03,1053565,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-SA-MVS-Saturday-03,1053573,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-SA-MVS-Saturday-03,1053571,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-SA-MVS-Saturday-03,1053577,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-SA-MVS-Saturday-03,1053578,Bay Fair,1,,1001672_shp,,1,1
+12,2022_02_14-SA-MVS-Saturday-03,1053579,Dublin/Pleasanton,0,,1001740_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004447,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004448,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004449,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004450,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004451,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004452,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004453,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004454,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004455,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004456,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004457,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004458,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004459,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004460,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004461,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004462,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004463,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004464,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004465,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004466,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004467,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004468,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004469,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004470,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004471,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004472,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004473,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004474,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004475,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004476,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004477,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004478,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004479,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004480,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004481,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004482,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004483,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004484,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004485,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004486,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004487,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004488,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004489,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004490,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004491,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004492,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004493,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004494,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004495,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004496,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004497,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004498,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004499,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004500,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004501,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004502,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004503,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004504,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004505,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004506,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004507,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004508,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004509,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004510,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004511,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004512,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004513,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004514,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004515,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004516,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004517,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004518,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004519,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004520,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004521,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004522,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004523,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004524,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004525,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004526,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004527,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004528,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004529,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004530,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004531,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004532,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004533,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004534,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004535,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004536,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004537,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004538,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004539,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004540,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004541,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004542,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004543,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004544,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004545,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004546,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004547,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004548,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004549,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004550,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004551,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004552,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004553,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004554,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004555,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004556,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004557,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004558,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004559,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004560,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004561,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004562,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004563,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004564,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004565,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004566,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004567,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004568,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004569,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004570,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004571,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004572,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004573,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004574,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004575,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004576,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004577,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004578,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004579,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004580,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004581,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004582,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004583,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004584,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004585,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004586,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004587,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004588,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004589,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004590,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004591,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004592,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004593,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004594,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004595,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004596,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004597,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004598,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004599,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004600,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004601,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004602,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004603,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004604,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004605,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004606,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004607,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004608,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004609,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004610,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004611,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004612,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004613,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004614,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004615,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004616,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SA19-Saturday-01,1004617,Coliseum,0,,1004175_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004813,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004814,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004815,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004816,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004817,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004818,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004819,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004820,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004821,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004822,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004823,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004824,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004825,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004826,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004827,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004828,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004829,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004830,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004831,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004832,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004833,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004834,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004835,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004836,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004837,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004838,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004839,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004840,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004841,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004842,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004843,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004844,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004845,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004846,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004847,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004848,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004849,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004850,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004851,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004852,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004853,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004854,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004855,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004856,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004857,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004858,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004859,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004860,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004861,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004862,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004863,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004864,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004865,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004866,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004867,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004868,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004869,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004870,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004871,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004872,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004873,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004874,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004875,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004876,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004877,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004878,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004879,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004880,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004881,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004882,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004883,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004884,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004885,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004886,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004887,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004888,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004889,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004890,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004891,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004892,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004893,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004894,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004895,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004896,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004897,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004898,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004899,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004900,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004901,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004902,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004903,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004904,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004905,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004906,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004907,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004908,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004909,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004910,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004911,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004912,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004913,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004914,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004915,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004916,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004917,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004918,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004919,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004920,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004921,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004922,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004923,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004924,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004925,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004926,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004927,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004928,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004929,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004930,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004931,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004932,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004933,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004934,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004935,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004936,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004937,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004938,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004939,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004940,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004941,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004942,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004943,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004944,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004945,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004946,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004947,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004948,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004949,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004950,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004951,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004952,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004953,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004954,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004955,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004956,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004957,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004958,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004959,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004960,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004961,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004962,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004963,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004964,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004965,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004966,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004967,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004968,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004969,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004970,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004971,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004972,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004973,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004974,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004975,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004976,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004977,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004978,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004979,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004980,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004981,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004982,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SA20-Saturday-01,1004983,Oakland Airport,1,,1003859_shp,,1,1
+5,2022_02_14-SU-MVS-Sunday-25,1033173,Daly City,1,,1001860_shp,,0,0
+6,2022_02_14-SU-MVS-Sunday-25,1033422,Berryessa/North San Jose,0,,1001614_shp,,0,0
+5,2022_02_14-SU-MVS-Sunday-25,1033174,Daly City,1,,1001860_shp,,0,0
+6,2022_02_14-SU-MVS-Sunday-25,1033423,Berryessa/North San Jose,0,,1001614_shp,,0,0
+5,2022_02_14-SU-MVS-Sunday-25,1033175,Daly City,1,,1001860_shp,,0,0
+6,2022_02_14-SU-MVS-Sunday-25,1033150,Berryessa/North San Jose,0,,1009530_shp,,0,0
+5,2022_02_14-SU-MVS-Sunday-25,1033176,Daly City,1,,1001860_shp,,0,0
+6,2022_02_14-SU-MVS-Sunday-25,1033424,Berryessa/North San Jose,0,,1001614_shp,,0,0
+5,2022_02_14-SU-MVS-Sunday-25,1033177,Daly City,1,,1001860_shp,,0,0
+6,2022_02_14-SU-MVS-Sunday-25,1033151,Berryessa/North San Jose,0,,1009530_shp,,0,0
+5,2022_02_14-SU-MVS-Sunday-25,1033178,Daly City,1,,1001860_shp,,0,0
+6,2022_02_14-SU-MVS-Sunday-25,1033152,Berryessa/North San Jose,0,,1009530_shp,,0,0
+5,2022_02_14-SU-MVS-Sunday-25,1033179,Daly City,1,,1001860_shp,,0,0
+6,2022_02_14-SU-MVS-Sunday-25,1033153,Berryessa/North San Jose,0,,1009530_shp,,0,0
+5,2022_02_14-SU-MVS-Sunday-25,1033180,Daly City,1,,1001860_shp,,0,0
+6,2022_02_14-SU-MVS-Sunday-25,1033154,Berryessa/North San Jose,0,,1009530_shp,,0,0
+5,2022_02_14-SU-MVS-Sunday-25,1033181,Daly City,1,,1001860_shp,,0,0
+6,2022_02_14-SU-MVS-Sunday-25,1033155,Berryessa/North San Jose,0,,1009530_shp,,0,0
+5,2022_02_14-SU-MVS-Sunday-25,1033182,Daly City,1,,1001860_shp,,0,0
+6,2022_02_14-SU-MVS-Sunday-25,1033156,Berryessa/North San Jose,0,,1009530_shp,,0,0
+5,2022_02_14-SU-MVS-Sunday-25,1033183,Daly City,1,,1001860_shp,,0,0
+6,2022_02_14-SU-MVS-Sunday-25,1033157,Berryessa/North San Jose,0,,1009530_shp,,0,0
+5,2022_02_14-SU-MVS-Sunday-25,1033184,Daly City,1,,1001860_shp,,0,0
+6,2022_02_14-SU-MVS-Sunday-25,1033158,Berryessa/North San Jose,0,,1009530_shp,,0,0
+5,2022_02_14-SU-MVS-Sunday-25,1033185,Daly City,1,,1001860_shp,,0,0
+6,2022_02_14-SU-MVS-Sunday-25,1033159,Berryessa/North San Jose,0,,1009530_shp,,0,0
+5,2022_02_14-SU-MVS-Sunday-25,1033186,Daly City,1,,1001860_shp,,0,0
+6,2022_02_14-SU-MVS-Sunday-25,1033160,Berryessa/North San Jose,0,,1009530_shp,,0,0
+5,2022_02_14-SU-MVS-Sunday-25,1033187,Daly City,1,,1001860_shp,,0,0
+6,2022_02_14-SU-MVS-Sunday-25,1033161,Berryessa/North San Jose,0,,1009530_shp,,0,0
+5,2022_02_14-SU-MVS-Sunday-25,1033188,Daly City,1,,1001860_shp,,0,0
+6,2022_02_14-SU-MVS-Sunday-25,1033162,Berryessa/North San Jose,0,,1009530_shp,,0,0
+5,2022_02_14-SU-MVS-Sunday-25,1033189,Daly City,1,,1001860_shp,,0,0
+6,2022_02_14-SU-MVS-Sunday-25,1033163,Berryessa/North San Jose,0,,1009530_shp,,0,0
+5,2022_02_14-SU-MVS-Sunday-25,1033190,Daly City,1,,1001860_shp,,0,0
+6,2022_02_14-SU-MVS-Sunday-25,1033164,Berryessa/North San Jose,0,,1009530_shp,,0,0
+5,2022_02_14-SU-MVS-Sunday-25,1033191,Daly City,1,,1001860_shp,,0,0
+6,2022_02_14-SU-MVS-Sunday-25,1033165,Berryessa/North San Jose,0,,1009530_shp,,0,0
+5,2022_02_14-SU-MVS-Sunday-25,1033192,Daly City,1,,1001860_shp,,0,0
+6,2022_02_14-SU-MVS-Sunday-25,1033166,Berryessa/North San Jose,0,,1009530_shp,,0,0
+5,2022_02_14-SU-MVS-Sunday-25,1033193,Daly City,1,,1001860_shp,,0,0
+6,2022_02_14-SU-MVS-Sunday-25,1033167,Berryessa/North San Jose,0,,1009530_shp,,0,0
+6,2022_02_14-SU-MVS-Sunday-25,1033168,Berryessa/North San Jose,0,,1009530_shp,,0,0
+6,2022_02_14-SU-MVS-Sunday-25,1033169,Berryessa/North San Jose,0,,1009530_shp,,0,0
+6,2022_02_14-SU-MVS-Sunday-25,1033170,Berryessa/North San Jose,0,,1009530_shp,,0,0
+3,2022_02_14-SU-MVS-Sunday-25,1032998,Richmond,0,,1001605_shp,,1,1
+4,2022_02_14-SU-MVS-Sunday-25,1032962,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-SU-MVS-Sunday-25,1032997,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-SU-MVS-Sunday-25,1032990,Berryessa/North San Jose,1,,1001614_shp,,0,0
+3,2022_02_14-SU-MVS-Sunday-25,1033000,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-SU-MVS-Sunday-25,1032987,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-SU-MVS-Sunday-25,1033001,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-SU-MVS-Sunday-25,1032961,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-SU-MVS-Sunday-25,1033002,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-SU-MVS-Sunday-25,1032964,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-SU-MVS-Sunday-25,1033003,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-SU-MVS-Sunday-25,1032965,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-SU-MVS-Sunday-25,1033004,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-SU-MVS-Sunday-25,1032966,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-SU-MVS-Sunday-25,1033005,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-SU-MVS-Sunday-25,1032967,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-SU-MVS-Sunday-25,1033006,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-SU-MVS-Sunday-25,1032968,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-SU-MVS-Sunday-25,1033007,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-SU-MVS-Sunday-25,1032969,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-SU-MVS-Sunday-25,1033008,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-SU-MVS-Sunday-25,1032970,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-SU-MVS-Sunday-25,1033009,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-SU-MVS-Sunday-25,1032971,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-SU-MVS-Sunday-25,1033010,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-SU-MVS-Sunday-25,1032972,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-SU-MVS-Sunday-25,1033011,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-SU-MVS-Sunday-25,1032973,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-SU-MVS-Sunday-25,1033012,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-SU-MVS-Sunday-25,1032974,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-SU-MVS-Sunday-25,1033013,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-SU-MVS-Sunday-25,1032975,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-SU-MVS-Sunday-25,1033014,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-SU-MVS-Sunday-25,1032976,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-SU-MVS-Sunday-25,1033015,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-SU-MVS-Sunday-25,1032977,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-SU-MVS-Sunday-25,1033016,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-SU-MVS-Sunday-25,1032978,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-SU-MVS-Sunday-25,1033017,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-SU-MVS-Sunday-25,1032979,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-SU-MVS-Sunday-25,1033018,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-SU-MVS-Sunday-25,1032980,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-SU-MVS-Sunday-25,1033020,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-SU-MVS-Sunday-25,1032981,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-SU-MVS-Sunday-25,1033021,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-SU-MVS-Sunday-25,1032982,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-SU-MVS-Sunday-25,1033022,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-SU-MVS-Sunday-25,1032983,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-SU-MVS-Sunday-25,1033019,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-SU-MVS-Sunday-25,1032984,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-SU-MVS-Sunday-25,1033023,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-SU-MVS-Sunday-25,1032985,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-SU-MVS-Sunday-25,1033024,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-SU-MVS-Sunday-25,1032986,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-SU-MVS-Sunday-25,1033025,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-SU-MVS-Sunday-25,1032988,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-SU-MVS-Sunday-25,1032999,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-SU-MVS-Sunday-25,1032989,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-SU-MVS-Sunday-25,1033026,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-SU-MVS-Sunday-25,1032963,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-SU-MVS-Sunday-25,1033027,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-SU-MVS-Sunday-25,1032991,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-SU-MVS-Sunday-25,1033028,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-SU-MVS-Sunday-25,1032992,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-SU-MVS-Sunday-25,1033029,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-SU-MVS-Sunday-25,1032993,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-SU-MVS-Sunday-25,1033030,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-SU-MVS-Sunday-25,1032994,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-SU-MVS-Sunday-25,1033031,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-SU-MVS-Sunday-25,1032995,Berryessa/North San Jose,1,,1001542_shp,,1,1
+4,2022_02_14-SU-MVS-Sunday-25,1032996,Berryessa/North San Jose,1,,1001542_shp,,1,1
+1,2022_02_14-SU-MVS-Sunday-25,1033067,San Francisco International Airport,1,,1001440_shp,,1,1
+2,2022_02_14-SU-MVS-Sunday-25,1033032,Antioch,0,,1001350_shp,,1,1
+1,2022_02_14-SU-MVS-Sunday-25,1033091,San Francisco International Airport,1,,1001439_shp,,1,1
+2,2022_02_14-SU-MVS-Sunday-25,1033060,Antioch,0,,1001357_shp,,1,1
+1,2022_02_14-SU-MVS-Sunday-25,1033094,San Francisco International Airport,1,,1001439_shp,,1,1
+2,2022_02_14-SU-MVS-Sunday-25,1033033,Antioch,0,,1001357_shp,,1,1
+1,2022_02_14-SU-MVS-Sunday-25,1033068,San Francisco International Airport,1,,1001439_shp,,1,1
+2,2022_02_14-SU-MVS-Sunday-25,1033035,Antioch,0,,1001350_shp,,1,1
+1,2022_02_14-SU-MVS-Sunday-25,1033069,San Francisco International Airport,1,,1001439_shp,,1,1
+2,2022_02_14-SU-MVS-Sunday-25,1033036,Antioch,0,,1001350_shp,,1,1
+1,2022_02_14-SU-MVS-Sunday-25,1033070,San Francisco International Airport,1,,1001439_shp,,1,1
+2,2022_02_14-SU-MVS-Sunday-25,1033037,Antioch,0,,1001350_shp,,1,1
+1,2022_02_14-SU-MVS-Sunday-25,1033071,San Francisco International Airport,1,,1001439_shp,,1,1
+2,2022_02_14-SU-MVS-Sunday-25,1033038,Antioch,0,,1001350_shp,,1,1
+1,2022_02_14-SU-MVS-Sunday-25,1033072,San Francisco International Airport,1,,1001439_shp,,1,1
+2,2022_02_14-SU-MVS-Sunday-25,1033039,Antioch,0,,1001350_shp,,1,1
+1,2022_02_14-SU-MVS-Sunday-25,1033073,San Francisco International Airport,1,,1001439_shp,,1,1
+2,2022_02_14-SU-MVS-Sunday-25,1033040,Antioch,0,,1001350_shp,,1,1
+1,2022_02_14-SU-MVS-Sunday-25,1033074,San Francisco International Airport,1,,1001439_shp,,1,1
+2,2022_02_14-SU-MVS-Sunday-25,1033041,Antioch,0,,1001350_shp,,1,1
+1,2022_02_14-SU-MVS-Sunday-25,1033075,San Francisco International Airport,1,,1001439_shp,,1,1
+2,2022_02_14-SU-MVS-Sunday-25,1033042,Antioch,0,,1001350_shp,,1,1
+1,2022_02_14-SU-MVS-Sunday-25,1033076,San Francisco International Airport,1,,1001439_shp,,1,1
+2,2022_02_14-SU-MVS-Sunday-25,1033043,Antioch,0,,1001350_shp,,1,1
+1,2022_02_14-SU-MVS-Sunday-25,1033077,San Francisco International Airport,1,,1001439_shp,,1,1
+2,2022_02_14-SU-MVS-Sunday-25,1033044,Antioch,0,,1001350_shp,,1,1
+1,2022_02_14-SU-MVS-Sunday-25,1033078,San Francisco International Airport,1,,1001439_shp,,1,1
+2,2022_02_14-SU-MVS-Sunday-25,1033045,Antioch,0,,1001350_shp,,1,1
+1,2022_02_14-SU-MVS-Sunday-25,1033079,San Francisco International Airport,1,,1001439_shp,,1,1
+2,2022_02_14-SU-MVS-Sunday-25,1033046,Antioch,0,,1001350_shp,,1,1
+1,2022_02_14-SU-MVS-Sunday-25,1033080,San Francisco International Airport,1,,1001439_shp,,1,1
+2,2022_02_14-SU-MVS-Sunday-25,1033047,Antioch,0,,1001350_shp,,1,1
+1,2022_02_14-SU-MVS-Sunday-25,1033081,San Francisco International Airport,1,,1001439_shp,,1,1
+2,2022_02_14-SU-MVS-Sunday-25,1033048,Antioch,0,,1001350_shp,,1,1
+1,2022_02_14-SU-MVS-Sunday-25,1033082,San Francisco International Airport,1,,1001439_shp,,1,1
+2,2022_02_14-SU-MVS-Sunday-25,1033049,Antioch,0,,1001350_shp,,1,1
+1,2022_02_14-SU-MVS-Sunday-25,1033083,San Francisco International Airport,1,,1001439_shp,,1,1
+2,2022_02_14-SU-MVS-Sunday-25,1033050,Antioch,0,,1001350_shp,,1,1
+1,2022_02_14-SU-MVS-Sunday-25,1033084,San Francisco International Airport,1,,1001439_shp,,1,1
+2,2022_02_14-SU-MVS-Sunday-25,1033051,Antioch,0,,1001350_shp,,1,1
+1,2022_02_14-SU-MVS-Sunday-25,1033085,San Francisco International Airport,1,,1001439_shp,,1,1
+2,2022_02_14-SU-MVS-Sunday-25,1033052,Antioch,0,,1001350_shp,,1,1
+1,2022_02_14-SU-MVS-Sunday-25,1033086,San Francisco International Airport,1,,1001439_shp,,1,1
+2,2022_02_14-SU-MVS-Sunday-25,1033053,Antioch,0,,1001350_shp,,1,1
+1,2022_02_14-SU-MVS-Sunday-25,1033087,San Francisco International Airport,1,,1001439_shp,,1,1
+2,2022_02_14-SU-MVS-Sunday-25,1033054,Antioch,0,,1001350_shp,,1,1
+1,2022_02_14-SU-MVS-Sunday-25,1033088,San Francisco International Airport,1,,1001439_shp,,1,1
+2,2022_02_14-SU-MVS-Sunday-25,1033055,Antioch,0,,1001350_shp,,1,1
+1,2022_02_14-SU-MVS-Sunday-25,1033089,San Francisco Int'l Airport + Millbrae,1,,1009378_shp,,1,1
+2,2022_02_14-SU-MVS-Sunday-25,1033056,Antioch,0,,1001350_shp,,1,1
+1,2022_02_14-SU-MVS-Sunday-25,1033090,San Francisco Int'l Airport + Millbrae,1,,1009378_shp,,1,1
+2,2022_02_14-SU-MVS-Sunday-25,1033057,Antioch,0,,1001350_shp,,1,1
+1,2022_02_14-SU-MVS-Sunday-25,1033092,San Francisco Int'l Airport + Millbrae,1,,1009378_shp,,1,1
+2,2022_02_14-SU-MVS-Sunday-25,1033058,Antioch,0,,1001350_shp,,1,1
+1,2022_02_14-SU-MVS-Sunday-25,1033098,San Francisco Int'l Airport + Millbrae,1,,1009378_shp,,1,1
+2,2022_02_14-SU-MVS-Sunday-25,1033059,Antioch,0,,1001350_shp,,1,1
+1,2022_02_14-SU-MVS-Sunday-25,1033093,San Francisco Int'l Airport + Millbrae,1,,1009378_shp,,1,1
+2,2022_02_14-SU-MVS-Sunday-25,1033034,Antioch via SFO,0,,1001357_shp,,1,1
+1,2022_02_14-SU-MVS-Sunday-25,1033099,San Francisco Int'l Airport + Millbrae,1,,1009378_shp,,1,1
+2,2022_02_14-SU-MVS-Sunday-25,1033063,Antioch via SFO,0,,1001357_shp,,1,1
+1,2022_02_14-SU-MVS-Sunday-25,1033100,San Francisco Int'l Airport + Millbrae,1,,1009378_shp,,1,1
+2,2022_02_14-SU-MVS-Sunday-25,1033064,Antioch via SFO,0,,1001357_shp,,1,1
+1,2022_02_14-SU-MVS-Sunday-25,1033101,San Francisco Int'l Airport + Millbrae,1,,1009378_shp,,1,1
+2,2022_02_14-SU-MVS-Sunday-25,1033065,Antioch via SFO,0,,1001357_shp,,1,1
+1,2022_02_14-SU-MVS-Sunday-25,1033097,San Francisco Int'l Airport + Millbrae,1,,1009378_shp,,1,1
+2,2022_02_14-SU-MVS-Sunday-25,1033066,Antioch via SFO,0,,1001357_shp,,1,1
+1,2022_02_14-SU-MVS-Sunday-25,1033095,San Francisco Int'l Airport + Millbrae,1,,1009378_shp,,1,1
+2,2022_02_14-SU-MVS-Sunday-25,1033062,Antioch via SFO,0,,1001357_shp,,1,1
+1,2022_02_14-SU-MVS-Sunday-25,1033096,San Francisco Int'l Airport + Millbrae,1,,1001439_shp,,1,1
+2,2022_02_14-SU-MVS-Sunday-25,1033061,Antioch via SFO,0,,1001357_shp,,1,1
+7,2022_02_14-SU-MVS-Sunday-25,1033102,San Francisco Int'l Airport + Millbrae,1,,1001291_shp,,0,0
+8,2022_02_14-SU-MVS-Sunday-25,1033149,Richmond,0,,1001232_shp,,0,0
+7,2022_02_14-SU-MVS-Sunday-25,1033103,San Francisco Int'l Airport + Millbrae,1,,1001291_shp,,0,0
+8,2022_02_14-SU-MVS-Sunday-25,1033126,Richmond,0,,1001232_shp,,0,0
+7,2022_02_14-SU-MVS-Sunday-25,1033104,San Francisco Int'l Airport + Millbrae,1,,1001291_shp,,0,0
+8,2022_02_14-SU-MVS-Sunday-25,1033127,Richmond via Millbrae,0,,1001234_shp,,0,0
+7,2022_02_14-SU-MVS-Sunday-25,1033105,San Francisco Int'l Airport + Millbrae,1,,1001291_shp,,0,0
+8,2022_02_14-SU-MVS-Sunday-25,1033128,Richmond via Millbrae,0,,1001234_shp,,0,0
+7,2022_02_14-SU-MVS-Sunday-25,1033106,San Francisco Int'l Airport + Millbrae,1,,1001291_shp,,0,0
+8,2022_02_14-SU-MVS-Sunday-25,1033129,Richmond via Millbrae,0,,1001234_shp,,0,0
+7,2022_02_14-SU-MVS-Sunday-25,1033107,San Francisco Int'l Airport + Millbrae,1,,1001291_shp,,0,0
+8,2022_02_14-SU-MVS-Sunday-25,1033130,Richmond via Millbrae,0,,1001234_shp,,0,0
+7,2022_02_14-SU-MVS-Sunday-25,1033108,San Francisco Int'l Airport + Millbrae,1,,1001291_shp,,0,0
+8,2022_02_14-SU-MVS-Sunday-25,1033131,Richmond via Millbrae,0,,1001234_shp,,0,0
+7,2022_02_14-SU-MVS-Sunday-25,1033109,San Francisco Int'l Airport + Millbrae,1,,1001291_shp,,0,0
+8,2022_02_14-SU-MVS-Sunday-25,1033132,Richmond via Millbrae,0,,1001234_shp,,0,0
+7,2022_02_14-SU-MVS-Sunday-25,1033110,San Francisco Int'l Airport + Millbrae,1,,1001291_shp,,0,0
+8,2022_02_14-SU-MVS-Sunday-25,1033133,Richmond via Millbrae,0,,1001234_shp,,0,0
+7,2022_02_14-SU-MVS-Sunday-25,1033111,San Francisco Int'l Airport + Millbrae,1,,1001291_shp,,0,0
+8,2022_02_14-SU-MVS-Sunday-25,1033134,Richmond via Millbrae,0,,1001234_shp,,0,0
+7,2022_02_14-SU-MVS-Sunday-25,1033112,San Francisco Int'l Airport + Millbrae,1,,1001291_shp,,0,0
+8,2022_02_14-SU-MVS-Sunday-25,1033135,Richmond via Millbrae,0,,1001234_shp,,0,0
+7,2022_02_14-SU-MVS-Sunday-25,1033113,San Francisco Int'l Airport + Millbrae,1,,1001291_shp,,0,0
+8,2022_02_14-SU-MVS-Sunday-25,1033136,Richmond via Millbrae,0,,1001234_shp,,0,0
+7,2022_02_14-SU-MVS-Sunday-25,1033114,San Francisco Int'l Airport + Millbrae,1,,1001291_shp,,0,0
+8,2022_02_14-SU-MVS-Sunday-25,1033137,Richmond via Millbrae,0,,1001234_shp,,0,0
+7,2022_02_14-SU-MVS-Sunday-25,1033115,San Francisco Int'l Airport + Millbrae,1,,1001291_shp,,0,0
+8,2022_02_14-SU-MVS-Sunday-25,1033138,Richmond via Millbrae,0,,1001234_shp,,0,0
+7,2022_02_14-SU-MVS-Sunday-25,1033116,San Francisco Int'l Airport + Millbrae,1,,1001291_shp,,0,0
+8,2022_02_14-SU-MVS-Sunday-25,1033139,Richmond via Millbrae,0,,1001234_shp,,0,0
+7,2022_02_14-SU-MVS-Sunday-25,1033117,San Francisco Int'l Airport + Millbrae,1,,1001291_shp,,0,0
+8,2022_02_14-SU-MVS-Sunday-25,1033140,Richmond via Millbrae,0,,1001234_shp,,0,0
+7,2022_02_14-SU-MVS-Sunday-25,1033118,San Francisco Int'l Airport + Millbrae,1,,1001291_shp,,0,0
+8,2022_02_14-SU-MVS-Sunday-25,1033141,Richmond via Millbrae,0,,1001234_shp,,0,0
+7,2022_02_14-SU-MVS-Sunday-25,1033119,San Francisco Int'l Airport + Millbrae,1,,1001291_shp,,0,0
+8,2022_02_14-SU-MVS-Sunday-25,1033142,Richmond via Millbrae,0,,1001234_shp,,0,0
+7,2022_02_14-SU-MVS-Sunday-25,1033120,San Francisco Int'l Airport + Millbrae,1,,1001291_shp,,0,0
+8,2022_02_14-SU-MVS-Sunday-25,1033143,Richmond via Millbrae,0,,1001234_shp,,0,0
+7,2022_02_14-SU-MVS-Sunday-25,1033121,San Francisco Int'l Airport + Millbrae,1,,1001291_shp,,0,0
+8,2022_02_14-SU-MVS-Sunday-25,1033144,Richmond via Millbrae,0,,1001234_shp,,0,0
+7,2022_02_14-SU-MVS-Sunday-25,1033122,San Francisco Int'l Airport + Millbrae,1,,1001291_shp,,0,0
+8,2022_02_14-SU-MVS-Sunday-25,1033145,Richmond via Millbrae,0,,1001234_shp,,0,0
+7,2022_02_14-SU-MVS-Sunday-25,1033123,San Francisco Int'l Airport + Millbrae,1,,1001291_shp,,0,0
+8,2022_02_14-SU-MVS-Sunday-25,1033146,Richmond via Millbrae,0,,1001234_shp,,0,0
+7,2022_02_14-SU-MVS-Sunday-25,1033124,San Francisco Int'l Airport + Millbrae,1,,1001291_shp,,0,0
+8,2022_02_14-SU-MVS-Sunday-25,1033147,Richmond via Millbrae,0,,1001234_shp,,0,0
+7,2022_02_14-SU-MVS-Sunday-25,1033125,San Francisco Int'l Airport + Millbrae,1,,1001291_shp,,0,0
+8,2022_02_14-SU-MVS-Sunday-25,1033148,Richmond via Millbrae,0,,1001234_shp,,0,0
+11,2022_02_14-SU-MVS-Sunday-25,1032843,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-SU-MVS-Sunday-25,1032880,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-SU-MVS-Sunday-25,1032839,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-SU-MVS-Sunday-25,1032851,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-SU-MVS-Sunday-25,1032815,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-SU-MVS-Sunday-25,1032852,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-SU-MVS-Sunday-25,1032816,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-SU-MVS-Sunday-25,1032853,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-SU-MVS-Sunday-25,1032817,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-SU-MVS-Sunday-25,1032854,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-SU-MVS-Sunday-25,1032818,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-SU-MVS-Sunday-25,1032855,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-SU-MVS-Sunday-25,1032819,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-SU-MVS-Sunday-25,1032856,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-SU-MVS-Sunday-25,1032820,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-SU-MVS-Sunday-25,1032857,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-SU-MVS-Sunday-25,1032821,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-SU-MVS-Sunday-25,1032858,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-SU-MVS-Sunday-25,1032822,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-SU-MVS-Sunday-25,1032859,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-SU-MVS-Sunday-25,1032823,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-SU-MVS-Sunday-25,1032860,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-SU-MVS-Sunday-25,1032824,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-SU-MVS-Sunday-25,1032861,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-SU-MVS-Sunday-25,1032825,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-SU-MVS-Sunday-25,1032862,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-SU-MVS-Sunday-25,1032826,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-SU-MVS-Sunday-25,1032863,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-SU-MVS-Sunday-25,1032827,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-SU-MVS-Sunday-25,1032864,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-SU-MVS-Sunday-25,1032828,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-SU-MVS-Sunday-25,1032865,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-SU-MVS-Sunday-25,1032829,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-SU-MVS-Sunday-25,1032866,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-SU-MVS-Sunday-25,1032830,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-SU-MVS-Sunday-25,1032867,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-SU-MVS-Sunday-25,1032831,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-SU-MVS-Sunday-25,1032868,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-SU-MVS-Sunday-25,1032832,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-SU-MVS-Sunday-25,1032869,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-SU-MVS-Sunday-25,1032833,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-SU-MVS-Sunday-25,1032870,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-SU-MVS-Sunday-25,1032834,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-SU-MVS-Sunday-25,1032871,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-SU-MVS-Sunday-25,1032835,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-SU-MVS-Sunday-25,1032872,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-SU-MVS-Sunday-25,1032836,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-SU-MVS-Sunday-25,1032873,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-SU-MVS-Sunday-25,1032837,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-SU-MVS-Sunday-25,1032874,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-SU-MVS-Sunday-25,1032838,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-SU-MVS-Sunday-25,1032875,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-SU-MVS-Sunday-25,1032840,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-SU-MVS-Sunday-25,1032876,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-SU-MVS-Sunday-25,1032841,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-SU-MVS-Sunday-25,1032877,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-SU-MVS-Sunday-25,1032844,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-SU-MVS-Sunday-25,1032878,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-SU-MVS-Sunday-25,1032846,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-SU-MVS-Sunday-25,1032882,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-SU-MVS-Sunday-25,1032847,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-SU-MVS-Sunday-25,1032883,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-SU-MVS-Sunday-25,1032848,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-SU-MVS-Sunday-25,1032884,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-SU-MVS-Sunday-25,1032849,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-SU-MVS-Sunday-25,1032885,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-SU-MVS-Sunday-25,1032845,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-SU-MVS-Sunday-25,1032881,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-SU-MVS-Sunday-25,1032850,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-SU-MVS-Sunday-25,1032886,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-SU-MVS-Sunday-25,1032842,Bay Fair,1,,1001672_shp,,1,1
+12,2022_02_14-SU-MVS-Sunday-25,1032879,Dublin/Pleasanton,0,,1001740_shp,,1,1
+3,2022_02_14-SU-MVS-Sunday-27,1061044,Richmond,0,,1001605_shp,,1,1
+4,2022_02_14-SU-MVS-Sunday-27,1061079,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-SU-MVS-Sunday-27,1061043,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-SU-MVS-Sunday-27,1061107,Berryessa/North San Jose,1,,1001614_shp,,0,0
+3,2022_02_14-SU-MVS-Sunday-27,1061046,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-SU-MVS-Sunday-27,1061104,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-SU-MVS-Sunday-27,1061047,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-SU-MVS-Sunday-27,1061078,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-SU-MVS-Sunday-27,1061048,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-SU-MVS-Sunday-27,1061081,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-SU-MVS-Sunday-27,1061049,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-SU-MVS-Sunday-27,1061082,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-SU-MVS-Sunday-27,1061050,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-SU-MVS-Sunday-27,1061083,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-SU-MVS-Sunday-27,1061051,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-SU-MVS-Sunday-27,1061084,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-SU-MVS-Sunday-27,1061052,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-SU-MVS-Sunday-27,1061085,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-SU-MVS-Sunday-27,1061053,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-SU-MVS-Sunday-27,1061086,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-SU-MVS-Sunday-27,1061054,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-SU-MVS-Sunday-27,1061087,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-SU-MVS-Sunday-27,1061055,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-SU-MVS-Sunday-27,1061088,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-SU-MVS-Sunday-27,1061056,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-SU-MVS-Sunday-27,1061089,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-SU-MVS-Sunday-27,1061057,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-SU-MVS-Sunday-27,1061090,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-SU-MVS-Sunday-27,1061058,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-SU-MVS-Sunday-27,1061091,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-SU-MVS-Sunday-27,1061059,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-SU-MVS-Sunday-27,1061092,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-SU-MVS-Sunday-27,1061060,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-SU-MVS-Sunday-27,1061093,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-SU-MVS-Sunday-27,1061061,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-SU-MVS-Sunday-27,1061094,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-SU-MVS-Sunday-27,1061062,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-SU-MVS-Sunday-27,1061095,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-SU-MVS-Sunday-27,1061063,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-SU-MVS-Sunday-27,1061096,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-SU-MVS-Sunday-27,1061064,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-SU-MVS-Sunday-27,1061097,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-SU-MVS-Sunday-27,1061066,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-SU-MVS-Sunday-27,1061098,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-SU-MVS-Sunday-27,1061067,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-SU-MVS-Sunday-27,1061099,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-SU-MVS-Sunday-27,1061068,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-SU-MVS-Sunday-27,1061100,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-SU-MVS-Sunday-27,1061065,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-SU-MVS-Sunday-27,1061101,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-SU-MVS-Sunday-27,1061069,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-SU-MVS-Sunday-27,1061102,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-SU-MVS-Sunday-27,1061070,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-SU-MVS-Sunday-27,1061103,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-SU-MVS-Sunday-27,1061071,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-SU-MVS-Sunday-27,1061105,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-SU-MVS-Sunday-27,1061045,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-SU-MVS-Sunday-27,1061106,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-SU-MVS-Sunday-27,1061072,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-SU-MVS-Sunday-27,1061080,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-SU-MVS-Sunday-27,1061073,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-SU-MVS-Sunday-27,1061108,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-SU-MVS-Sunday-27,1061074,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-SU-MVS-Sunday-27,1061109,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-SU-MVS-Sunday-27,1061075,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-SU-MVS-Sunday-27,1061110,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-SU-MVS-Sunday-27,1061076,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-SU-MVS-Sunday-27,1061111,Berryessa/North San Jose,1,,1001542_shp,,1,1
+3,2022_02_14-SU-MVS-Sunday-27,1061077,Richmond,0,,1001612_shp,,1,1
+4,2022_02_14-SU-MVS-Sunday-27,1061112,Berryessa/North San Jose,1,,1001542_shp,,1,1
+4,2022_02_14-SU-MVS-Sunday-27,1061113,Berryessa/North San Jose,1,,1001542_shp,,1,1
+1,2022_02_14-SU-MVS-Sunday-27,1060973,San Francisco International Airport,1,,1060973_shp,,1,1
+2,2022_02_14-SU-MVS-Sunday-27,1061008,Antioch,0,,1001350_shp,,1,1
+1,2022_02_14-SU-MVS-Sunday-27,1060997,San Francisco International Airport,1,,1009378_shp,,1,1
+2,2022_02_14-SU-MVS-Sunday-27,1061036,Antioch,0,,1001357_shp,,1,1
+1,2022_02_14-SU-MVS-Sunday-27,1061000,San Francisco International Airport,1,,1009378_shp,,1,1
+2,2022_02_14-SU-MVS-Sunday-27,1061009,Antioch,0,,1001357_shp,,1,1
+1,2022_02_14-SU-MVS-Sunday-27,1060974,San Francisco International Airport,1,,1009378_shp,,1,1
+2,2022_02_14-SU-MVS-Sunday-27,1061011,Antioch,0,,1001357_shp,,1,1
+1,2022_02_14-SU-MVS-Sunday-27,1060975,San Francisco International Airport,1,,1009378_shp,,1,1
+2,2022_02_14-SU-MVS-Sunday-27,1061012,Antioch,0,,1001357_shp,,1,1
+1,2022_02_14-SU-MVS-Sunday-27,1060976,San Francisco International Airport,1,,1009378_shp,,1,1
+2,2022_02_14-SU-MVS-Sunday-27,1061013,Antioch,0,,1001357_shp,,1,1
+1,2022_02_14-SU-MVS-Sunday-27,1060977,San Francisco International Airport,1,,1009378_shp,,1,1
+2,2022_02_14-SU-MVS-Sunday-27,1061014,Antioch,0,,1001357_shp,,1,1
+1,2022_02_14-SU-MVS-Sunday-27,1060978,San Francisco International Airport,1,,1009378_shp,,1,1
+2,2022_02_14-SU-MVS-Sunday-27,1061015,Antioch,0,,1001357_shp,,1,1
+1,2022_02_14-SU-MVS-Sunday-27,1060979,San Francisco International Airport,1,,1009378_shp,,1,1
+2,2022_02_14-SU-MVS-Sunday-27,1061016,Antioch,0,,1001357_shp,,1,1
+1,2022_02_14-SU-MVS-Sunday-27,1060980,San Francisco International Airport,1,,1009378_shp,,1,1
+2,2022_02_14-SU-MVS-Sunday-27,1061017,Antioch,0,,1001357_shp,,1,1
+1,2022_02_14-SU-MVS-Sunday-27,1060981,San Francisco International Airport,1,,1009378_shp,,1,1
+2,2022_02_14-SU-MVS-Sunday-27,1061018,Antioch,0,,1001357_shp,,1,1
+1,2022_02_14-SU-MVS-Sunday-27,1060982,San Francisco International Airport,1,,1009378_shp,,1,1
+2,2022_02_14-SU-MVS-Sunday-27,1061019,Antioch,0,,1001357_shp,,1,1
+1,2022_02_14-SU-MVS-Sunday-27,1060983,San Francisco International Airport,1,,1009378_shp,,1,1
+2,2022_02_14-SU-MVS-Sunday-27,1061020,Antioch,0,,1001357_shp,,1,1
+1,2022_02_14-SU-MVS-Sunday-27,1060984,San Francisco International Airport,1,,1009378_shp,,1,1
+2,2022_02_14-SU-MVS-Sunday-27,1061021,Antioch,0,,1001357_shp,,1,1
+1,2022_02_14-SU-MVS-Sunday-27,1060985,San Francisco International Airport,1,,1009378_shp,,1,1
+2,2022_02_14-SU-MVS-Sunday-27,1061022,Antioch,0,,1001357_shp,,1,1
+1,2022_02_14-SU-MVS-Sunday-27,1060986,San Francisco International Airport,1,,1009378_shp,,1,1
+2,2022_02_14-SU-MVS-Sunday-27,1061023,Antioch,0,,1001357_shp,,1,1
+1,2022_02_14-SU-MVS-Sunday-27,1060987,San Francisco International Airport,1,,1009378_shp,,1,1
+2,2022_02_14-SU-MVS-Sunday-27,1061024,Antioch,0,,1001357_shp,,1,1
+1,2022_02_14-SU-MVS-Sunday-27,1060988,San Francisco International Airport,1,,1009378_shp,,1,1
+2,2022_02_14-SU-MVS-Sunday-27,1061025,Antioch,0,,1001357_shp,,1,1
+1,2022_02_14-SU-MVS-Sunday-27,1060989,San Francisco International Airport,1,,1009378_shp,,1,1
+2,2022_02_14-SU-MVS-Sunday-27,1061026,Antioch,0,,1001357_shp,,1,1
+1,2022_02_14-SU-MVS-Sunday-27,1060990,San Francisco International Airport,1,,1009378_shp,,1,1
+2,2022_02_14-SU-MVS-Sunday-27,1061027,Antioch,0,,1001357_shp,,1,1
+1,2022_02_14-SU-MVS-Sunday-27,1060991,San Francisco International Airport,1,,1009378_shp,,1,1
+2,2022_02_14-SU-MVS-Sunday-27,1061028,Antioch,0,,1001357_shp,,1,1
+1,2022_02_14-SU-MVS-Sunday-27,1060992,San Francisco International Airport,1,,1009378_shp,,1,1
+2,2022_02_14-SU-MVS-Sunday-27,1061029,Antioch,0,,1001357_shp,,1,1
+1,2022_02_14-SU-MVS-Sunday-27,1060993,San Francisco International Airport,1,,1009378_shp,,1,1
+2,2022_02_14-SU-MVS-Sunday-27,1061030,Antioch,0,,1001357_shp,,1,1
+1,2022_02_14-SU-MVS-Sunday-27,1060994,San Francisco International Airport,1,,1009378_shp,,1,1
+2,2022_02_14-SU-MVS-Sunday-27,1061031,Antioch,0,,1001357_shp,,1,1
+1,2022_02_14-SU-MVS-Sunday-27,1060995,San Francisco Int'l Airport + Millbrae,1,,1009378_shp,,1,1
+2,2022_02_14-SU-MVS-Sunday-27,1061032,Antioch,0,,1001357_shp,,1,1
+1,2022_02_14-SU-MVS-Sunday-27,1060996,San Francisco Int'l Airport + Millbrae,1,,1009378_shp,,1,1
+2,2022_02_14-SU-MVS-Sunday-27,1061033,Antioch,0,,1001357_shp,,1,1
+1,2022_02_14-SU-MVS-Sunday-27,1060998,San Francisco Int'l Airport + Millbrae,1,,1009378_shp,,1,1
+2,2022_02_14-SU-MVS-Sunday-27,1061034,Antioch,0,,1001357_shp,,1,1
+1,2022_02_14-SU-MVS-Sunday-27,1061004,San Francisco Int'l Airport + Millbrae,1,,1009378_shp,,1,1
+2,2022_02_14-SU-MVS-Sunday-27,1061035,Antioch,0,,1001357_shp,,1,1
+1,2022_02_14-SU-MVS-Sunday-27,1060999,San Francisco Int'l Airport + Millbrae,1,,1009378_shp,,1,1
+2,2022_02_14-SU-MVS-Sunday-27,1061010,Antioch via SFO,0,,1001357_shp,,1,1
+1,2022_02_14-SU-MVS-Sunday-27,1061005,San Francisco Int'l Airport + Millbrae,1,,1009378_shp,,1,1
+2,2022_02_14-SU-MVS-Sunday-27,1061039,Antioch via SFO,0,,1001357_shp,,1,1
+1,2022_02_14-SU-MVS-Sunday-27,1061006,San Francisco Int'l Airport + Millbrae,1,,1009378_shp,,1,1
+2,2022_02_14-SU-MVS-Sunday-27,1061040,Antioch via SFO,0,,1001357_shp,,1,1
+1,2022_02_14-SU-MVS-Sunday-27,1061007,San Francisco Int'l Airport + Millbrae,1,,1009378_shp,,1,1
+2,2022_02_14-SU-MVS-Sunday-27,1061041,Antioch via SFO,0,,1001357_shp,,1,1
+1,2022_02_14-SU-MVS-Sunday-27,1061003,San Francisco Int'l Airport + Millbrae,1,,1009378_shp,,1,1
+2,2022_02_14-SU-MVS-Sunday-27,1061042,Antioch via SFO,0,,1001357_shp,,1,1
+1,2022_02_14-SU-MVS-Sunday-27,1061001,San Francisco Int'l Airport + Millbrae,1,,1009378_shp,,1,1
+2,2022_02_14-SU-MVS-Sunday-27,1061038,Antioch via SFO,0,,1001357_shp,,1,1
+1,2022_02_14-SU-MVS-Sunday-27,1061002,San Francisco Int'l Airport + Millbrae,1,,1001439_shp,,1,1
+2,2022_02_14-SU-MVS-Sunday-27,1061037,Antioch via SFO,0,,1001357_shp,,1,1
+11,2022_02_14-SU-MVS-Sunday-27,1061252,Daly City,1,,1061252_shp,,1,1
+12,2022_02_14-SU-MVS-Sunday-27,1061217,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-SU-MVS-Sunday-27,1061248,Daly City,1,,1061252_shp,,1,1
+12,2022_02_14-SU-MVS-Sunday-27,1061188,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-SU-MVS-Sunday-27,1061224,Daly City,1,,1061252_shp,,1,1
+12,2022_02_14-SU-MVS-Sunday-27,1061189,Dublin/Pleasanton,0,,1061189_shp,,1,1
+11,2022_02_14-SU-MVS-Sunday-27,1061225,Daly City,1,,1061252_shp,,1,1
+12,2022_02_14-SU-MVS-Sunday-27,1061190,Dublin/Pleasanton,0,,1061189_shp,,1,1
+11,2022_02_14-SU-MVS-Sunday-27,1061226,Daly City,1,,1061252_shp,,1,1
+12,2022_02_14-SU-MVS-Sunday-27,1061191,Dublin/Pleasanton,0,,1061189_shp,,1,1
+11,2022_02_14-SU-MVS-Sunday-27,1061227,Daly City,1,,1061252_shp,,1,1
+12,2022_02_14-SU-MVS-Sunday-27,1061192,Dublin/Pleasanton,0,,1061189_shp,,1,1
+11,2022_02_14-SU-MVS-Sunday-27,1061228,Daly City,1,,1061252_shp,,1,1
+12,2022_02_14-SU-MVS-Sunday-27,1061193,Dublin/Pleasanton,0,,1061189_shp,,1,1
+11,2022_02_14-SU-MVS-Sunday-27,1061229,Daly City,1,,1061252_shp,,1,1
+12,2022_02_14-SU-MVS-Sunday-27,1061194,Dublin/Pleasanton,0,,1061189_shp,,1,1
+11,2022_02_14-SU-MVS-Sunday-27,1061230,Daly City,1,,1061252_shp,,1,1
+12,2022_02_14-SU-MVS-Sunday-27,1061195,Dublin/Pleasanton,0,,1061189_shp,,1,1
+11,2022_02_14-SU-MVS-Sunday-27,1061231,Daly City,1,,1061252_shp,,1,1
+12,2022_02_14-SU-MVS-Sunday-27,1061196,Dublin/Pleasanton,0,,1061189_shp,,1,1
+11,2022_02_14-SU-MVS-Sunday-27,1061232,Daly City,1,,1061252_shp,,1,1
+12,2022_02_14-SU-MVS-Sunday-27,1061197,Dublin/Pleasanton,0,,1061189_shp,,1,1
+11,2022_02_14-SU-MVS-Sunday-27,1061233,Daly City,1,,1061252_shp,,1,1
+12,2022_02_14-SU-MVS-Sunday-27,1061198,Dublin/Pleasanton,0,,1061189_shp,,1,1
+11,2022_02_14-SU-MVS-Sunday-27,1061234,Daly City,1,,1061252_shp,,1,1
+12,2022_02_14-SU-MVS-Sunday-27,1061199,Dublin/Pleasanton,0,,1061189_shp,,1,1
+11,2022_02_14-SU-MVS-Sunday-27,1061235,Daly City,1,,1061252_shp,,1,1
+12,2022_02_14-SU-MVS-Sunday-27,1061200,Dublin/Pleasanton,0,,1061189_shp,,1,1
+11,2022_02_14-SU-MVS-Sunday-27,1061236,Daly City,1,,1061252_shp,,1,1
+12,2022_02_14-SU-MVS-Sunday-27,1061201,Dublin/Pleasanton,0,,1061189_shp,,1,1
+11,2022_02_14-SU-MVS-Sunday-27,1061237,Daly City,1,,1061252_shp,,1,1
+12,2022_02_14-SU-MVS-Sunday-27,1061202,Dublin/Pleasanton,0,,1061189_shp,,1,1
+11,2022_02_14-SU-MVS-Sunday-27,1061238,Daly City,1,,1061252_shp,,1,1
+12,2022_02_14-SU-MVS-Sunday-27,1061203,Dublin/Pleasanton,0,,1061189_shp,,1,1
+11,2022_02_14-SU-MVS-Sunday-27,1061239,Daly City,1,,1061252_shp,,1,1
+12,2022_02_14-SU-MVS-Sunday-27,1061204,Dublin/Pleasanton,0,,1061189_shp,,1,1
+11,2022_02_14-SU-MVS-Sunday-27,1061240,Daly City,1,,1061252_shp,,1,1
+12,2022_02_14-SU-MVS-Sunday-27,1061205,Dublin/Pleasanton,0,,1061189_shp,,1,1
+11,2022_02_14-SU-MVS-Sunday-27,1061241,Daly City,1,,1061252_shp,,1,1
+12,2022_02_14-SU-MVS-Sunday-27,1061206,Dublin/Pleasanton,0,,1061189_shp,,1,1
+11,2022_02_14-SU-MVS-Sunday-27,1061242,Daly City,1,,1061252_shp,,1,1
+12,2022_02_14-SU-MVS-Sunday-27,1061207,Dublin/Pleasanton,0,,1061189_shp,,1,1
+11,2022_02_14-SU-MVS-Sunday-27,1061243,Daly City,1,,1061252_shp,,1,1
+12,2022_02_14-SU-MVS-Sunday-27,1061208,Dublin/Pleasanton,0,,1061189_shp,,1,1
+11,2022_02_14-SU-MVS-Sunday-27,1061244,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-SU-MVS-Sunday-27,1061209,Dublin/Pleasanton,0,,1061189_shp,,1,1
+11,2022_02_14-SU-MVS-Sunday-27,1061245,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-SU-MVS-Sunday-27,1061210,Dublin/Pleasanton,0,,1061189_shp,,1,1
+11,2022_02_14-SU-MVS-Sunday-27,1061246,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-SU-MVS-Sunday-27,1061211,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-SU-MVS-Sunday-27,1061247,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-SU-MVS-Sunday-27,1061212,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-SU-MVS-Sunday-27,1061249,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-SU-MVS-Sunday-27,1061213,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-SU-MVS-Sunday-27,1061250,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-SU-MVS-Sunday-27,1061214,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-SU-MVS-Sunday-27,1061253,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-SU-MVS-Sunday-27,1061215,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-SU-MVS-Sunday-27,1061255,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-SU-MVS-Sunday-27,1061219,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-SU-MVS-Sunday-27,1061256,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-SU-MVS-Sunday-27,1061220,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-SU-MVS-Sunday-27,1061257,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-SU-MVS-Sunday-27,1061221,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-SU-MVS-Sunday-27,1061258,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-SU-MVS-Sunday-27,1061222,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-SU-MVS-Sunday-27,1061254,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-SU-MVS-Sunday-27,1061218,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-SU-MVS-Sunday-27,1061259,Daly City,1,,1001696_shp,,1,1
+12,2022_02_14-SU-MVS-Sunday-27,1061223,Dublin/Pleasanton,0,,1001744_shp,,1,1
+11,2022_02_14-SU-MVS-Sunday-27,1061251,Bay Fair,1,,1001672_shp,,1,1
+12,2022_02_14-SU-MVS-Sunday-27,1061216,Dublin/Pleasanton,0,,1001740_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004676,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004722,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004768,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004677,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004723,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004769,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004678,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004724,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004770,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004679,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004725,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004771,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004680,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004726,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004772,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004681,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004727,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004773,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004682,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004728,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004774,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004683,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004729,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004775,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004684,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004730,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004776,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004685,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004732,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004777,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004686,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004733,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004778,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004687,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004734,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004780,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004688,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004731,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004781,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004689,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004735,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004782,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004690,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004736,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004779,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004691,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004737,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004783,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004692,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004738,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004784,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004693,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004739,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004785,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004694,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004740,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004786,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004695,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004741,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004787,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004696,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004742,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004788,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004697,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004743,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004790,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004698,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004744,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004791,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004700,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004745,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004792,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004701,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004747,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004789,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004702,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004748,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004793,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004699,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004746,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004794,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004703,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004750,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004795,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004704,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004751,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004796,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004705,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004749,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004797,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004706,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004752,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004798,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004707,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004753,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004799,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004708,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004754,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004800,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004709,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004755,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004801,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004710,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004757,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004802,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004711,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004758,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004803,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004712,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004759,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004804,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004713,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004756,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004806,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004714,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004760,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004807,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004715,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004761,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004809,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004716,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004762,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004805,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004717,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004763,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004810,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004718,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004764,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004811,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004719,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004765,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004808,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004720,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004766,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004812,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004721,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1004767,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1061495,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1061496,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1061497,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1061498,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1061499,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1061500,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1061501,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1061502,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1061503,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1061504,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1061507,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1061506,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1061505,Coliseum,0,,1004175_shp,,1,1
+19,2022_02_14-SU19-Sunday-01,1061508,Coliseum,0,,1004175_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004174,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004039,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004084,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004129,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004040,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004086,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004130,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004038,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004088,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004131,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004041,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004085,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004132,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004042,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004089,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004134,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004043,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004087,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004135,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004044,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004090,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004136,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004045,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004091,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004133,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004046,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004092,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004137,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004047,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004093,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004138,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004048,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004094,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004139,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004049,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004095,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004140,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004050,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004096,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004141,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004051,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004097,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004143,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004052,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004098,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004144,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004053,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004099,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004145,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004055,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004100,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004142,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004056,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004101,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004146,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004057,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004103,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004147,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004054,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004104,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004148,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004058,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004105,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004149,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004059,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004102,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004150,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004060,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004106,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004151,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004061,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004107,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004152,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004062,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004108,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004153,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004063,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004109,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004154,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004064,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004110,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004156,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004065,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004112,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004157,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004066,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004113,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004158,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004067,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004115,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004159,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004068,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004111,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004160,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004069,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004116,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004161,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004070,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004117,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004155,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004072,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004114,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004162,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004073,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004118,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004163,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004074,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004119,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004165,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004071,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004120,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004166,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004075,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004121,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004167,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004076,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004122,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004164,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004077,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004123,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004168,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004078,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004124,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004169,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004080,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004125,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004170,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004081,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004126,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004171,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004082,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004127,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004172,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004079,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004128,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004173,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1004083,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1061509,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1061510,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1061511,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1061512,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1061513,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1061514,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1061515,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1061516,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1061517,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1061518,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1061520,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1061521,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1061519,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1061522,Oakland Airport,1,,1003859_shp,,1,1
+20,2022_02_14-SU20-Sunday-01,1061523,Oakland Airport,1,,1003859_shp,,1,1

@@ -2,6 +2,7 @@
 import re
 import csv
 import MySQLdb
+import sys
 import pprint
 database = 'gtfs'
 dbHost = 'localhost'
@@ -14,9 +15,10 @@ tables = {
   'stop_times',
   'trips'
   }
+folder = sys.argv[1]
 
 def createDatabase(dbHost, dbUser, dbPass, database):
-  print "Creating database %s" % database
+  print("Creating database %s" % database)
   db = MySQLdb.connect(user=dbUser, passwd=dbPass, db="mysql")
   c = db.cursor()
   c.execute('CREATE DATABASE %s' % database)
@@ -24,11 +26,11 @@ def createDatabase(dbHost, dbUser, dbPass, database):
 
 def insertData(tables):
   for table in tables:
-    csv_data = csv.reader(file(table + ".txt"))
-    headers = csv_data.next()
+    csv_data = csv.reader(open(folder + '/' + table + ".txt"))
+    headers = next(csv_data)
     createTable(table, headers)
     headerString = ", ".join(headers)
-    print "Inserting data for %s" % table
+    print("Inserting data for %s" % table)
     sql = "INSERT INTO %s (%s)" % (table, headerString)
     for row in csv_data:
       query = sql
@@ -44,7 +46,7 @@ def insertData(tables):
       executeQuery(gtfs, query)
 
 def createTable(name, columns):
-  print "Creating table %s" % name
+  print("Creating table %s" % name)
   sql = "CREATE TABLE %s(id INT NOT NULL AUTO_INCREMENT, PRIMARY KEY(id)" % name
   for column in columns:
     sql += ", %s LONGTEXT" % column
@@ -53,7 +55,7 @@ def createTable(name, columns):
   executeQuery(gtfs, sql)
 
 def cleanUpTables():
-  print "Optimizing tables"
+  print("Optimizing tables")
   sql = """ALTER TABLE stops MODIFY stop_id int;
   ALTER TABLE stop_times MODIFY stop_id int;
   ALTER TABLE stop_times MODIFY stop_sequence int;
@@ -85,7 +87,7 @@ def stops(day):
     # a "day" as the best guess as to when a trip will be full.
     sql = "SELECT trip_id FROM trips JOIN calendar ON trips.service_id = calendar.service_id WHERE route_id = '%s' AND monday = 1 LIMIT 1;" % route
     tripID = executeQuery(gtfs, sql)
-    print "Exporting route: %s" % route
+    print("Exporting route: %s" % route)
     sql = "SELECT stops.stop_id stop_id, stops.stop_name, stops.stop_lat, stops.stop_lon, routes.route_short_name, routes.route_id, routes.route_color, routes.route_text_color, stop_sequence FROM stop_times JOIN stops ON stop_times.stop_id = stops.stop_id JOIN trips ON stop_times.trip_id = trips.trip_id JOIN routes ON routes.route_id = trips.route_id  WHERE stop_times.trip_id = '%s' ORDER BY stop_sequence ASC;" % tripID[0]
     result += executeQuery(gtfs, sql)
   return result
@@ -94,15 +96,14 @@ def fip(routes):
   for route in routes:
     pprint.pprint(route)
     
-
 def export():
   result = stops('monday')
-  fp = open('routes_stops.csv', 'a')
+  fp = open(folder + './routes_stops.csv', 'a')
   file = csv.writer(fp)
   file.writerows(result)
   fp.close()
 
-#createDatabase(dbHost, dbUser, dbPass, database)
+createDatabase(dbHost, dbUser, dbPass, database)
 
 gtfs = MySQLdb.connect(host=dbHost,
     user=dbUser,
@@ -111,8 +112,8 @@ gtfs = MySQLdb.connect(host=dbHost,
 
 cursor = gtfs.cursor()
 
-#insertData(tables)
-#cleanUpTables()
+insertData(tables)
+cleanUpTables()
 export()
 cursor.close()
-#destroyDatabase()
+destroyDatabase()

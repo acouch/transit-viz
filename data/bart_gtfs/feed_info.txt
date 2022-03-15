@@ -1,0 +1,2 @@
+feed_publisher_name,feed_publisher_url,feed_lang,feed_start_date,feed_end_date,feed_version
+Bay Area Rapid Transit,http://www.bart.gov,en,20220214,20220911,62

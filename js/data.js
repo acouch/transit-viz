@@ -5,6 +5,7 @@ var cities = [
 	{name:'Tucson', value:'tucson', dataPath: 'data/tucson_gtfs/routes_stops.csv', lon: '-110.977224', lat: '32.216585', zoom: '10' },
 	{name:'Minneapolis', value:'msp', dataPath: 'data/msp_gtfs/routes_stops.csv', lon: '-93.266670', lat: '44.983334', zoom: '10' },
 	{name:'Madison', value:'mds', dataPath: 'data/madison_gtfs/routes_stops.csv', lon: '-89.4011', lat: '43.0731', zoom: '12'},
+	{name:'BART', value:'bart', dataPath: 'data/bart_gtfs/routes_stops.csv', lon: '-122.431297', lat: '37.773972', zoom: '12'},
 	{name:'Seattle', value:'king', dataPath: 'data/king_gtfs/routes_stops.csv', lon: '-122.3331', lat: '47.6097', zoom: '11'},]
 
 var censusPoints = [
