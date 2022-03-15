@@ -37,18 +37,23 @@ transitVizControllers.controller('CitiesCtrl', ['$scope', '$location', '$routePa
 	var width = $(".col-md-10").width() - 50;
     
 	// Override defaults if path is set.
-    if ($routeParams.cityId) {
+  if ($routeParams.cityId) {
 		var cityKey = getKey($scope.cities, $routeParams.cityId);
 		$scope.currentCity = $scope.cities[cityKey];
 		var censusKey = getKey($scope.censusPoints, $routeParams.censusId);
-		$scope.currentDataPoint = $scope.censusPoints[censusKey];
+    if (censusKey) {
+      $scope.currentDataPoint = $scope.censusPoints[censusKey];
     }
-    if ($routeParams.routeId) {
+    else {
+      $scope.currentDataPoint = { 'value': $routeParams.censusId, 'name': $routeParams.censusId, 'type': 'number'};
+    }
+  }
+  if ($routeParams.routeId) {
 		$scope.currentRoute = $routeParams.routeId;
-    }
+  }
 	else {
 		$scope.currentRoute = "";
-    }
+  }
 
 	var map = mapTool.init({
 		lat: $scope.currentCity.lat,

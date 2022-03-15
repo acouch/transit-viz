@@ -82,7 +82,7 @@
 	}
 
 	mapTool.getCensusData = function(lat, lon, stopName) {
-		var fccUrl = "https://geo.fcc.gov/api/census/block/find?format=json&latitude=" + lat + "&longitude=" + lon + "&censusYear=2020";
+		var fccUrl = "https://geo.fcc.gov/api/census/block/find?format=json&latitude=" + lat + "&longitude=" + lon + "&censusYear=2010";
 		var fccPromise = $.ajax({
 		    type: 'GET',
 		    url: fccUrl,
@@ -96,7 +96,8 @@
 			var stateFip = FIPS.substring(0,2);
 			var countyFip = FIPS.substring(2,5);
 			var tractFip = FIPS.substring(5,11);
-			var censusUrl = 'https://api.census.gov/data/2019/acs/acs5/profile?get=NAME,' + options.currentDataPoint.value + '&for=tract:' + tractFip + '&in=state:' + stateFip + ' county:' + countyFip + '&key=' + options.censusToken;
+      var profile = options.currentDataPoint.value.slice(0,1) == 'D' ? '/profile' : '';
+			var censusUrl = 'https://api.census.gov/data/2019/acs/acs5' + profile + '?get=' + options.currentDataPoint.value + '&for=tract:' + tractFip + '&in=state:' + stateFip + ' county:' + countyFip + '&key=' + options.censusToken;
 			var censusPromise = $.ajax({
 				type: 'GET',
 				url: censusUrl,
@@ -138,7 +139,7 @@
 
 					var data = mapTool.getCensusData(d.stop_lat, d.stop_lon);
 					data.done(function(data) {
-						var res = data ? data[1][1] : "No data";
+						var res = data ? format(data[1][0], options.currentDataPoint.type) : "No data";
 						d3.select("#tooltip")
 							.style("left", (bound.left) + offset + "px")
 							.style("top", top + "px")
@@ -341,7 +342,7 @@
 			data.done(function(result) {
 				let data = 0;
 				if (result) {
-					data = result[1][1];
+					data = result[1][0];
 				}
 				stops[key].data = data;
 				// Could use d3.max at the end but we have to loop through data anyway.

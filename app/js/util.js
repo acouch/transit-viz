@@ -1,5 +1,5 @@
 var getKey = function(obj, value) {
-  var returnKey = -1;
+  var returnKey = false;
   $.each(obj, function(key, info) {
     if (info.value == value) {
       returnKey = key;
@@ -53,3 +53,21 @@ var objSort = function(object, param) {
 	return sorted;
 
 };
+var currency = new Intl.NumberFormat('en-US', {
+  style: 'currency',
+  currency: 'USD',
+  minimumFractionDigits: 0,
+  maximumFractionDigits: 0,
+});
+var num = new Intl.NumberFormat('en-US');
+
+var format = function(number, type) {
+  if (type == 'currency') {
+    return currency.format(number);
+  }
+  else if (type == 'time') {
+    return num.format(number/60) + ' minutes';
+  }
+  return num.format(number);
+}
+

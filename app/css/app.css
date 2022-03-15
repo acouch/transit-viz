@@ -21,15 +21,15 @@ body {
   top: 18px;
 }
 #tooltip .popover-title {
-font-weight: bold;
-background-color: #428bca;
-color: #FFF;
-white-space: nowrap;
-padding-right: 25px;
+  font-weight: bold;
+  background-color: #428bca;
+  color: #FFF;
+  white-space: nowrap;
+  padding-right: 25px;
 }
 #tooltip button.close {
   position: absolute;
-  top: 2px;
+  top: 8px;
   right: 6px;
 }
 .axis path, .axis line {
@@ -87,8 +87,8 @@ padding-right: 25px;
 #map-container {
   clear: both;
   border: 1px solid #999;
-padding: 5px;
-background-color: #FFF;
+  padding: 5px;
+  background-color: #FFF;
 }
 .row {
 	margin-top: 30px;

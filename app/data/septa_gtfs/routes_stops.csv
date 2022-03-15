@@ -5,6 +5,9 @@ stop_id,stop_name,stop_lat,stop_lon,route_short_name,route_id,route_color,route_
 90404,Airport Terminal A,39.8761111,-75.2452778,Airport Line,AIR,91456C,FFFFFF,4
 90405,Eastwick,39.8927778,-75.2438889,Airport Line,AIR,91456C,FFFFFF,7
 90406,University City,39.9480556,-75.1902778,Airport Line,AIR,91456C,FFFFFF,13
+90004,30th Street Station,39.9566667,-75.1816667,Airport Line,AIR,91456C,FFFFFF,98
+90005,Suburban Station,39.9538889,-75.1677778,Airport Line,AIR,91456C,FFFFFF,97
+90006,Market East,39.9525,-75.1580556,Airport Line,AIR,91456C,FFFFFF,96
 90720,Chestnut Hill East,40.0811111,-75.2072222,Chestnut Hill East Line,CHE,94763C,FFFFFF,1
 90719,Gravers,40.0775,-75.2016667,Chestnut Hill East Line,CHE,94763C,FFFFFF,3
 90718,Wyndmoor,40.0733333,-75.1966667,Chestnut Hill East Line,CHE,94763C,FFFFFF,4
@@ -16,6 +19,9 @@ stop_id,stop_name,stop_lat,stop_lon,route_short_name,route_id,route_color,route_
 90712,Wister,40.0361111,-75.1611111,Chestnut Hill East Line,CHE,94763C,FFFFFF,11
 90009,Wayne Junction,40.0222222,-75.16,Chestnut Hill East Line,CHE,94763C,FFFFFF,12
 90007,Temple University,39.9813889,-75.1494444,Chestnut Hill East Line,CHE,94763C,FFFFFF,18
+90004,30th Street Station,39.9566667,-75.1816667,Chestnut Hill East Line,CHE,94763C,FFFFFF,98
+90005,Suburban Station,39.9538889,-75.1677778,Chestnut Hill East Line,CHE,94763C,FFFFFF,97
+90006,Market East,39.9525,-75.1580556,Chestnut Hill East Line,CHE,94763C,FFFFFF,96
 90801,Chestnut Hill West,40.0763889,-75.2083333,Chestnut Hill West Line,CHW,00B4B2,FFFFFF,1
 90802,Highland,40.0705556,-75.2111111,Chestnut Hill West Line,CHW,00B4B2,FFFFFF,3
 90803,St. Martins,40.0658333,-75.2044444,Chestnut Hill West Line,CHW,00B4B2,FFFFFF,4
@@ -26,7 +32,9 @@ stop_id,stop_name,stop_lat,stop_lon,route_short_name,route_id,route_color,route_
 90808,Chelten Avenue,40.03,-75.1808333,Chestnut Hill West Line,CHW,00B4B2,FFFFFF,11
 90809,Queen Lane,40.0233333,-75.1780556,Chestnut Hill West Line,CHW,00B4B2,FFFFFF,12
 90810,North Philadelphia,39.9977778,-75.1563889,Chestnut Hill West Line,CHW,00B4B2,FFFFFF,14
-90004,30th Street Station,39.9566667,-75.1816667,Chestnut Hill West Line,CHW,00B4B2,FFFFFF,24
+90004,30th Street Station,39.9566667,-75.1816667,Chestnut Hill West Line,CHW,00B4B2,FFFFFF,98
+90005,Suburban Station,39.9538889,-75.1677778,Chestnut Hill West Line,CHW,00B4B2,FFFFFF,97
+90006,Market East,39.9525,-75.1580556,Chestnut Hill West Line,CHW,00B4B2,FFFFFF,96
 90531,Lansdale,40.2427778,-75.285,Lansdale/Doylestown Line,LAN,775B49,FFFFFF,1
 90530,Pennbrook,40.2302778,-75.2816667,Lansdale/Doylestown Line,LAN,775B49,FFFFFF,3
 90529,North Wales,40.2141667,-75.2772222,Lansdale/Doylestown Line,LAN,775B49,FFFFFF,4
@@ -43,6 +51,9 @@ stop_id,stop_name,stop_lat,stop_lon,route_short_name,route_id,route_color,route_
 90009,Wayne Junction,40.0222222,-75.16,Lansdale/Doylestown Line,LAN,775B49,FFFFFF,28
 90008,North Broad,39.9922222,-75.1538889,Lansdale/Doylestown Line,LAN,775B49,FFFFFF,33
 90007,Temple University,39.9813889,-75.1494444,Lansdale/Doylestown Line,LAN,775B49,FFFFFF,34
+90004,30th Street Station,39.9566667,-75.1816667,Lansdale/Doylestown Line,LAN,775B49,FFFFFF,98
+90005,Suburban Station,39.9538889,-75.1677778,Lansdale/Doylestown Line,LAN,775B49,FFFFFF,97
+90006,Market East,39.9525,-75.1580556,Lansdale/Doylestown Line,LAN,775B49,FFFFFF,96
 90301,Elwyn,39.9075,-75.4116667,Media/Elwyn Line,MED,007CC8,FFFFFF,1
 90302,Media,39.9144444,-75.395,Media/Elwyn Line,MED,007CC8,FFFFFF,3
 90306,Morton-Rutledge,39.9077778,-75.3288889,Media/Elwyn Line,MED,007CC8,FFFFFF,7
@@ -53,6 +64,9 @@ stop_id,stop_name,stop_lat,stop_lon,route_short_name,route_id,route_color,route_
 90311,Lansdowne,39.9375,-75.2708333,Media/Elwyn Line,MED,007CC8,FFFFFF,13
 90312,Fernwood-Yeadon,39.9397222,-75.2558333,Media/Elwyn Line,MED,007CC8,FFFFFF,14
 90406,University City,39.9480556,-75.1902778,Media/Elwyn Line,MED,007CC8,FFFFFF,19
+90004,30th Street Station,39.9566667,-75.1816667,Media/Elwyn Line,MED,007CC8,FFFFFF,98
+90005,Suburban Station,39.9538889,-75.1677778,Media/Elwyn Line,MED,007CC8,FFFFFF,97
+90006,Market East,39.9525,-75.1580556,Media/Elwyn Line,MED,007CC8,FFFFFF,96
 90815,Fox Chase,40.0763889,-75.0833333,Fox Chase Line,FOX,FF823D,FFFFFF,1
 90814,Ryers,40.0641667,-75.0863889,Fox Chase Line,FOX,FF823D,FFFFFF,3
 90813,Cheltenham,40.0580556,-75.0927778,Fox Chase Line,FOX,FF823D,FFFFFF,4
@@ -60,6 +74,9 @@ stop_id,stop_name,stop_lat,stop_lon,route_short_name,route_id,route_color,route_
 90811,Olney,40.0333333,-75.1227778,Fox Chase Line,FOX,FF823D,FFFFFF,8
 90009,Wayne Junction,40.0222222,-75.16,Fox Chase Line,FOX,FF823D,FFFFFF,11
 90007,Temple University,39.9813889,-75.1494444,Fox Chase Line,FOX,FF823D,FFFFFF,17
+90004,30th Street Station,39.9566667,-75.1816667,Fox Chase Line,FOX,FF823D,FFFFFF,98
+90005,Suburban Station,39.9538889,-75.1677778,Fox Chase Line,FOX,FF823D,FFFFFF,97
+90006,Market East,39.9525,-75.1580556,Fox Chase Line,FOX,FF823D,FFFFFF,96
 90228,Norristown,40.1202778,-75.3475,Manayunk/Norristown Line,NOR,EE4C69,FFFFFF,1
 90227,Main Street,40.1172222,-75.3486111,Manayunk/Norristown Line,NOR,EE4C69,FFFFFF,3
 90226,Norristown T.C.,40.1127778,-75.3441667,Manayunk/Norristown Line,NOR,EE4C69,FFFFFF,6
@@ -73,6 +90,9 @@ stop_id,stop_name,stop_lat,stop_lon,route_short_name,route_id,route_color,route_
 90218,Allegheny,40.0036111,-75.1647222,Manayunk/Norristown Line,NOR,EE4C69,FFFFFF,21
 90008,North Broad,39.9922222,-75.1538889,Manayunk/Norristown Line,NOR,EE4C69,FFFFFF,23
 90007,Temple University,39.9813889,-75.1494444,Manayunk/Norristown Line,NOR,EE4C69,FFFFFF,24
+90004,30th Street Station,39.9566667,-75.1816667,Manayunk/Norristown Line,NOR,EE4C69,FFFFFF,98
+90005,Suburban Station,39.9538889,-75.1677778,Manayunk/Norristown Line,NOR,EE4C69,FFFFFF,97
+90006,Market East,39.9525,-75.1580556,Manayunk/Norristown Line,NOR,EE4C69,FFFFFF,96
 90501,Thorndale,39.9927778,-75.7636111,Paoli/Thorndale Line,PAO,20825C,FFFFFF,1
 90502,Downingtown,40.0022222,-75.7102778,Paoli/Thorndale Line,PAO,20825C,FFFFFF,3
 90503,Whitford,40.0147222,-75.6380556,Paoli/Thorndale Line,PAO,20825C,FFFFFF,5
@@ -95,7 +115,9 @@ stop_id,stop_name,stop_lat,stop_lon,route_short_name,route_id,route_color,route_
 90520,Narberth,40.0047222,-75.2613889,Paoli/Thorndale Line,PAO,20825C,FFFFFF,26
 90521,Merion,39.9986111,-75.2513889,Paoli/Thorndale Line,PAO,20825C,FFFFFF,27
 90522,Overbrook,39.9894444,-75.2494444,Paoli/Thorndale Line,PAO,20825C,FFFFFF,29
-90004,30th Street Station,39.9566667,-75.1816667,Paoli/Thorndale Line,PAO,20825C,FFFFFF,40
+90004,30th Street Station,39.9566667,-75.1816667,Paoli/Thorndale Line,PAO,20825C,FFFFFF,98
+90005,Suburban Station,39.9538889,-75.1677778,Paoli/Thorndale Line,PAO,20825C,FFFFFF,97
+90006,Market East,39.9525,-75.1580556,Paoli/Thorndale Line,PAO,20825C,FFFFFF,96
 90201,Newark,39.6705556,-75.7527778,Wilmington/Newark Line,WIL,8AD16B,FFFFFF,1
 90202,Churchman's Crossing,39.695,-75.6725,Wilmington/Newark Line,WIL,8AD16B,FFFFFF,4
 90203,Wilmington,39.7372222,-75.5511111,Wilmington/Newark Line,WIL,8AD16B,FFFFFF,8
@@ -156,3 +178,6 @@ stop_id,stop_name,stop_lat,stop_lon,route_short_name,route_id,route_color,route_
 90407,Fern Rock T C,40.0405556,-75.1347222,Warminster Line,WAR,F7AF42,FFFFFF,2
 90009,Wayne Junction,40.0222222,-75.16,Warminster Line,WAR,F7AF42,FFFFFF,5
 90007,Temple University,39.9813889,-75.1494444,Warminster Line,WAR,F7AF42,FFFFFF,11
+90004,30th Street Station,39.9566667,-75.1816667,Warminster Line,WAR,F7AF42,FFFFFF,98
+90005,Suburban Station,39.9538889,-75.1677778,Warminster Line,WAR,F7AF42,FFFFFF,97
+90006,Market East,39.9525,-75.1580556,Warminster Line,WAR,F7AF42,FFFFFF,96
