@@ -1,0 +1,15 @@
+route_id,direction_id,direction
+32946,1,South
+32946,0,North
+19601,1,South
+19601,0,North
+19600,1,South
+19600,0,North
+19599,1,South
+19599,0,North
+19598,1,South
+19598,0,North
+19597,1,South
+19597,0,North
+12867,1,South
+12867,0,North

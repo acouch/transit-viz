@@ -51,7 +51,7 @@
 	mapTool.createMap = function(lat, lon, cloudmade) {
 		L.mapbox.accessToken = 'pk.eyJ1IjoiYWNvdWNoMSIsImEiOiJDTy0zMFJrIn0.hewU0mOW08Wm5-0-Qr8TpQ';
 		var map = L.mapbox.map('map')
-				.setView([lat, lon], 10)
+				.setView([lat, lon], options.zoom)
 				.addLayer(L.mapbox.styleLayer('mapbox://styles/acouch1/cl0n771pp002415r041gj0d8p'));
 		L.svg().addTo(map);
 

@@ -1,0 +1,2 @@
+feed_id,feed_publisher_name,feed_publisher_url,feed_lang,feed_version,feed_license,feed_contact_email,feed_contact_url,feed_start_date,feed_end_date
+us_ca_lacmta_rail,"Los Angeles County Metropolitan Transportation Authority",https://www.metro.net,en,,,,http://developer.metro.net,,

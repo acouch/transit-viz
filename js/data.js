@@ -1,12 +1,15 @@
 var cities = [
 	{name:'Philadelphia', value:'phl', dataPath: 'data/septa_gtfs/routes_stops.csv', lon: '-75.205219', lat: '40.00061', zoom: '10' },
 	{name:'Philadelphia - bus', value:'phl-bus', dataPath: 'data/septa_bus_gtfs/routes_stops.csv', lon: '-75.205219', lat: '40.00061', zoom: '10' },
-	{name:'Puerto Rico', value:'pr', dataPath: 'data/pr_gtfs/routes_stops.csv', lon: '-66.590149', lat: '18.220833', zoom: '10' },
-	{name:'Tucson', value:'tucson', dataPath: 'data/tucson_gtfs/routes_stops.csv', lon: '-110.977224', lat: '32.216585', zoom: '10' },
-	{name:'Minneapolis', value:'msp', dataPath: 'data/msp_gtfs/routes_stops.csv', lon: '-93.266670', lat: '44.983334', zoom: '10' },
-	{name:'Madison', value:'mds', dataPath: 'data/madison_gtfs/routes_stops.csv', lon: '-89.4011', lat: '43.0731', zoom: '12'},
-	{name:'BART', value:'bart', dataPath: 'data/bart_gtfs/routes_stops.csv', lon: '-122.431297', lat: '37.773972', zoom: '12'},
 	{name:'AC Transit', value:'actransit', dataPath: 'data/ac_transit/routes_stops.csv', lon: '-122.156830', lat: '37.725685', zoom: '13'},
+	{name:'BART', value:'bart', dataPath: 'data/bart_gtfs/routes_stops.csv', lon: '-122.431297', lat: '37.773972', zoom: '10'},
+	{name:'Caltran', value:'caltran', dataPath: 'data/caltran/routes_stops.csv', lon: '-122.143936', lat: '37.468319', zoom: '9'},
+	{name:'Los Angeles', value:'la', dataPath: 'data/la_gtfs/routes_stops.csv', lon: '-118.243683', lat: '34.052235', zoom: '10'},
+	{name:'Madison', value:'mds', dataPath: 'data/madison_gtfs/routes_stops.csv', lon: '-89.4011', lat: '43.0731', zoom: '12'},
+	{name:'Minneapolis', value:'msp', dataPath: 'data/msp_gtfs/routes_stops.csv', lon: '-93.266670', lat: '44.983334', zoom: '10' },
+	{name:'Puerto Rico', value:'pr', dataPath: 'data/pr_gtfs/routes_stops.csv', lon: '-66.590149', lat: '18.220833', zoom: '10' },
+	{name:'San Diego', value:'sd', dataPath: 'data/san_diego/routes_stops.csv', lon: '-117.161087', lat: '32.715736', zoom: '12' },
+	{name:'Tucson', value:'tucson', dataPath: 'data/tucson_gtfs/routes_stops.csv', lon: '-110.977224', lat: '32.216585', zoom: '10' },
 	{name:'Seattle', value:'king', dataPath: 'data/king_gtfs/routes_stops.csv', lon: '-122.3331', lat: '47.6097', zoom: '11'},]
 
 var censusPoints = [

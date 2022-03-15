@@ -1,0 +1,2 @@
+service_id,monday,tuesday,wednesday,thursday,friday,saturday,sunday,start_date,end_date
+7634025-0000010-25,1,0,0,0,0,0,0,20220131,20220131

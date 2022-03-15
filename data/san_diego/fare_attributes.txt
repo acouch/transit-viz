@@ -1,0 +1,11 @@
+fare_id,price,currency_type,payment_method,transfers,transfer_duration,agency_id
+CASH_250,2.5,USD,0,0,,MTS
+CASH_FRY,7,USD,0,0,,MTS
+CASH_500,5,USD,0,0,,MTS
+CASH_800,8,USD,0,0,,MTS
+tr0,2.5,USD,0,0,,MTS
+DAYPASS_600,6,USD,0,,,MTS
+DAYPASS_1200,12,USD,0,,,MTS
+DAYPASS_1500,15,USD,0,,,MTS
+FREE,0,USD,0,0,,MTS
+FREEAIR,0,USD,0,0,,SAN

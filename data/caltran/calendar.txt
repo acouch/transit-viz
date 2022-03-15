@@ -1,0 +1,6 @@
+service_id,service_name,monday,tuesday,wednesday,thursday,friday,saturday,sunday,start_date,end_date
+c_24390_b_34175_d_96,CALENDAR A (Weekend),0,0,0,0,0,1,1,20220307,20221101
+c_24390_b_34175_d_31,CALENDAR A (Weekday),1,1,1,1,1,0,0,20220307,20221101
+c_24389_b_34225_d_31,CALENDAR C (Weekday),1,1,1,1,1,0,0,20220402,20221101
+c_24388_b_34171_d_31,CALENDAR B (Weekday),1,1,1,1,1,0,0,20220314,20220401
+c_23902_b_33195_d_96,CALENDAR D (Weekend),0,0,0,0,0,1,1,20220307,20221101
