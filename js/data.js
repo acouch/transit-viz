@@ -9,8 +9,8 @@ var cities = [
 	{name:'Minneapolis', value:'msp', dataPath: 'data/msp_gtfs/routes_stops.csv', lon: '-93.266670', lat: '44.983334', zoom: '10' },
 	{name:'Puerto Rico', value:'pr', dataPath: 'data/pr_gtfs/routes_stops.csv', lon: '-66.590149', lat: '18.220833', zoom: '10' },
 	{name:'San Diego', value:'sd', dataPath: 'data/san_diego/routes_stops.csv', lon: '-117.161087', lat: '32.715736', zoom: '12' },
-	{name:'Tucson', value:'tucson', dataPath: 'data/tucson_gtfs/routes_stops.csv', lon: '-110.977224', lat: '32.216585', zoom: '10' },
-	{name:'Seattle', value:'king', dataPath: 'data/king_gtfs/routes_stops.csv', lon: '-122.3331', lat: '47.6097', zoom: '11'},]
+	{name:'Seattle', value:'king', dataPath: 'data/king_gtfs/routes_stops.csv', lon: '-122.3331', lat: '47.6097', zoom: '11'},
+	{name:'Tucson', value:'tucson', dataPath: 'data/tucson_gtfs/routes_stops.csv', lon: '-110.977224', lat: '32.216585', zoom: '10' },]
 
 var censusPoints = [
 	{value:'B01003_001E', name: 'Total Population', type: 'number'},
