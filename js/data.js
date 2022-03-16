@@ -7,6 +7,7 @@ var cities = [
 	{name:'Los Angeles', value:'la', dataPath: 'data/la_gtfs/routes_stops.csv', lon: '-118.243683', lat: '34.052235', zoom: '10'},
 	{name:'Madison', value:'mds', dataPath: 'data/madison_gtfs/routes_stops.csv', lon: '-89.4011', lat: '43.0731', zoom: '12'},
 	{name:'Minneapolis', value:'msp', dataPath: 'data/msp_gtfs/routes_stops.csv', lon: '-93.266670', lat: '44.983334', zoom: '10' },
+	{name:'NYC Subway', value:'nyc', dataPath: 'data/nyc_subway/routes_stops.csv', lon: '-73.935242', lat: '40.730610', zoom: '10' },
 	{name:'Puerto Rico', value:'pr', dataPath: 'data/pr_gtfs/routes_stops.csv', lon: '-66.590149', lat: '18.220833', zoom: '10' },
 	{name:'San Diego', value:'sd', dataPath: 'data/san_diego/routes_stops.csv', lon: '-117.161087', lat: '32.715736', zoom: '12' },
 	{name:'Seattle', value:'king', dataPath: 'data/king_gtfs/routes_stops.csv', lon: '-122.3331', lat: '47.6097', zoom: '11'},
