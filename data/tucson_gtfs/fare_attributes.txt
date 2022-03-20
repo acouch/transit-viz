@@ -1,3 +1,0 @@
-fare_id,price,currency_type,payment_method,transfers
-local_fare,1.50,USD,0,2
-express_fare,2.00,USD,0,2

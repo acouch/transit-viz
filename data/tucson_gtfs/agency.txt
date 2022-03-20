@@ -1,2 +1,0 @@
-agency_id,agency_name,agency_url,agency_timezone,agency_lang,agency_phone,agency_fare_url
-SunTran,SunTran,http://www.suntran.com,America/Phoenix,en,(520)792-9222,

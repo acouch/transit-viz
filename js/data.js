@@ -3,6 +3,7 @@ var cities = [
 	{name:'Philadelphia - bus', value:'phl-bus', dataPath: 'data/septa_bus_gtfs/routes_stops.csv', lon: '-75.205219', lat: '40.00061', zoom: '10' },
 	{name:'AC Transit', value:'actransit', dataPath: 'data/ac_transit/routes_stops.csv', lon: '-122.156830', lat: '37.725685', zoom: '10'},
 	{name:'BART', value:'bart', dataPath: 'data/bart_gtfs/routes_stops.csv', lon: '-122.431297', lat: '37.773972', zoom: '10'},
+	{name:'Chicago', value:'chi', dataPath: 'data/chicago/routes_stops.csv', lon: '-87.623177', lat: '41.881832', zoom: '10'},
 	{name:'Caltran', value:'caltran', dataPath: 'data/caltran/routes_stops.csv', lon: '-122.143936', lat: '37.468319', zoom: '9'},
 	{name:'Los Angeles', value:'la', dataPath: 'data/la_gtfs/routes_stops.csv', lon: '-118.243683', lat: '34.052235', zoom: '10'},
 	{name:'Madison', value:'mds', dataPath: 'data/madison_gtfs/routes_stops.csv', lon: '-89.4011', lat: '43.0731', zoom: '12'},

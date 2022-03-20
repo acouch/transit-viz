@@ -1,7 +1,0 @@
-route_id,route_short_name,route_long_name,route_desc,route_type,route_color,route_text_color,route_url
-801,,Metro A Line (Blue),,0,0072BC,FFFFFF,https://www.metro.net/riding/guide/A-line/
-802,,Metro B Line (Red),,1,EB131B,FFFFFF,https://www.metro.net/riding/guide/B-line/
-803,,Metro C Line (Green),,0,58A738,FFFFFF,https://www.metro.net/riding/guide/C-line/
-804,,Metro L Line (Gold),,0,FDB913,000000,https://www.metro.net/riding/guide/L-line/
-806,,Metro E Line (Expo),,0,5BC2E7,000000,https://www.metro.net/riding/guide/E-line/
-805,,Metro D Line (Purple),,1,A05DA5,FFFFFF,https://www.metro.net/riding/guide/D-line/

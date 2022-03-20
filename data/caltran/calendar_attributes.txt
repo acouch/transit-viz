@@ -1,6 +1,0 @@
-service_id,service_description
-c_24390_b_34175_d_96,CALENDAR A (Weekend)
-c_24390_b_34175_d_31,CALENDAR A (Weekday)
-c_24389_b_34225_d_31,CALENDAR C (Weekday)
-c_24388_b_34171_d_31,CALENDAR B (Weekday)
-c_23902_b_33195_d_96,CALENDAR D (Weekend)

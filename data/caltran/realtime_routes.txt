@@ -1,8 +1,0 @@
-route_id,realtime_enabled,realtime_routename,realtime_routecode
-19597,1,Local,L1
-19598,1,Local,L2
-19599,1,LTD 3,L3
-19600,1,LTD 4,L4
-19601,1,LTD 5,L5
-32946,1,LTD 6,L6
-12867,1,Bullet,B7

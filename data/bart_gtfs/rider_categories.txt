@@ -1,4 +1,0 @@
-rider_category_id,rider_category_description
-5,Youth Clipper
-2,Senior/Disabled Clipper
-16,Clipper START
