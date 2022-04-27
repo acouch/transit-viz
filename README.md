@@ -13,8 +13,8 @@ Any city with GTFS data can be plugged in. There is a python script to convert G
 
 docker build -t tv .
 docker run --name=transit_vis -td tv
-docker docker exec -it transit_vis python3 data_convert.py [FOLDER NAME]
-docker docker exec -it transit_vis cat data/[FOLDER NAME]/routes_stops.csv > data/[FOLDER NAME]/routes_stops.csv
+docker exec -it transit_vis python3 data_convert.py [FOLDER NAME]
+docker exec -it transit_vis cat data/[FOLDER NAME]/routes_stops.csv > data/[FOLDER NAME]/routes_stops.csv
 
 ```
 
